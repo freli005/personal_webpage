@@ -330,7 +330,6 @@ footer .theme-by {
 
 .post-preview a:focus,
 .post-preview a:hover {
-  text-decoration: none;
   color: {{ site.hover-col }};
 }
 
@@ -360,6 +359,14 @@ footer .theme-by {
 .post-entry {
   width: 100%;
 }
+.post-entry a {
+  color: {{ site.link-col }};
+}
+.post-entry a:hover {
+  text-decoration: underline;
+  color: {{ site.hover-col }};
+}
+
 .post-image {
   float: right;
   height: 192px;
@@ -377,7 +384,14 @@ footer .theme-by {
 }
 .post-preview .post-read-more {
   font-weight: 800;
+  color: #404040;
 }
+.post-preview .post-read-more:hover {
+    color: {{ site.hover-col }};
+    text-decoration: none;
+}
+
+
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
