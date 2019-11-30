@@ -3,7 +3,7 @@ layout: post
 title: Three NeurIPS papers accepted
 ---
 
-I'm very happy to announce that we got three papers accepted for NeurIPS this year, including one **Oral** and one **Spotlight**!
+I'm very happy to announce that we got three papers accepted for NeurIPS this year, including one *Oral* and one *Spotlight*!
 
 [Parameter elimination in particle Gibbs sampling](https://arxiv.org/abs/1910.14145) **[Oral]**  
 *Anna Wigren, Riccardo Sven Risuleo, Lawrence Murray, Fredrik Lindsten*
