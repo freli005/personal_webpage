@@ -255,5 +255,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-scholar
 
+scholar:
+  bibliography: lindsten.bib
+  bibliography_template: <strong>[{{entry.comment}}]</strong>&nbsp;{{reference}}
+
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

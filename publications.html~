@@ -1,0 +1,14 @@
+---
+layout: page
+title: Publications
+css: "/css/publications.css"
+---
+
+I will add a publication list here shortly. In the meantime you can find my articles on <a href="https://scholar.google.com/citations?user=RfTyvdsAAAAJ&hl=en">my Google Scholar profile</a>.
+
+
+<h3>Journal papers</h3>
+{% bibliography --query @*[comment~=J] %}
+
+<h3>Conference papers</h3>
+{% bibliography --query @*[comment~=C] %}
