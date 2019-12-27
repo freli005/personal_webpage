@@ -1,4 +1,8 @@
-ol {
+.publication-list b {
+    font-weight: 600;
+}
+
+.publication-list ol {
     list-style-type: none;
     margin: 0;
     padding-left: 20px;

@@ -153,7 +153,8 @@ excerpt_length: 50
 title-separator: "-"
 
 # Ruby Date Format
-date_format: "%B %-d, %Y"
+#date_format: "%B %-d, %Y"
+date_format: "%Y-%m-%d"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -256,8 +257,10 @@ plugins:
   - jekyll-scholar
 
 scholar:
+  style: assests/ieee_bold_title.csl
   bibliography: lindsten.bib
-  bibliography_template: <strong>[{{entry.comment}}]</strong>&nbsp;{{reference}}
+  bibliography_template: bib
+
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

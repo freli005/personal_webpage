@@ -9,13 +9,21 @@ You can also find my articles on <a href="https://scholar.google.com/citations?u
 
 
 <h3>Working papers</h3>
-{% bibliography --query @*[comment~=WP] %}
+<div class="publication-list">
+{% bibliography --query @*[pid~=WP] %}
+</div>
 
 <h3>Journal papers</h3>
-{% bibliography --query @*[comment~=J] %}
+<div class="publication-list">
+{% bibliography --query @*[pid~=J] %}
+</div>
 
 <h3>Conference papers</h3>
-{% bibliography --query @*[comment~=C] %}
+<div class="publication-list">
+{% bibliography --query @*[pid~=C] %}
+</div>
 
 <h3>Theses</h3>
+<div class="publication-list">
 {% bibliography --query @phdthesis %}
+</div>

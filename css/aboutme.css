@@ -1,5 +1,5 @@
 #aboutme-section {
-  font-size: 19px;
+  font-size: 14px;
 }
 
 .about-text {
@@ -7,13 +7,13 @@
   margin-left: 30px;
   padding:0px;
   margin-top: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .about-icon {
-  font-size: 24px;
+  font-size: 20px;
   position: absolute;
-  left: -40px;
+  left: -35px;
   margin-top: 0px;
 }
 
@@ -22,10 +22,10 @@
 }
 
 #bio-section {
-  font-size: 19px;
-  margin-top: 60px;
+  font-size: 14px;
+  margin-top: 45px;
 }
 
 #bio-section h1 {
-  font-size: 50px;
+  font-size: 38px;
 }
