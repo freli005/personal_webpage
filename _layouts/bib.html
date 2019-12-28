@@ -1,22 +1,20 @@
 <strong>[{{entry.pid}}]</strong>&nbsp;{{reference}}
 
-<div id="myGroup">
-  <div class="expand-btn">
-    {% if entry.abstract %}
-    <a data-toggle="collapse" data-target="#{{entry.pid}}-abstract" data-parent="#myGroup">Abstract</a>&nbsp;&mdash;
-    {% endif %}
-    <a data-toggle="collapse" data-target="#{{entry.pid}}-bibtex" data-parent="#myGroup">BibTeX</a>
+<div class="expand-btn">
+  {% if entry.abstract %}
+  <a data-toggle="collapse" href="#{{entry.pid}}-abstract">Abstract</a>&nbsp;&mdash;
+  {% endif %}
+  <a data-toggle="collapse" href="#{{entry.pid}}-bibtex">BibTeX</a>
+</div>
+
+<div id="{{entry.pid}}-group">
+  {% if entry.abstract %}
+  <div id="{{entry.pid}}-abstract" class="collapse">
+    <p class="aux">{{entry.abstract}}</p>
   </div>
+  {% endif %}
 
-  <div class="accordion-group">
-    {% if entry.abstract %}
-    <div id="{{entry.pid}}-abstract" class="collapse">
-      <p class="aux">{{entry.abstract}}</p>
-    </div>
-    {% endif %}
-
-    <div id="{{entry.pid}}-bibtex" class="collapse">
-      <pre class="aux">{{entry.bibtex}}</pre>
-    </div>
+  <div id="{{entry.pid}}-bibtex" class="collapse">
+    <pre class="aux">{{entry.bibtex}}</pre>
   </div>
 </div>

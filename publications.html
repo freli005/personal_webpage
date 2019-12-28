@@ -2,28 +2,30 @@
 layout: page
 title: Publications
 css: "/css/publications.css"
+js:  "/js/publications.js"
 ---
 
 You can also find my articles on <a href="https://scholar.google.com/citations?user=RfTyvdsAAAAJ&hl=en">my Google Scholar profile</a>.
 
+<div id="publicationList">
 
+  <h3>Working papers</h3>
+  <div class="publication-list">
+    {% bibliography --query @*[pid~=WP] %}
+  </div>
 
-<h3>Working papers</h3>
-<div class="publication-list">
-{% bibliography --query @*[pid~=WP] %}
-</div>
+  <h3>Journal papers</h3>
+  <div class="publication-list">
+    {% bibliography --query @*[pid~=J] %}
+  </div>
 
-<h3>Journal papers</h3>
-<div class="publication-list">
-{% bibliography --query @*[pid~=J] %}
-</div>
+  <h3>Conference papers</h3>
+  <div class="publication-list">
+    {% bibliography --query @*[pid~=C] %}
+  </div>
 
-<h3>Conference papers</h3>
-<div class="publication-list">
-{% bibliography --query @*[pid~=C] %}
-</div>
-
-<h3>Theses</h3>
-<div class="publication-list">
-{% bibliography --query @phdthesis %}
+  <h3>Theses</h3>
+  <div class="publication-list">
+    {% bibliography --query @phdthesis %}
+  </div>
 </div>
