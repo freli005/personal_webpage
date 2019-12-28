@@ -1,6 +1,14 @@
 <strong>[{{entry.pid}}]</strong>&nbsp;{{reference}}
 
 <div class="expand-btn">
+  {% if entry.doi %}
+  <a href="{{entry.doi}}">DOI <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
+  {% endif %}
+
+  {% if entry.url %}
+  <a href="{{entry.url}}">URL <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
+  {% endif %}
+
   {% if entry.abstract %}
   <a data-toggle="collapse" href="#{{entry.pid}}-abstract">Abstract</a>&nbsp;&mdash;
   {% endif %}

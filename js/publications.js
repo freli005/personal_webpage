@@ -3,6 +3,6 @@
 
 var $pubList = $('#publicationList');
 $pubList.on('show.bs.collapse','.collapse', function(e) {
-    var $myGroup = $('#' + e.target.parentNode.id);
+    var $myGroup = $(e.target.parentNode);
     $myGroup.find('.collapse.in').collapse('hide');
 });
