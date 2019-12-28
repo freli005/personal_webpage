@@ -2,11 +2,22 @@
 
 <div class="expand-btn">
   {% if entry.doi %}
-  <a href="{{entry.doi}}">DOI <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
+  <a href="
+    {% if entry.doi contains "https://doi.org/" %}
+       {{entry.doi}}
+    {% else %}
+       {{entry.doi | prepend: "https://doi.org/"}}
+    {% endif %}
+  ">DOI <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
   {% endif %}
 
   {% if entry.url %}
-  <a href="{{entry.url}}">URL <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
+  <a href="{{entry.url}}">{% if entry.url contains "arxiv" %}
+       arXiv
+    {% else %}
+       URL
+    {% endif %}
+     <span class="fa fa-external-link"></span></a>&nbsp;&mdash;
   {% endif %}
 
   {% if entry.abstract %}
