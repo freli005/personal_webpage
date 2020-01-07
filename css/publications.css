@@ -20,3 +20,8 @@
     /* text-transform: uppercase; */
     font-size: 12px;
 }
+
+.publication-list .bib-comment {
+    color: red;
+    font-weight: 600;
+}

@@ -1,4 +1,7 @@
 <strong>[{{entry.pid}}]</strong>&nbsp;{{reference}}
+{% if entry.comment %}
+<span class="bib-comment">[{{entry.comment}}]</span>
+{% endif %}
 
 <div class="expand-btn">
   {% if entry.doi %}
