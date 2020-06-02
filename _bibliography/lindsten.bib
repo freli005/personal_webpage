@@ -163,17 +163,6 @@
   pid      = {WP4},
 }
 
-@Misc{SidenL:2020,
-  author       = {Per Sidén and Fredrik Lindsten},
-  title        = {Deep {G}aussian {M}arkov random fields},
-  howpublished = {arXiv.org, arXiv:2002.07467},
-  url = {https://arxiv.org/abs/2002.07467},
-  year         = {2020},
-  abstract = {Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. We establish a formal connection between GMRFs and convolutional neural networks (CNNs). Common GMRFs are special cases of a generative model where the inverse mapping from data to latent variables is given by a 1-layer linear CNN. This connection allows us to generalize GMRFs to multi-layer CNN architectures, effectively increasing the order of the corresponding GMRF in a way which has favorable computational scaling. We describe how well-established tools, such as autodiff and variational inference, can be used for simple and efficient inference and learning of the deep GMRF. We demonstrate the flexibility of the proposed model and show that it outperforms the state-of-the-art on a dataset of satellite temperatures, in terms of prediction and predictive uncertainty.},
-  pid      = {WP3},
-}
-
-
 @Misc{LindholmL:2019,
   author       = {Andreas Lindholm and Fredrik Lindsten},
   title        = {Learning dynamical systems with particle stochastic approximation {EM}},
@@ -421,6 +410,17 @@
 
 
 
+
+
+@InProceedings{SidenL:2020,
+  author       = {Per Sidén and Fredrik Lindsten},
+  title        = {Deep {G}aussian {M}arkov random fields},
+  booktitle = PROC #{ 37th } # conf_icml, 
+  url = {https://arxiv.org/abs/2002.07467},
+  year         = {2020},
+  abstract = {Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. We establish a formal connection between GMRFs and convolutional neural networks (CNNs). Common GMRFs are special cases of a generative model where the inverse mapping from data to latent variables is given by a 1-layer linear CNN. This connection allows us to generalize GMRFs to multi-layer CNN architectures, effectively increasing the order of the corresponding GMRF in a way which has favorable computational scaling. We describe how well-established tools, such as autodiff and variational inference, can be used for simple and efficient inference and learning of the deep GMRF. We demonstrate the flexibility of the proposed model and show that it outperforms the state-of-the-art on a dataset of satellite temperatures, in terms of prediction and predictive uncertainty.},
+  pid      = {C42},
+}
 @InProceedings{KudlickaMSL:2020,
   author    = {Jan Kudlicka and Lawrence M. Murray and Thomas B. Schön and Fredrik Lindsten},
   title     = {Particle filter with rejection control and unbiased estimator of the marginal likelihood},
