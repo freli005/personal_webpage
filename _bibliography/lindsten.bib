@@ -35,6 +35,8 @@
 
 @STRING{conf_ifacwc = {{IFAC} World Congress}}
 
+@STRING{conf_mlsp = {{IEEE} International Workshop on Machine Learning for Signal Processing ({MLSP})}
+
 @STRING{conf_nips = {Conference on Neural Information Processing Systems ({NIPS})}}
 
 @STRING{conf_safeprocess = {{IFAC} Symposium on Fault Detection, Supervision and Safety of Technical
@@ -184,6 +186,8 @@
 }
 
 
+
+
 @Book{LindholmWLS:2020,
   author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
   title    = {Supervised Machine Learning},
@@ -192,6 +196,8 @@
   pid      = {B1},
   note     = {Draft},
 }
+
+
 
 @Article{NaessethLS:2019a,
   author   = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Sch\"on},
@@ -219,9 +225,6 @@
   abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
   pid   = {M1},
 }
-
-
-
 
 
 
@@ -411,6 +414,18 @@
 
 
 
+@InProceedings{LindqvistOLS:2020,
+  author       = {Jakob Lindqvist and Amanda Olmin and Fredrik Lindsten and Lennart Svensson},
+  title        = {A general framework for ensemble distribution distillation},
+  booktitle = PROC #{ 30th } # conf_mlsp, 
+  url = {https://arxiv.org/abs/2002.11531},
+  year         = {2020},
+  address   = {Virtual Conference},
+  month     = sep,  
+  abstract = {Ensembles of neural networks have been shown to give better performance than single networks, both in terms of predictions and uncertainty estimation. Additionally, ensembles allow the uncertainty to be decomposed into aleatoric (data) and epistemic (model) components, giving a more complete picture of the predictive uncertainty. Ensemble distillation is the process of compressing an ensemble into a single model, often resulting in a leaner model that still outperforms the individual ensemble members. Unfortunately, standard distillation erases the natural uncertainty decomposition of the ensemble. We present a general framework for distilling both regression and classification ensembles in a way that preserves the decomposition. We demonstrate the desired behaviour of our framework and show that its predictive performance is on par with standard distillation.},
+  pid      = {C43},
+}
+
 
 @InProceedings{SidenL:2020,
   author       = {Per Sidén and Fredrik Lindsten},
@@ -420,10 +435,10 @@
   year         = {2020},
   address   = {Virtual Conference},
   month     = jul,  
-  note     = {Forthcoming},
   abstract = {Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. We establish a formal connection between GMRFs and convolutional neural networks (CNNs). Common GMRFs are special cases of a generative model where the inverse mapping from data to latent variables is given by a 1-layer linear CNN. This connection allows us to generalize GMRFs to multi-layer CNN architectures, effectively increasing the order of the corresponding GMRF in a way which has favorable computational scaling. We describe how well-established tools, such as autodiff and variational inference, can be used for simple and efficient inference and learning of the deep GMRF. We demonstrate the flexibility of the proposed model and show that it outperforms the state-of-the-art on a dataset of satellite temperatures, in terms of prediction and predictive uncertainty.},
   pid      = {C42},
 }
+
 @InProceedings{KudlickaMSL:2020,
   author    = {Jan Kudlicka and Lawrence M. Murray and Thomas B. Schön and Fredrik Lindsten},
   title     = {Particle filter with rejection control and unbiased estimator of the marginal likelihood},
