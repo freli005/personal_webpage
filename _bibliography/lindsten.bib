@@ -154,17 +154,6 @@
   pid      = {WP4},
 }
 
-
-@Misc{NaessethLB:2020,
-  author       = {Christian A. Naesseth and Fredrik Lindsten and David M. Blei},
-  title        = {Markovian Score Climbing: Variational Inference with KL(p||q)},
-  abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the “exclusive Kullback-Leibler (KL)” KL(q||p), often for computational convenience. Recent research, however, has also focused on the “inclusive KL” KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
-  howpublished = {arXiv.org, arXiv:2003.10374},
-  url = {https://arxiv.org/abs/2003.10374},  
-  year         = {2020},  
-  pid      = {WP3},
-}
-
 @Misc{LindholmL:2019,
   author       = {Andreas Lindholm and Fredrik Lindsten},
   title        = {Learning dynamical systems with particle stochastic approximation {EM}},
@@ -247,6 +236,7 @@
   title   = {Bayesian nonparametric identification of {W}iener systems},
   journal = {Automatica},
   year    = {2019},
+  volume  = {108},
   note    = {Brief paper},
   doi = {10.1016/j.automatica.2019.06.032},
   abstract = {We propose a nonparametric approach for the identification of Wiener systems. We model the impulse response of the linear block and the static nonlinearity using Gaussian processes. The hyperparameters of the Gaussian processes are estimated using an iterative algorithm based on stochastic approximation expectation–maximization. In the iterations, we use elliptical slice sampling to approximate the posterior distribution of the impulse response and update the hyperparameter estimates. The same sampling is finally used to sample the posterior distribution and to compute point estimates. We compare the proposed approach with a parametric approach and a semi-parametric approach. In particular, we show that the proposed method has an advantage when a parametric model for the system is not readily available.},
@@ -258,7 +248,9 @@
   title   = {Smoothing with Couplings of Conditional Particle Filters},
   journal = jour_jasa,
   year    = {2019},
-  note    = {Forthcoming},
+  pages   = {721--729},
+  volume  = {115},
+  number  = {530},
   abstract = {In state–space models, smoothing refers to the task of estimating a latent stochastic process given noisy measurements related to the process. We propose an unbiased estimator of smoothing expectations. The lack-of-bias property has methodological benefits: independent estimators can be generated in parallel, and CI can be constructed from the central limit theorem to quantify the approximation error. To design unbiased estimators, we combine a generic debiasing technique for Markov chains, with a Markov chain Monte Carlo algorithm for smoothing. The resulting procedure is widely applicable and we show in numerical experiments that the removal of the bias comes at a manageable increase in variance. We establish the validity of the proposed estimators under mild assumptions. Numerical experiments are provided on toy models, including a setting of highly informative observations, and for a realistic Lotka–Volterra model with an intractable transition density.},
   pid = {J12},
   doi     = {https://doi.org/10.1080/01621459.2018.1548856},
@@ -414,6 +406,20 @@
 
 
 
+
+
+@InCollection{NaessethLB:2020,
+  author       = {Christian A. Naesseth and Fredrik Lindsten and David M. Blei},
+  title        = {Markovian Score Climbing: Variational Inference with KL(p||q)},
+  abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the “exclusive Kullback-Leibler (KL)” KL(q||p), often for computational convenience. Recent research, however, has also focused on the “inclusive KL” KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
+  booktitle = {Advances in Neural Information Processing Systems 33},
+  url = {https://arxiv.org/abs/2003.10374},  
+  note = {Forthcoming.}
+  year         = {2020},   
+  pid      = {C44},
+}
+
+
 @InProceedings{LindqvistOLS:2020,
   author       = {Jakob Lindqvist and Amanda Olmin and Fredrik Lindsten and Lennart Svensson},
   title        = {A general framework for ensemble distribution distillation},
@@ -425,7 +431,6 @@
   abstract = {Ensembles of neural networks have been shown to give better performance than single networks, both in terms of predictions and uncertainty estimation. Additionally, ensembles allow the uncertainty to be decomposed into aleatoric (data) and epistemic (model) components, giving a more complete picture of the predictive uncertainty. Ensemble distillation is the process of compressing an ensemble into a single model, often resulting in a leaner model that still outperforms the individual ensemble members. Unfortunately, standard distillation erases the natural uncertainty decomposition of the ensemble. We present a general framework for distilling both regression and classification ensembles in a way that preserves the decomposition. We demonstrate the desired behaviour of our framework and show that its predictive performance is on par with standard distillation.},
   pid      = {C43},
 }
-
 
 @InProceedings{SidenL:2020,
   author       = {Per Sidén and Fredrik Lindsten},
