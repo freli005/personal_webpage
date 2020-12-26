@@ -7,3 +7,4 @@ gem "jekyll", "~> 4.0.0"
 gem 'jekyll-paginate'
 gem 'jekyll-scholar'
 gem 'jekyll-sitemap'
+gem 'jekyll-twitter-plugin'

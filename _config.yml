@@ -255,6 +255,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-scholar
+  - jekyll-twitter-plugin
 
 scholar:
   style: assests/ieee_bold_title.csl
