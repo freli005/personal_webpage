@@ -180,6 +180,7 @@
 
 
 
+
 @Article{NaessethLS:2019a,
   author   = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Sch\"on},
   title    = {Elements of Sequential {M}onte {C}arlo},
@@ -206,6 +207,19 @@
   abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
   pid   = {M1},
 }
+
+
+
+
+@Article{WigrenWLWS:2021,
+  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
+  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
+  journal  = {{IEEE} Control Systems Magazine},
+  year     = {2021},
+  pid  = {J15},
+  note = {Forthcoming},
+}
+
 
 
 
@@ -404,6 +418,7 @@
 	booktitle={International Conference on Learning Representations},
 	year={2021},
 	url={https://openreview.net/forum?id=-bxf89v3Nx},
+	abstract = {Most supervised machine learning tasks are subject to irreducible prediction errors. Probabilistic predictive models address this limitation by providing probability distributions that represent a belief over plausible targets, rather than point estimates. Such models can be a valuable tool in decision-making under uncertainty, provided that the model output is meaningful and interpretable. Calibrated models guarantee that the probabilistic predictions are neither over- nor under-confident. In the machine learning literature, different measures and statistical tests have been proposed and studied for evaluating the calibration of classification models. For regression problems, however, research has been focused on a weaker condition of calibration based on predicted quantiles for real-valued targets. In this paper, we propose the first framework that unifies calibration evaluation and tests for probabilistic predictive models. It applies to any such model, including classification and regression models of arbitrary dimension. Furthermore, the framework generalizes existing measures and provides a more intuitive reformulation of a recently proposed framework for calibration in multi-class classification.},
 	note = {Forthcoming},
 	pid      = {C45},	
 }
