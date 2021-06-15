@@ -158,15 +158,6 @@
   pid      = {WP2},
 }
 
-@Misc{AlenlovDL:2016,
-  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
-  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
-  howpublished = {arXiv.org, arXiv:1607.02516},
-  url = {https://arxiv.org/abs/1607.02516},
-  year         = {2019},
-  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis--Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the pseudo-marginal HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the marginal posterior of parameters and its gradient. We demonstrate through experiments that pseudo-marginal HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
-  pid      = {WP1},
-}
 
 
 
@@ -179,7 +170,6 @@
   pid      = {B1},
   note     = {Draft},
 }
-
 
 
 
@@ -213,6 +203,18 @@
 
 
 
+@Misc{AlenlovDL:2021,
+  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
+  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
+  journal      = jour_jmlr,  
+  url = {https://arxiv.org/abs/1607.02516},
+  year         = {2021},
+  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
+  pid      = {J16},
+  note = {Forthcoming},
+}
+
+
 @Article{WigrenWLWS:2021,
   author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
   title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
@@ -221,8 +223,6 @@
   pid  = {J15},
   note = {Forthcoming},
 }
-
-
 
 
 @Article{NaessethLS:2019,
@@ -410,6 +410,23 @@
   pid   = {J1},
 }
 
+
+
+
+
+
+
+
+
+@InProceedings{AhmadianL:2021,
+	title={Self-Supervised Representation Learning for Content Based Image Retrieval of Complex Scenes},
+	author={Hariprasath Govindarajan, Peter Lindskog, Dennis Lundstr\"om, Amanda Olmin, Jacob Roll, and Fredrik Lindsten},
+	booktitle = {32nd IEEE Intelligent Vehicles Symposium -- Workshop on Data Driven Intelligent Vehicle Applications},
+	year={2021},	
+	abstract = {Although Content Based Image Retrieval (CBIR) is an active research field, application to images simultaneously containing multiple objects has received limited research interest. For such complex images, it is difficult to precisely convey the query intention, to encode all the image aspects into one compact global feature representation and to unambiguously define label similarity or dissimilarity. Motivated by the recent success on many visual benchmark tasks, we propose a selfsupervised method to train a feature representation learning model. We propose usage of multiple query images, and use an attention based architecture to extract features from diverse image aspects that benefits from this. The method shows promising performance on road scene datasets, and, consistently improves when multiple query images are used instead of a single query image.}, 
+	note = {Forthcoming},
+	pid      = {C47},	
+}
 
 
 @InProceedings{AhmadianL:2021,
