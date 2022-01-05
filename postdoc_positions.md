@@ -11,14 +11,14 @@ The goal of this recruitment is to expand our research activities related to sev
 The suggested research topics for the open positions are:
 
 ### 1.	Machine learning for materials discovery ###
-<img align="right" src="/img/material.png" width="250px"/>
+<img align="right" src="/img/material.png" width="350px"/>
 
 You will be part of the KAW-funded cross-disciplinary project [The 2D Materials Frontier](https://kaw.wallenberg.org/en/research/seeking-formula-ultrathin-materials). In collaboration with physicists in Linköping and Uppsala, we will develop novel machine learning methods to aid in the quest for new ultra-thin materials, with applications in energy storage, catalysis, and water treatment, to mention a few. Relevant machine learning competMaences include graph neural networks, geometric deep learning, and active learning. 
 
 ### 2.	Novel AI methods for experimentally constrained protein structure prediction ###
 This position is part of a joint collaboration between the two largest research programs in Sweden, the Wallenberg AI, Autonomous Systems and Software Program ([WASP](https://wasp-sweden.org/)) and the SciLifeLab and Wallenberg National Program for Data-Driven Life Science ([DDLS](https://www.scilifelab.se/data-driven/)), with the ultimate goal of solving ground-breaking research questions across disciplines.
 
-<img align="left" src="/img/protein.png" width="200px"/>
+<img align="left" src="/img/protein.png" width="250px"/>
 
 In collaboration with Prof [Sebastian Westenhoff](http://www.westenhofflab.net/) at Uppsala University, we will develop novel algorithms to include instance-specific experimental constraints in machine learning models, effectively bridging the gap between AI predictions and experimental observation. The algorithms will be widely applicable in many areas of AI. However, in particular we will focus on combining machine-learning-based protein structure predictions with experimental constraints obtained by single-particle cryo EM, to improve structure prediction and characterization of conformational heterogeneity of proteins.
 Relevant machine learning skills include graph neural networks, geometric deep learning, transformers, energy-based models, ensembles, and Monte Carlo methods.
@@ -37,11 +37,12 @@ In this more basic research project, we will develop novel theory and methods fo
 
 ### 5.	Spatio-temporal data analysis and hybrid modeling ###
 
-<img align="right" src="/img/traffic.png" width="250px"/>
+<img align="left" src="/img/traffic.png" width="250px"/>
 
 
 Processes that evolve over both time and space are ubiquitous in science. Examples include the spread of a disease in a region, or the flow of traffic and evolution of various variables pertaining to the risk of traffic accidents. We will work on developing a new class of hybrid models for spatio-temporal data analysis and prediction, where complex simulators are integrated with machine learning at an unprecedented level. 
 
+<br><br>
 <hr>
 
 This is a joint opening for all topics listed above. Please specify in your application letter which project(s) that you would be interested in working on - it is possible to apply for multiple topics with a single application. Alternatively, if you have other research ideas that you would like to pursue as a postdoc at STIMA, feel free to list them in your application instead/as well – we are open to own initiatives! 
