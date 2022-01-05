@@ -11,13 +11,9 @@ The goal of this recruitment is to expand our research activities related to sev
 The suggested research topics for the open positions are:
 
 ### 1.	Machine learning for materials discovery ###
-<div class="pull-left"><img src="/img/material.png"/></div>
-<div class="pull-left">
+<img align="right" src="/img/material.png" width="100px"/>
+
 You will be part of the KAW-funded cross-disciplinary project [The 2D Materials Frontier](https://kaw.wallenberg.org/en/research/seeking-formula-ultrathin-materials). In collaboration with physicists in Linköping and Uppsala, we will develop novel machine learning methods to aid in the quest for new ultra-thin materials, with applications in energy storage, catalysis, and water treatment, to mention a few. Relevant machine learning competMaences include graph neural networks, geometric deep learning, and active learning. 
-</div>
-
-
-![Materials discovery](/img/material.png)
 
 ### 2.	Novel AI methods for experimentally constrained protein structure prediction ###
 This position is part of a joint collaboration between the two largest research programs in Sweden, the Wallenberg AI, Autonomous Systems and Software Program (WASP) and the SciLifeLab and Wallenberg National Program for Data-Driven Life Science (DDLS), with the ultimate goal of solving ground-breaking research questions across disciplines.
