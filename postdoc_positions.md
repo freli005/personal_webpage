@@ -26,7 +26,7 @@ Relevant machine learning skills include graph neural networks, geometric deep l
 The LiU postdoc will represent the Wallenberg AI, Autonomous Systems and Software Program ([WASP](https://wasp-sweden.org/)) in this cross-disciplinary project. WASP is Sweden’s largest individual research program ever, a major national initiative for strategically motivated basic research, education and faculty recruitment. The program addresses research on artificial intelligence and autonomous systems acting in collaboration with humans, adapting to their environment through sensors, information and knowledge, and forming intelligent systems-of-systems. The vision of WASP is excellent research and competence in artificial intelligence, autonomous systems and software for the benefit of Swedish industry. 
 
 ### 3.	AI-powered carbon border adjustments ###
-The project is part of the Vinnova initiative AI in the service of climate. In a collaboration between climate policy experts and machine learning researchers at Linköping University, 2050 Consulting, Toyota Material Handling and Alfa Laval, we will develop a machine learning system for automatically generating and validating life cycle assessments. The goal of the project is to enable trustworthy carbon border adjustments, with the potential of significantly reducing CO2 emissions. Relevant machine learning skills include Bayesian inference, probabilistic graphical models, text analysis and natural language processing. Read more at: https://2050.se/forskning-och-innovation/ai-powered-carbon-border-adjustments/
+The project is part of the Vinnova initiative AI in the service of climate. In a collaboration between climate policy experts and machine learning researchers at Linköping University, 2050 Consulting, Toyota Material Handling and Alfa Laval, we will develop a machine learning system for automatically generating and validating life cycle assessments. The goal of the project is to enable trustworthy carbon border adjustments, with the potential of significantly reducing CO2 emissions. Relevant machine learning skills include Bayesian inference, probabilistic graphical models, text analysis and natural language processing. Read more [here](https://2050.se/forskning-och-innovation/ai-powered-carbon-border-adjustments/).
 
 ### 4.	Uncertainty quantification for machine learning ###
 
@@ -39,10 +39,9 @@ In this more basic research project, we will develop novel theory and methods fo
 
 <img align="left" src="/img/traffic.png" width="250px"/>
 
-
 Processes that evolve over both time and space are ubiquitous in science. Examples include the spread of a disease in a region, or the flow of traffic and evolution of various variables pertaining to the risk of traffic accidents. We will work on developing a new class of hybrid models for spatio-temporal data analysis and prediction, where complex simulators are integrated with machine learning at an unprecedented level. 
 
-<br><br>
+<br><br><br>
 <hr>
 
 This is a joint opening for all topics listed above. Please specify in your application letter which project(s) that you would be interested in working on - it is possible to apply for multiple topics with a single application. Alternatively, if you have other research ideas that you would like to pursue as a postdoc at STIMA, feel free to list them in your application instead/as well – we are open to own initiatives! 
