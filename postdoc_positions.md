@@ -11,7 +11,11 @@ The goal of this recruitment is to expand our research activities related to sev
 The suggested research topics for the open positions are:
 
 ### 1.	Machine learning for materials discovery ###
+<div class="pull-left"><img src="/img/material.png"/></div>
+<div class="pull-left">
 You will be part of the KAW-funded cross-disciplinary project [The 2D Materials Frontier](https://kaw.wallenberg.org/en/research/seeking-formula-ultrathin-materials). In collaboration with physicists in Linköping and Uppsala, we will develop novel machine learning methods to aid in the quest for new ultra-thin materials, with applications in energy storage, catalysis, and water treatment, to mention a few. Relevant machine learning competMaences include graph neural networks, geometric deep learning, and active learning. 
+</div>
+
 
 ![Materials discovery](/img/material.png)
 
