@@ -8,7 +8,7 @@ The Division of Statistics and Machine Learning ([STIMA](https://liu.se/en/organ
 
 The goal of this recruitment is to expand our research activities related to several topics in machine learning, both applied and more fundamental. Common to all research topics is that you will work in an academic environment characterized by a tight integration of statistics and machine learning. We have a wide network of strong international collaborators all around the world, for example at the University of Cambridge, University of Oxford, Columbia University, UC Berkeley, University of Amsterdam, and University of British Columbia, giving rise to excellent opportunities for international collaboration. Furthermore, you will have access to state-of-the-art computing infrastructure for machine learning (e.g. through [BerzeLiUs](https://liu.se/en/news-item/sveriges-snabbaste-superdator-for-ai-ar-invigd)). The contact person at the division (PI/co-PI) for all projects listed below is associate professor [Fredrik Lindsten](https://lindsten.netlify.app/).
 
-#### Click here to apply. We anticipate several recruitment rounds during 2022. The current application deadline is: TBD ####
+#### Click [here](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=18053&rmlang=UK) to apply. We anticipate several recruitment rounds during 2022. The current application deadline is: February 14 ####
 
 The suggested research topics for the open positions are:
 
@@ -52,5 +52,5 @@ There is a joint opening for all topics listed above. Please specify in your app
 Researchers and academic staff at Swedish universities retain the rights to their own research results, even when these are patentable. This system is known as the “teachers’ exemption” (Lärarundantaget) and differs from the system at universities in other countries.
 LiU provides support for researchers as inventors, with a unit at the university that helps researchers to patent ideas, and may even fund the patent application, while the patent is still owned by the researcher.
 
-#### Click here to apply. We anticipate several recruitment rounds during 2022. The current application deadline is: TBD ####
+#### Click [here](https://liu.se/en/work-at-liu/vacancies?rmpage=job&rmjob=18053&rmlang=UK) to apply. We anticipate several recruitment rounds during 2022. The current application deadline is: February 14 ####
 
