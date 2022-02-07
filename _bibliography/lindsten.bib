@@ -439,7 +439,8 @@
 	title={Self-Supervised Representation Learning for Content Based Image Retrieval of Complex Scenes},
 	author={Hariprasath Govindarajan, Peter Lindskog, Dennis Lundstr\"om, Amanda Olmin, Jacob Roll, and Fredrik Lindsten},
 	booktitle = {32nd IEEE Intelligent Vehicles Symposium -- Workshop on Data Driven Intelligent Vehicle Applications},
-	year={2021},	
+	year={2021},
+	doi = {10.1109/IVWorkshops54471.2021.9669246},
 	abstract = {Although Content Based Image Retrieval (CBIR) is an active research field, application to images simultaneously containing multiple objects has received limited research interest. For such complex images, it is difficult to precisely convey the query intention, to encode all the image aspects into one compact global feature representation and to unambiguously define label similarity or dissimilarity. Motivated by the recent success on many visual benchmark tasks, we propose a selfsupervised method to train a feature representation learning model. We propose usage of multiple query images, and use an attention based architecture to extract features from diverse image aspects that benefits from this. The method shows promising performance on road scene datasets, and, consistently improves when multiple query images are used instead of a single query image.}, 
 	pid      = {C47},	
 }
@@ -449,6 +450,7 @@
 	title={Likelihood-free Out-of-Distribution Detection with Invertible Generative Models},
 	author={Amirhossein Ahmadian and Fredrik Lindsten},
 	booktitle= PROC #{ 30th } # conf_ijcai, 
+	doi = {10.24963/ijcai.2021/292}
 	year={2021},	
 	abstract = {Likelihood of generative models has been used traditionally as a score to detect atypical (Out-of-Distribution, OOD) inputs. However, several recent studies have found this approach to be highly unreliable, even with invertible generative models, where computing likelihood is feasible. In this paper, we present a different framework for generative model--based OOD detection that employs the model in constructing a new representation space, instead of using it directly in computing typicality scores, emphasizing that the score function should be interpretable as the similarity between the input and training data in the new space. In practice, with a focus on invertible models, we propose to extract low-dimensional features (statistics) based on the model encoder and complexity of input images, and then use a One-Class SVM to score the data. Contrary to recently proposed OOD detection methods for generative models, our method does not require computing likelihood values. Consequently, it is much faster when using invertible models with iteratively approximated likelihood (e.g. iResNet), while it still has a performance competitive with other related methods.},
 	pid      = {C46},	
@@ -469,7 +471,7 @@
   title        = {Markovian Score Climbing: Variational Inference with KL(p||q)},
   abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the “exclusive Kullback-Leibler (KL)” KL(q||p), often for computational convenience. Recent research, however, has also focused on the “inclusive KL” KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
   booktitle = {Advances in Neural Information Processing Systems 33},
-  url = {https://arxiv.org/abs/2003.10374},  
+  url = {https://proceedings.neurips.cc/paper/2020/hash/b20706935de35bbe643733f856d9e5d6-Abstract.html},  
   year         = {2020},   
   pid      = {C44},
 }
@@ -491,7 +493,7 @@
   author       = {Per Sidén and Fredrik Lindsten},
   title        = {Deep {G}aussian {M}arkov random fields},
   booktitle = PROC #{ 37th } # conf_icml, 
-  url = {https://arxiv.org/abs/2002.07467},
+  url = {https://proceedings.mlr.press/v119/siden20a.html},
   year         = {2020},
   address   = {Virtual Conference},
   month     = jul,  
