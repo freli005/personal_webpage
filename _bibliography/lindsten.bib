@@ -203,28 +203,33 @@
 
 
 
+@Article{WigrenWLWS:2022,
+  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
+  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
+  journal  = {{IEEE} Control Systems Magazine},
+  year     = {2022},
+  volume = {42},
+  number = {1},
+  pages = {75--102},
+  doi = {https://doi.org/10.1109/MCS.2021.3122269},
+  pid  = {J16},
+}
+
 
 
 @Misc{AlenlovDL:2021,
   author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
   title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
   journal      = jour_jmlr,  
-  url = {https://arxiv.org/abs/1607.02516},
+  url = {https://www.jmlr.org/papers/v22/19-486.html},
   year         = {2021},
+  volume = {22},
+  number = {141},
+  pages = {1--45},
   abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
-  pid      = {J16},
-  note = {Forthcoming},
+  pid      = {J15},
 }
 
-
-@Article{WigrenWLWS:2021,
-  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
-  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
-  journal  = {{IEEE} Control Systems Magazine},
-  year     = {2021},
-  pid  = {J15},
-  note = {Forthcoming},
-}
 
 
 @Article{NaessethLS:2019,
