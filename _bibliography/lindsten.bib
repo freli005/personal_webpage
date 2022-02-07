@@ -450,7 +450,7 @@
 	title={Likelihood-free Out-of-Distribution Detection with Invertible Generative Models},
 	author={Amirhossein Ahmadian and Fredrik Lindsten},
 	booktitle= PROC #{ 30th } # conf_ijcai, 
-	doi = {10.24963/ijcai.2021/292}
+	doi = {10.24963/ijcai.2021/292},
 	year={2021},	
 	abstract = {Likelihood of generative models has been used traditionally as a score to detect atypical (Out-of-Distribution, OOD) inputs. However, several recent studies have found this approach to be highly unreliable, even with invertible generative models, where computing likelihood is feasible. In this paper, we present a different framework for generative model--based OOD detection that employs the model in constructing a new representation space, instead of using it directly in computing typicality scores, emphasizing that the score function should be interpretable as the similarity between the input and training data in the new space. In practice, with a focus on invertible models, we propose to extract low-dimensional features (statistics) based on the model encoder and complexity of input images, and then use a One-Class SVM to score the data. Contrary to recently proposed OOD detection methods for generative models, our method does not require computing likelihood values. Consequently, it is much faster when using invertible models with iteratively approximated likelihood (e.g. iResNet), while it still has a performance competitive with other related methods.},
 	pid      = {C46},	
