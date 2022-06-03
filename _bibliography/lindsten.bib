@@ -209,12 +209,19 @@
 
 
 
+
 @Article{EkstromAL:2022,
   author   = {Filip Ekstr\"om Kelvinius and Fredrik Lindsten and Rickard Armiento},
   title    = {Graph-based machine learning beyond stable materials and relaxed crystal structures},
   journal  = {Physical Review Materials},
-  year     = {2022},
-  note = {Forthcoming},
+  volume = {6},
+  issue = {3},
+  pages = {033801},
+  numpages = {10},
+  year = {2022},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevMaterials.6.033801},
   url = {https://arxiv.org/abs/2107.00493},
   pid  = {J17},
 }
@@ -450,14 +457,21 @@
   pid      = {C49},
 }
 
+
 @InProceedings{OlminL:2022,
 	title={Robustness and reliability when training with noisy labels},
 	author={Amanda Olmin and Fredrik Lindsten},
 	booktitle = {The 25th International Conference on Artificial Intelligence and Statistics},
+    pages = 	 {922--942},
+    editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+    volume = 	 {151},
+    series = 	 {Proceedings of Machine Learning Research},
+    month = 	 {28--30 Mar},
+    publisher =    {PMLR},
+    pdf = 	 {https://proceedings.mlr.press/v151/olmin22a/olmin22a.pdf},
+    url = 	 {https://proceedings.mlr.press/v151/olmin22a.html},
 	year={2022},	
-	abstract = {Labelling of data for supervised learning can be costly and time-consuming and the risk of incorporating label noise in large data sets is imminent. If training a flexible discriminative model using a strictly proper loss, such noise will inevitably shift the solution towards the conditional distribution over noisy labels. Nevertheless, while deep neural networks have proved capable of fitting random labels, regularisation and the use of robust loss functions empirically mitigate the effects of label noise. However, such observations concern robustness in accuracy, which is insufficient if reliable uncertainty quantification is critical. We demonstrate this by analysing the properties of the conditional distribution over noisy labels for an input-dependent noise model. In addition, we evaluate the set of robust loss functions characterised by an overlap in asymptotic risk minimisers under the clean and noisy data distributions. We find that strictly proper and robust loss functions both offer asymptotic robustness in accuracy, but neither guarantee that the resulting model is calibrated. Moreover, overfitting is an issue in practice. With these results, we aim to explain inherent robustness of algorithms to label noise and to give guidance in the development of new noise-robust algorithms.},
-	url = {https://arxiv.org/abs/2110.03321},
-	note = {Forthcoming},
+  abstract = 	 { Labelling of data for supervised learning can be costly and time-consuming and the risk of incorporating label noise in large data sets is imminent. When training a flexible discriminative model using a strictly proper loss, such noise will inevitably shift the solution towards the conditional distribution over noisy labels. Nevertheless, while deep neural networks have proven capable of fitting random labels, regularisation and the use of robust loss functions empirically mitigate the effects of label noise. However, such observations concern robustness in accuracy, which is insufficient if reliable uncertainty quantification is critical. We demonstrate this by analysing the properties of the conditional distribution over noisy labels for an input-dependent noise model. In addition, we evaluate the set of robust loss functions characterised by noise-insensitive, asymptotic risk minimisers. We find that strictly proper and robust loss functions both offer asymptotic robustness in accuracy, but neither guarantee that the final model is calibrated. Moreover, even with robust loss functions, overfitting is an issue in practice. With these results, we aim to explain observed robustness of common training practices, such as early stopping, to label noise. In addition, we aim to encourage the development of new noise-robust algorithms that not only preserve accuracy but that also ensure reliability. }
 	pid      = {C48},	
 }
 
