@@ -164,12 +164,17 @@
 
 @Book{LindholmWLS:2020,
   author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
-  title    = {Machine Learning - A First Course for Engineers and Scientists},
-  year     = {Draft 2022},
+  title    = {Machine Learning: A First Course for Engineers and Scientists},
+  doi      = {10.1017/9781108919371},
+  publisher= {Cambridge University Press},
+  year     = {2022},
+  place    = {Cambridge},
   url      = {http://smlbook.org/},
   pid      = {B1},
-  note     = {To be published by Cambridge University Press in 2022},
 }
+
+
+
 
 
 
@@ -199,6 +204,8 @@
   abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
   pid   = {M1},
 }
+
+
 
 
 
@@ -433,6 +440,16 @@
 
 
 
+@InProceedings{OskarssonSL:2020,
+  author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
+  title        = {Scalable Deep {G}aussian {M}arkov Random Fields for General Graphs},
+  booktitle = PROC #{ 39th } # conf_icml, 
+  year         = {2022},
+  note     = {Forthcoming},
+  abstract = {Machine learning methods on graphs have proven useful in many applications due to their ability to handle generally structured data. The framework of Gaussian Markov Random Fields (GMRFs) provides a principled way to define Gaussian models on graphs by utilizing their sparsity structure. We propose a flexible GMRF model for general graphs built on the multi-layer structure of Deep GMRFs, originally proposed for lattice graphs only. By designing a new type of layer we enable the model to scale to large graphs. The layer is constructed to allow for efficient training using variational inference and existing software frameworks for Graph Neural Networks. For a Gaussian likelihood, close to exact Bayesian inference is available for the latent field. This allows for making predictions with accompanying uncertainty estimates. The usefulness of the proposed model is verified by experiments on a number of synthetic and real world datasets, where it compares favorably to other both Bayesian and deep learning methods.},
+  pid      = {C49},
+}
+
 @InProceedings{OlminL:2022,
 	title={Robustness and reliability when training with noisy labels},
 	author={Amanda Olmin and Fredrik Lindsten},
@@ -447,7 +464,7 @@
 
 @InProceedings{GovindarajanLLORL:2021,
 	title={Self-Supervised Representation Learning for Content Based Image Retrieval of Complex Scenes},
-	author={Hariprasath Govindarajan, Peter Lindskog, Dennis Lundstr\"om, Amanda Olmin, Jacob Roll, and Fredrik Lindsten},
+	author={Hariprasath Govindarajan and Peter Lindskog and Dennis Lundstr\"om and Amanda Olmin and Jacob Roll and Fredrik Lindsten},
 	booktitle = {32nd IEEE Intelligent Vehicles Symposium -- Workshop on Data Driven Intelligent Vehicle Applications},
 	year={2021},
 	doi = {10.1109/IVWorkshops54471.2021.9669246},
