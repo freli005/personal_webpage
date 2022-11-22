@@ -445,15 +445,24 @@
 
 
 
+@InProceedings{OlminLSL:2022,
+  author       = {Amanda Olmin, Jakob Lindqvist, Lennart Svensson, Fredrik Lindsten},
+  title        = {Active Learning with Weak Labels for Gaussian Processes},
+  booktitle = PROC #{ 29th International Conference on Neural Information Processing (ICONIP)}, 
+  year         = {2022},
+  abstract = {Annotating data for supervised learning can be costly. When the annotation budget is limited, active learning can be used to select and annotate those observations that are likely to give the most gain in model performance. We propose an active learning algorithm that, in addition to selecting which observation to annotate, selects the precision of the annotation that is acquired. Assuming that annotations with low precision are cheaper to obtain, this allows the model to explore a larger part of the input space, with the same annotation costs. We build our acquisition function on the previously proposed BALD objective for Gaussian Processes, and empirically demonstrate the gains of being able to adjust the annotation precision in the active learning loop.},
+  url      = {https://arxiv.org/abs/2204.08335},
+  pid      = {C50},
+}
 
 
-@InProceedings{OskarssonSL:2020,
+@InProceedings{OskarssonSL:2022,
   author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
   title        = {Scalable Deep {G}aussian {M}arkov Random Fields for General Graphs},
   booktitle = PROC #{ 39th } # conf_icml, 
   year         = {2022},
-  note     = {Forthcoming},
   abstract = {Machine learning methods on graphs have proven useful in many applications due to their ability to handle generally structured data. The framework of Gaussian Markov Random Fields (GMRFs) provides a principled way to define Gaussian models on graphs by utilizing their sparsity structure. We propose a flexible GMRF model for general graphs built on the multi-layer structure of Deep GMRFs, originally proposed for lattice graphs only. By designing a new type of layer we enable the model to scale to large graphs. The layer is constructed to allow for efficient training using variational inference and existing software frameworks for Graph Neural Networks. For a Gaussian likelihood, close to exact Bayesian inference is available for the latent field. This allows for making predictions with accompanying uncertainty estimates. The usefulness of the proposed model is verified by experiments on a number of synthetic and real world datasets, where it compares favorably to other both Bayesian and deep learning methods.},
+  url      = {https://proceedings.mlr.press/v162/oskarsson22a.html},
   pid      = {C49},
 }
 
