@@ -35,6 +35,8 @@
 
 @STRING{conf_ifacwc = {{IFAC} World Congress}}
 
+@STRING{conf_ijcai = {International Joint Conference on Artificial Intelligence ({IJCAI})}}
+
 @STRING{conf_mlsp = {{IEEE} International Workshop on Machine Learning for Signal Processing ({MLSP})}}
 
 @STRING{conf_nips = {Conference on Neural Information Processing Systems ({NIPS})}}
@@ -156,27 +158,23 @@
   pid      = {WP2},
 }
 
-@Misc{AlenlovDL:2016,
-  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
-  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
-  howpublished = {arXiv.org, arXiv:1607.02516},
-  url = {https://arxiv.org/abs/1607.02516},
-  year         = {2019},
-  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis--Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the pseudo-marginal HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the marginal posterior of parameters and its gradient. We demonstrate through experiments that pseudo-marginal HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
-  pid      = {WP1},
-}
 
 
 
 
 @Book{LindholmWLS:2020,
   author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
-  title    = {Supervised Machine Learning},
-  year     = {Draft 2020},
+  title    = {Machine Learning: A First Course for Engineers and Scientists},
+  doi      = {10.1017/9781108919371},
+  publisher= {Cambridge University Press},
+  year     = {2022},
+  place    = {Cambridge},
   url      = {http://smlbook.org/},
   pid      = {B1},
-  note     = {Draft},
 }
+
+
+
 
 
 
@@ -205,6 +203,55 @@
   doi = {10.1561/2200000045},
   abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
   pid   = {M1},
+}
+
+
+
+
+
+
+@Article{EkstromAL:2022,
+  author   = {Filip Ekstr\"om Kelvinius and Fredrik Lindsten and Rickard Armiento},
+  title    = {Graph-based machine learning beyond stable materials and relaxed crystal structures},
+  journal  = {Physical Review Materials},
+  volume = {6},
+  issue = {3},
+  pages = {033801},
+  numpages = {10},
+  year = {2022},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevMaterials.6.033801},
+  url = {https://arxiv.org/abs/2107.00493},
+  pid  = {J17},
+}
+
+
+@Article{WigrenWLWS:2022,
+  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
+  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
+  journal  = {{IEEE} Control Systems Magazine},
+  year     = {2022},
+  volume = {42},
+  number = {1},
+  pages = {75--102},
+  doi = {https://doi.org/10.1109/MCS.2021.3122269},
+  pid  = {J16},
+}
+
+
+
+@Misc{AlenlovDL:2021,
+  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
+  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
+  journal      = jour_jmlr,  
+  url = {https://www.jmlr.org/papers/v22/19-486.html},
+  year         = {2021},
+  volume = {22},
+  number = {141},
+  pages = {1--45},
+  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
+  pid      = {J15},
 }
 
 
@@ -396,17 +443,118 @@
 
 
 
+@InProceedings{OskarssonSL:2023,
+  author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
+  title        = {Temporal Graph Neural Networks for Irregular Data},
+  booktitle = PROC #{ 26th } # International Conference on Artificial Intelligence and Statistics}, 
+  year         = {2023},
+  abstract = {This paper proposes a temporal graph neural network model for forecasting of graph-structured irregularly observed time series. Our TGNN4I model is designed to handle both irregular time steps and partial observations of the graph. This is achieved by introducing a time-continuous latent state in each node, following a linear Ordinary Differential Equation (ODE) defined by the output of a Gated Recurrent Unit (GRU). The ODE has an explicit solution as a combination of exponential decay and periodic dynamics. Observations in the graph neighborhood are taken into account by integrating graph neural network layers in both the GRU state update and predictive model. The time-continuous dynamics additionally enable the model to make predictions at arbitrary time steps. We propose a loss function that leverages this and allows for training the model for forecasting over different time horizons. Experiments on simulated data and real-world data from traffic and climate modeling validate the usefulness of both the graph structure and time-continuous dynamics in settings with irregular observations.},
+  url      = {https://arxiv.org/abs/2302.08415},
+  pid      = {C53},
+}
+
+
+@InProceedings{AhmadianL:2023,
+  author    = {Amirhossein Ahmadian and Fredrik Lindsten},
+  title     = {Enhancing Representation Learning with Deep Classifiers in Presence of Shortcut},
+  booktitle = PROC #{ 48th } # conf_icassp,
+  address   = {Rhodes Island, Greece},
+  year      = {2023},
+  month 	= jun,
+  abstract  = {A deep neural classifier trained on an upstream task can be leveraged to boost the performance of another classifier in a related downstream task through the representations learned in hidden layers. However, presence of a shortcut (easy-to-learn feature) in the upstream task can considerably impair the versatility of intermediate representations and, in turn, the downstream performance. In this paper, we propose a method to improve the representations learned by deep neural image classifiers in spite of shortcuts in upstream data. In our method, the upstream classification objective is augmented with a type of adversarial training where an auxiliary network, so called lens, fools the classifier by exploiting the shortcut in reconstructing the images. Empirical comparisons in self-supervised and transfer learning tasks on three shortcut-biased datasets suggest the advantages of our method in terms of downstream performance and/or training time.},
+  pid   = {C52},
+}
 
 
 
+@InProceedings{GovindarajanSRL:2022,
+  author       = {Hariprasath Govindarajan and Per Sidén and Jacob Roll and Fredrik Lindsten},
+  title        = {{DINO} as a von {M}ises-{F}isher mixture model},
+  booktitle = {International Conference on Learning Representations},
+  year         = {2023},
+  abstract = {Self-distillation methods using Siamese networks are popular for self-supervised pre-training. DINO is one such method based on a cross-entropy loss between K-dimensional probability vectors, obtained by applying a softmax function to the dot product between representations and learnt prototypes. Given the fact that the learned representations are L2-normalized, we show that DINO can be interpreted as a mixture model of von Mises-Fisher components. With this interpretation, DINO assumes equal precision for all components when the prototypes are also L2-normalized. Using this insight we propose DINO-vMF, that adds appropriate normalization constants when computing the cluster assignment probabilities. Unlike DINO, DINO-vMF is stable also for the larger ViT-Base model with unnormalized prototypes. We show that the added flexibility of the mixture model is beneficial in terms of better image representations. The DINO-vMF pre-trained model consistently performs better than DINO on a range of downstream tasks.},
+  url      = {https://openreview.net/forum?id=cMJo1FTwBTQ},
+  pid      = {C51},
+  note     = {Notable top 25 %},
+}
+
+@InProceedings{OlminLSL:2022,
+  author       = {Amanda Olmin and Jakob Lindqvist and Lennart Svensson and Fredrik Lindsten},
+  title        = {Active Learning with Weak Labels for Gaussian Processes},
+  booktitle = PROC #{ 29th International Conference on Neural Information Processing (ICONIP)}, 
+  year         = {2022},
+  abstract = {Annotating data for supervised learning can be costly. When the annotation budget is limited, active learning can be used to select and annotate those observations that are likely to give the most gain in model performance. We propose an active learning algorithm that, in addition to selecting which observation to annotate, selects the precision of the annotation that is acquired. Assuming that annotations with low precision are cheaper to obtain, this allows the model to explore a larger part of the input space, with the same annotation costs. We build our acquisition function on the previously proposed BALD objective for Gaussian Processes, and empirically demonstrate the gains of being able to adjust the annotation precision in the active learning loop.},
+  url      = {https://arxiv.org/abs/2204.08335},
+  pid      = {C50},
+}
+
+
+@InProceedings{OskarssonSL:2022,
+  author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
+  title        = {Scalable Deep {G}aussian {M}arkov Random Fields for General Graphs},
+  booktitle = PROC #{ 39th } # conf_icml, 
+  year         = {2022},
+  abstract = {Machine learning methods on graphs have proven useful in many applications due to their ability to handle generally structured data. The framework of Gaussian Markov Random Fields (GMRFs) provides a principled way to define Gaussian models on graphs by utilizing their sparsity structure. We propose a flexible GMRF model for general graphs built on the multi-layer structure of Deep GMRFs, originally proposed for lattice graphs only. By designing a new type of layer we enable the model to scale to large graphs. The layer is constructed to allow for efficient training using variational inference and existing software frameworks for Graph Neural Networks. For a Gaussian likelihood, close to exact Bayesian inference is available for the latent field. This allows for making predictions with accompanying uncertainty estimates. The usefulness of the proposed model is verified by experiments on a number of synthetic and real world datasets, where it compares favorably to other both Bayesian and deep learning methods.},
+  url      = {https://proceedings.mlr.press/v162/oskarsson22a.html},
+  pid      = {C49},
+}
+
+
+@InProceedings{OlminL:2022,
+    title={Robustness and reliability when training with noisy labels},
+    author={Amanda Olmin and Fredrik Lindsten},
+    booktitle = PROC #{ 25th } # International Conference on Artificial Intelligence and Statistics},
+    pages = 	 {922--942},
+    editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+    volume = 	 {151},
+    series = 	 {Proceedings of Machine Learning Research},
+    month = 	 {28--30 Mar},
+    publisher =    {PMLR},
+    pdf = 	 {https://proceedings.mlr.press/v151/olmin22a/olmin22a.pdf},
+    url = 	 {https://proceedings.mlr.press/v151/olmin22a.html},
+    year={2022},
+    abstract = 	 { Labelling of data for supervised learning can be costly and time-consuming and the risk of incorporating label noise in large data sets is imminent. When training a flexible discriminative model using a strictly proper loss, such noise will inevitably shift the solution towards the conditional distribution over noisy labels. Nevertheless, while deep neural networks have proven capable of fitting random labels, regularisation and the use of robust loss functions empirically mitigate the effects of label noise. However, such observations concern robustness in accuracy, which is insufficient if reliable uncertainty quantification is critical. We demonstrate this by analysing the properties of the conditional distribution over noisy labels for an input-dependent noise model. In addition, we evaluate the set of robust loss functions characterised by noise-insensitive, asymptotic risk minimisers. We find that strictly proper and robust loss functions both offer asymptotic robustness in accuracy, but neither guarantee that the final model is calibrated. Moreover, even with robust loss functions, overfitting is an issue in practice. With these results, we aim to explain observed robustness of common training practices, such as early stopping, to label noise. In addition, we aim to encourage the development of new noise-robust algorithms that not only preserve accuracy but that also ensure reliability. },
+    pid      = {C48},	
+}
+
+
+@InProceedings{GovindarajanLLORL:2021,
+	title={Self-Supervised Representation Learning for Content Based Image Retrieval of Complex Scenes},
+	author={Hariprasath Govindarajan and Peter Lindskog and Dennis Lundstr\"om and Amanda Olmin and Jacob Roll and Fredrik Lindsten},
+	booktitle = {32nd IEEE Intelligent Vehicles Symposium -- Workshop on Data Driven Intelligent Vehicle Applications},
+	year={2021},
+	doi = {10.1109/IVWorkshops54471.2021.9669246},
+	abstract = {Although Content Based Image Retrieval (CBIR) is an active research field, application to images simultaneously containing multiple objects has received limited research interest. For such complex images, it is difficult to precisely convey the query intention, to encode all the image aspects into one compact global feature representation and to unambiguously define label similarity or dissimilarity. Motivated by the recent success on many visual benchmark tasks, we propose a selfsupervised method to train a feature representation learning model. We propose usage of multiple query images, and use an attention based architecture to extract features from diverse image aspects that benefits from this. The method shows promising performance on road scene datasets, and, consistently improves when multiple query images are used instead of a single query image.}, 
+	pid      = {C47},	
+}
+
+
+@InProceedings{AhmadianL:2021,
+	title={Likelihood-free Out-of-Distribution Detection with Invertible Generative Models},
+	author={Amirhossein Ahmadian and Fredrik Lindsten},
+	booktitle= PROC #{ 30th } # conf_ijcai, 
+	doi = {10.24963/ijcai.2021/292},
+	year={2021},	
+	abstract = {Likelihood of generative models has been used traditionally as a score to detect atypical (Out-of-Distribution, OOD) inputs. However, several recent studies have found this approach to be highly unreliable, even with invertible generative models, where computing likelihood is feasible. In this paper, we present a different framework for generative model--based OOD detection that employs the model in constructing a new representation space, instead of using it directly in computing typicality scores, emphasizing that the score function should be interpretable as the similarity between the input and training data in the new space. In practice, with a focus on invertible models, we propose to extract low-dimensional features (statistics) based on the model encoder and complexity of input images, and then use a One-Class SVM to score the data. Contrary to recently proposed OOD detection methods for generative models, our method does not require computing likelihood values. Consequently, it is much faster when using invertible models with iteratively approximated likelihood (e.g. iResNet), while it still has a performance competitive with other related methods.},
+	pid      = {C46},	
+}
+
+@InProceedings{WidmannLZ:2021,
+	title={Calibration tests beyond classification},
+	author={David Widmann and Fredrik Lindsten and Dave Zachariah},
+	booktitle={International Conference on Learning Representations},
+	year={2021},
+	url={https://openreview.net/forum?id=-bxf89v3Nx},
+	abstract = {Most supervised machine learning tasks are subject to irreducible prediction errors. Probabilistic predictive models address this limitation by providing probability distributions that represent a belief over plausible targets, rather than point estimates. Such models can be a valuable tool in decision-making under uncertainty, provided that the model output is meaningful and interpretable. Calibrated models guarantee that the probabilistic predictions are neither over- nor under-confident. In the machine learning literature, different measures and statistical tests have been proposed and studied for evaluating the calibration of classification models. For regression problems, however, research has been focused on a weaker condition of calibration based on predicted quantiles for real-valued targets. In this paper, we propose the first framework that unifies calibration evaluation and tests for probabilistic predictive models. It applies to any such model, including classification and regression models of arbitrary dimension. Furthermore, the framework generalizes existing measures and provides a more intuitive reformulation of a recently proposed framework for calibration in multi-class classification.},
+	pid      = {C45},	
+}
 
 @InCollection{NaessethLB:2020,
   author       = {Christian A. Naesseth and Fredrik Lindsten and David M. Blei},
   title        = {Markovian Score Climbing: Variational Inference with KL(p||q)},
   abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the “exclusive Kullback-Leibler (KL)” KL(q||p), often for computational convenience. Recent research, however, has also focused on the “inclusive KL” KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
   booktitle = {Advances in Neural Information Processing Systems 33},
-  url = {https://arxiv.org/abs/2003.10374},  
-  note = {Forthcoming},
+  url = {https://proceedings.neurips.cc/paper/2020/hash/b20706935de35bbe643733f856d9e5d6-Abstract.html},  
   year         = {2020},   
   pid      = {C44},
 }
@@ -428,7 +576,7 @@
   author       = {Per Sidén and Fredrik Lindsten},
   title        = {Deep {G}aussian {M}arkov random fields},
   booktitle = PROC #{ 37th } # conf_icml, 
-  url = {https://arxiv.org/abs/2002.07467},
+  url = {https://proceedings.mlr.press/v119/siden20a.html},
   year         = {2020},
   address   = {Virtual Conference},
   month     = jul,  
@@ -560,6 +708,7 @@
   year      = {2016},
   address   = {New York, USA},
   month     = jun,
+  url = {https://proceedings.mlr.press/v48/rainforth16.html},
   pid   = {C31},
 }
 
@@ -667,6 +816,7 @@
   year      = {2014},
   address   = {Los Angeles, USA},
   month     = dec,
+  url = {https://arxiv.org/abs/1409.7287},
   pid   = {C21},
   owner     = {lindsten},
   timestamp = {2014.09.02},
