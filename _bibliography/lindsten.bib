@@ -459,17 +459,30 @@
   address   = {Rome, Italy},
   month     = sep,  
   abstract = {In this paper we promote a general formulation of active learning (AL), wherein the typically binary decision to annotate a point or not is extended to selecting the qualities with which the points should be annotated. By linking the annotation quality to the cost of acquiring the label, we can trade a lower quality for a larger set of training samples, which may improve learning for the same annotation cost. To investigate this AL formulation, we introduce a concrete criterion, based on the mutual information (MI) between model parameters and noisy labels, for selecting annotation qualities for the entire dataset, before any labels are acquired. We illustrate the usefulness of our formulation with examples for both classification and regression and find that MI is a good candidate for a criterion, but its complexity limits its usefulness.},
-  pid      = {C55},
+  pid      = {C56},
 }
 
 @InProceedings{VargaKRRLR:2023,
   author       = {Johannes Varga and Emil Karlsson and Günther Raidl and Elina Rönnberg and Fredrik Lindsten and Tobias Rodemann},
   title        = {Speeding up Logic-Based Benders Decomposition by Strengthening Cuts with Graph Neural Networks},
-  booktitle = {The 9th International Conference on Machine Learning, Optimization and Data science (LOD)}, 
+  booktitle = PROC #{the 9th International Conference on Machine Learning, Optimization and Data science (LOD)}, 
   year         = {2023},
   address   = {Grasmere, UK},
   month     = sep,  
-  pid      = {C54},
+  pid      = {C55},
+}
+
+@InProceedings{GlaserWLG:2023,
+  author       = {Pierre Glaser and David Widmann and Fredrik Lindsten and Arthur Gretton},
+  title        = {Fast and Scalable Score-Based Kernel Calibration Tests},
+  booktitle = PROC #{ 39th } # uai, 
+  year         = {2023},
+  address   = {Pittsburgh, USA},
+  month     = aug,
+  abstract  = {We introduce the Kernel Calibration Conditional Stein Discrepancy test (KCCSD test), a nonparametric, kernel-based test for assessing the calibration of probabilistic models with well-defined scores. In contrast to previous methods, our test avoids the need for possibly expensive expectation approximations while providing control over its type-I error. We achieve these improvements by using a new family of kernels for score-based probabilities that can be estimated without probability density samples, and by using a Conditional Goodness of Fit criterion for the KCCSD test’s U-statistic. We demonstrate the properties of our test on various synthetic settings.},
+  url       = {https://proceedings.mlr.press/v216/glaser23a.html},
+  pid       = {C55},  
+  comment   = {Spotlight},
 }
 
 @InProceedings{AhmadianL:2023,
