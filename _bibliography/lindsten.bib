@@ -451,6 +451,41 @@
 }
 
 
+
+
+@InProceedings{KelviniusL:2024,
+  author       = {Filip Ekström Kelvinius and Fredrik Lindsten},
+  title        = {Discriminator Guidance for Autoregressive Diffusion Models},
+  booktitle = PROC #{ 27th } # conf_aistats, 
+  year         = {2024},
+  address   = {Valencia, Spain},
+  month     = may,  
+  abstract = {We introduce discriminator guidance in the setting of Autoregressive Diffusion Models. The use of a discriminator to guide a diffusion process has previously been used for continuous diffusion models, and in this work we derive ways of using a discriminator together with a pretrained generative model in the discrete case. First, we show that using an optimal discriminator will correct the pretrained model and enable exact sampling from the underlying data distribution. Second, to account for the realistic scenario of using a sub-optimal discriminator, we derive a sequential Monte Carlo algorithm which iteratively takes the predictions from the discrimiator into account during the generation process. We test these approaches on the task of generating molecular graphs and show how the discriminator improves the generative performance over using only the pretrained model.},
+  pid      = {C59},
+}
+
+@InProceedings{OlminLSL:2024,
+  author       = {Amanda Olmin and Jakob Lindqvist and Lennart Svensson and Fredrik Lindsten},
+  title        = {On the connection between Noise-Contrastive Estimation and Contrastive Divergence},
+  booktitle = PROC #{ 27th } # conf_aistats, 
+  year         = {2024},
+  address   = {Valencia, Spain},
+  month     = may,  
+  abstract = {Noise-contrastive estimation (NCE) is a popular method for estimating unnormalised probabilistic models, such as energy-based models, which are effective for modelling complex data distributions. Unlike classical maximum likelihood (ML) estimation that relies on importance sampling (resulting in ML-IS) or MCMC resulting in contrastive divergence, CD), NCE uses a proxy criterion to avoid the need for evaluating an often intractable normalisation constant. Despite apparent conceptual differences, we show that two NCE criteria, ranking NCE (RNCE) and conditional NCE (CNCE), can be viewed as ML estimation methods. Specifically, RNCE is equivalent to ML estimation combined with conditional importance sampling, and both RNCE and CNCE are special cases of CD. These findings bridge the gap between the two method classes and allow us to apply techniques from the ML-IS and CD literature to NCE, offering several advantageous extensions.},
+  pid      = {C58},
+}
+
+@InProceedings{AhmadianDEL:2024,
+  author       = {Amirhossein Ahmadian and Yifan Ding and Gabriel Eilertsen and Fredrik Lindsten},
+  title        = {Unsupervised Novelty Detection in Pretrained Representation Space with Locally Adapted Likelihood Ratio},
+  booktitle = PROC #{ 27th } # conf_aistats, 
+  year         = {2024},
+  address   = {Valencia, Spain},
+  month     = may,  
+  abstract = {Detecting novelties given unlabeled examples of normal data is a challenging task in machine learning, particularly when the novel and normal categories are semantically close. Large deep models pretrained on massive datasets can provide a rich representation space in which the simple k-nearest neighbor distance works as a novelty measure. However, as we show in this paper, the basic k-NN method might fail in this setup due to ignoring the `local geometry' of the distribution over representations as well as the impact of irrelevant 'background features'. To address this, we propose a fully unsupervised novelty detection approach that integrates the flexibility of k-NN with a locally adapted scaling of dimensions based on the 'neighbors of nearest neighbor' and the idea of 'likelihood ratio' in pretrained (self-supervised) representation spaces. Our experiments with image data show the advantage of this method when off-the-shelf vision transformers (e.g., pretrained by DINO) are used as the feature extractor without any fine-tuning.},
+  pid      = {C57},
+}
+
 @InProceedings{LindqvistOSL:2023,
   author       = {Jakob Lindqvist and Amanda Olmin and Lennart Svensson and Fredrik Lindsten},
   title        = {Generalised Active Learning with Annotation Quality Selection},
