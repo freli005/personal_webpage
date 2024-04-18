@@ -472,6 +472,7 @@
   address   = {Valencia, Spain},
   month     = may,  
   abstract = {Noise-contrastive estimation (NCE) is a popular method for estimating unnormalised probabilistic models, such as energy-based models, which are effective for modelling complex data distributions. Unlike classical maximum likelihood (ML) estimation that relies on importance sampling (resulting in ML-IS) or MCMC resulting in contrastive divergence, CD), NCE uses a proxy criterion to avoid the need for evaluating an often intractable normalisation constant. Despite apparent conceptual differences, we show that two NCE criteria, ranking NCE (RNCE) and conditional NCE (CNCE), can be viewed as ML estimation methods. Specifically, RNCE is equivalent to ML estimation combined with conditional importance sampling, and both RNCE and CNCE are special cases of CD. These findings bridge the gap between the two method classes and allow us to apply techniques from the ML-IS and CD literature to NCE, offering several advantageous extensions.},
+  url      = {https://arxiv.org/abs/2402.16688},
   pid      = {C59},
 }
 
@@ -564,7 +565,7 @@
 
 @InProceedings{OlminLSL:2022,
   author       = {Amanda Olmin and Jakob Lindqvist and Lennart Svensson and Fredrik Lindsten},
-  title        = {Active Learning with Weak Labels for Gaussian Processes},
+  title        = {Active Learning with Weak Supervision for Gaussian Processes},
   booktitle = PROC #{ 29th International Conference on Neural Information Processing (ICONIP)}, 
   year         = {2022},
   abstract = {Annotating data for supervised learning can be costly. When the annotation budget is limited, active learning can be used to select and annotate those observations that are likely to give the most gain in model performance. We propose an active learning algorithm that, in addition to selecting which observation to annotate, selects the precision of the annotation that is acquired. Assuming that annotations with low precision are cheaper to obtain, this allows the model to explore a larger part of the input space, with the same annotation costs. We build our acquisition function on the previously proposed BALD objective for Gaussian Processes, and empirically demonstrate the gains of being able to adjust the annotation precision in the active learning loop.},
