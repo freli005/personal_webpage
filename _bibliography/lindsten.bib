@@ -18,6 +18,8 @@
 @STRING{collection_nips = {Advances in Neural Information Processing Systems ({NIPS})}}
 @String{conf_acc                 = {American Control Conference ({ACC})}}
 
+@STRING{conf_bmvc = {British Machine Vision Conference}}
+
 @STRING{conf_aistats = {International Conference on Artificial Intelligence and Statistics}}
 
 @STRING{conf_cdc = {{IEEE} Conference on Decision and Control ({CDC})}}
@@ -459,6 +461,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+@InProceedings{GovindarajanSRL:2024,
+  author       = {Hariprasath Govindarajan, Per Sidén, Jacob Roll, Fredrik Lindsten},
+  title        = {On Partial Prototype Collapse in the DINO Family of Self-Supervised Methods},
+  booktitle = PROC #{ 35th } # conf_bmvc, 
+  year         = {2024},
+  address   = {Glasgow, UK},
+  month     = nov,  
+  abstract = {A prominent self-supervised learning paradigm is to model the representations as clusters, or more generally as a mixture model. Learning to map the data samples to compact representations and fitting the mixture model simultaneously leads to the representation collapse problem. Regularizing the distribution of data points over the clusters is the prevalent strategy to avoid this issue. While this is sufficient to prevent full representation collapse, we show that a partial prototype collapse problem still exists in the DINO family of methods, that leads to significant redundancies in the prototypes. Such prototype redundancies serve as shortcuts for the method to achieve a marginal latent class distribution that matches the prescribed prior. We show that by encouraging the model to use diverse prototypes, the partial prototype collapse can be mitigated. We study the downstream impact of effective utilization of the prototypes during pre-training. We show that it enables the methods to learn more fine-grained clusters, encouraging more informative representations. We demonstrate that this is especially beneficial when pre-training on a long-tailed fine-grained dataset.},
+  pid      = {C61},
+}
 
 @InProceedings{KelviniusL:2024,
   author       = {Filip Ekström Kelvinius and Fredrik Lindsten},
