@@ -465,10 +465,25 @@
 
 
 
+@InCollection{OskarssonLDL:2024,
+  author    = {Martin Andrae, Tomas Landelius, Joel Oskarsson, Fredrik Lindsten},
+  title     = {Continuous Ensemble Weather Forecasting with Diffusion models},
+  booktitle = PROC #{ 13th } # conf_iclr,
+  year      = {2025},
+  abstract  = {Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
+  note = {Forthcoming},
+  pid   = {C64},
+}
 
-
-
-
+@InCollection{DucrocqGWL:2025,
+  author    = {Ducrocq, Gabriel and Grunewald, Lukas and Westenhoff, Sebastian and Lindsten, Fredrik},
+  title     = {cryoSPHERE: Single-Particle HEterogeneous REconstruction from cryo EM},
+  booktitle = PROC #{ 13th } # conf_iclr,
+  year      = {2025},
+  abstract  = {The three-dimensional structure of proteins plays a crucial role in determining their function. Protein structure prediction methods, like AlphaFold, offer rapid access to a protein’s structure. However, large protein complexes cannot be reliably predicted, and proteins are dynamic, making it important to resolve their full conformational distribution. Single-particle cryo-electron microscopy (cryo-EM) is a powerful tool for determining the structures of large protein complexes. Importantly, the numerous images of a given protein contain underutilized information about conformational heterogeneity. These images are very noisy projections of the protein, and traditional methods for cryo-EM reconstruction are limited to recovering only one or a few consensus conformations. In this paper, we introduce cryoSPHERE, which is a deep learning method that uses a nominal protein structure (e.g., from AlphaFold) as input, learns how to divide it into segments, and moves these segments as approximately rigid bodies to fit the different conformations present in the cryo-EM dataset. This approach provides enough constraints to enable meaningful reconstructions of single protein structural ensembles. We demonstrate this with two synthetic datasets featuring varying levels of noise, as well as one real dataset. We show that cryoSPHERE is very resilient to the high levels of noise typically encountered in experiments, where we see consistent improvements over the current state-of-the-art for heterogeneous reconstruction.},
+  note = {Forthcoming},
+  pid   = {C63},
+}
 
 @InCollection{OskarssonLDL:2024,
   author    = {Oskarsson, Joel and Landelius, Tomas, and Deisenroth, Marc Peter and Lindsten, Fredrik},
@@ -477,7 +492,6 @@
   year      = {2024},
   abstract  = {In recent years, machine learning has established itself as a powerful tool for high-resolution weather forecasting. While most current machine learning models focus on deterministic forecasts, accurately capturing the uncertainty in the chaotic weather system calls for probabilistic modeling. We propose a probabilistic weather forecasting model called Graph-EFM, combining a flexible latent-variable formulation with the successful graph-based forecasting framework. The use of a hierarchical graph construction allows for efficient sampling of spatially coherent forecasts. Requiring only a single forward pass per time step, Graph-EFM allows for fast generation of arbitrarily large ensembles. We experiment with the model on both global and limited area forecasting. Ensemble forecasts from Graph-EFM achieve equivalent or lower errors than comparable deterministic models, with the added benefit of accurately capturing forecast uncertainty.},
   comment = {NeurIPS Spotlight},
-  note = {Forthcoming},
   pid   = {C62},
 }
 
