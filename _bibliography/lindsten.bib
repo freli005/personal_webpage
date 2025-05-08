@@ -166,302 +166,6 @@
 
 
 
-@Book{LindholmWLS:2020,
-  author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
-  title    = {Machine Learning: A First Course for Engineers and Scientists},
-  doi      = {10.1017/9781108919371},
-  publisher= {Cambridge University Press},
-  year     = {2022},
-  place    = {Cambridge},
-  url      = {http://smlbook.org/},
-  pid      = {B1},
-}
-
-
-
-
-
-
-@Article{NaessethLS:2019a,
-  author   = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Sch\"on},
-  title    = {Elements of Sequential {M}onte {C}arlo},
-  journal  = jour_fntml,
-  year     = {2019},
-  volume   = {12},
-  number   = {3},
-  pages    = {307--392},
-  abstract = {A core problem in statistics and probabilistic machine learning is to compute probability distributions and expectations. This is the fundamental problem of Bayesian statistics and machine learning, which frames all inference as expectations with respect to the posterior distribution. The key challenge is to approximate these intractable expectations. In this tutorial, we review sequential Monte Carlo (SMC), a random-sampling-based class of methods for approximate inference. First, we explain the basics of SMC, discuss practical issues, and review theoretical results. We then examine two of the main user design choices: the proposal distributions and the so called intermediate target distributions. We review recent results on how variational inference and amortization can be used to learn efficient proposals and target distributions. Next, we discuss the SMC estimate of the normalizing constant, how this can be used for pseudo-marginal inference and inference evaluation. Throughout the tutorial we illustrate the use of SMC on various models commonly used in machine learning, such as stochastic recurrent neural networks, probabilistic graphical models, and probabilistic programs.},
-  pid  = {M2},
-  doi      = {10.1561/2200000074},
-  url      = {https://arxiv.org/abs/1903.04797},
-}
-
-@Article{LindstenS:2013,
-  author    = {Lindsten, Fredrik and Sch\"on, Thomas B.},
-  title     = {Backward simulation methods for {M}onte {C}arlo statistical inference},
-  journal   = jour_fntml,
-  year      = {2013},
-  volume    = {6},
-  number    = {1},
-  pages     = {1--143},
-  doi = {10.1561/2200000045},
-  abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
-  pid   = {M1},
-}
-
-
-@Article{KonoldEtAl:2024,
-  author   = {Patrick Konold and Leonardo Monrroy and Alfredo Bellisario and Diogo Filipe and Patrick Adams and Roberto Alvarez and Richard Bean and Johan Bielecki and Szabolcs Bódizs and Gabriel Ducroq and Helmut Grubmueller and Richard Kirian and Marco Kloos and Jayanath Koliyadu and Faisal Koua and Taru Larkiala and Romain Letrun and Fredrik Lindsten and Michael Maihöfer and Andrew Martin and Petra Mészáros and Jennifer Mutisya and Amke Nimmrich and Kenta Okamoto and Adam Round and Tokushi Sato and Joana Valerio and Daniel Westphal and August Wolter and Tej Yenupuri and Tong You and Filipe Maia and Sebastian Westenhoff},
-  title    = {Microsecond time-resolved {X}-ray scattering by utilizing {MHz} repetition rate at second-generation {XFELs}},
-  journal  = {Nature Methods},
-  year = {2024},
-  note = {Forthcoming},  
-  pid  = {J19},
-}
-
-@Article{ZimmermannLMN:2023,
-  author   = {Heiko Zimmermann and Fredrik Lindsten and Jan-Willem van de Meent and Christian A Naesseth},
-  title    = {A Variational Perspective on Generative Flow Networks},
-  journal  = {Transactions on Machine Learning Research (TMLR)},
-  year = {2023},
-  month = {Apr},
-  url = {https://openreview.net/forum?id=AZ4GobeSLq},
-  pid  = {J18},
-}
-
-
-@Article{EkstromAL:2022,
-  author   = {Filip {Ekstr\"om Kelvinius} and Fredrik Lindsten and Rickard Armiento},
-  title    = {Graph-based machine learning beyond stable materials and relaxed crystal structures},
-  journal  = {Physical Review Materials},
-  volume = {6},
-  issue = {3},
-  pages = {033801},
-  numpages = {10},
-  year = {2022},
-  month = {Mar},
-  publisher = {American Physical Society},
-  doi = {10.1103/PhysRevMaterials.6.033801},
-  url = {https://arxiv.org/abs/2107.00493},
-  pid  = {J17},
-}
-
-
-@Article{WigrenWLWS:2022,
-  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
-  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
-  journal  = {{IEEE} Control Systems Magazine},
-  year     = {2022},
-  volume = {42},
-  number = {1},
-  pages = {75--102},
-  doi = {https://doi.org/10.1109/MCS.2021.3122269},
-  pid  = {J16},
-}
-
-
-
-@Misc{AlenlovDL:2021,
-  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
-  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
-  journal      = jour_jmlr,  
-  url = {https://www.jmlr.org/papers/v22/19-486.html},
-  year         = {2021},
-  volume = {22},
-  number = {141},
-  pages = {1--45},
-  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
-  pid      = {J15},
-}
-
-
-
-@Article{NaessethLS:2019,
-  author  = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Schön},
-  title   = {High-dimensional Filtering using Nested Sequential {M}onte {C}arlo},
-  journal = jour_tsp,
-  year    = {2019},
-  volume  = {67},
-  number  = {16},
-  pages   = {4177--4188},
-  doi     = {10.1109/TSP.2019.2926035},
-  url     = {https://arxiv.org/abs/1612.09162},
-  abstract = {Sequential Monte Carlo (SMC) methods comprise one of the most successful approaches to approximate Bayesian filtering. However, SMC without good proposal distributions struggle in high dimensions. We propose nested sequential Monte Carlo (NSMC), a methodology that generalises the SMC framework by requiring only approximate, properly weighted, samples from the SMC proposal distribution, while still resulting in a correct SMC algorithm. This way we can exactly approximate the locally optimal proposal, and extend the class of models for which we can perform efficient inference using SMC. We show improved accuracy over other state-of-the-art methods on several spatio-temporal state space models.},
-  pid = {J14},
-}
-
-@Article{RisuleoLH:2019,
-  author  = {Riccardo S. Risuleo and Fredrik Lindsten and Håkan Hjalmarsson},
-  title   = {Bayesian nonparametric identification of {W}iener systems},
-  journal = {Automatica},
-  year    = {2019},
-  volume  = {108},
-  note    = {Brief paper},
-  doi = {10.1016/j.automatica.2019.06.032},
-  abstract = {We propose a nonparametric approach for the identification of Wiener systems. We model the impulse response of the linear block and the static nonlinearity using Gaussian processes. The hyperparameters of the Gaussian processes are estimated using an iterative algorithm based on stochastic approximation expectation–maximization. In the iterations, we use elliptical slice sampling to approximate the posterior distribution of the impulse response and update the hyperparameter estimates. The same sampling is finally used to sample the posterior distribution and to compute point estimates. We compare the proposed approach with a parametric approach and a semi-parametric approach. In particular, we show that the proposed method has an advantage when a parametric model for the system is not readily available.},
-  pid = {J13},
-}
-
-@Article{JacobLS:2019,
-  author  = {Pierre E. Jacob and Fredrik Lindsten and Thomas B. Schön},
-  title   = {Smoothing with Couplings of Conditional Particle Filters},
-  journal = jour_jasa,
-  year    = {2019},
-  pages   = {721--729},
-  volume  = {115},
-  number  = {530},
-  abstract = {In state–space models, smoothing refers to the task of estimating a latent stochastic process given noisy measurements related to the process. We propose an unbiased estimator of smoothing expectations. The lack-of-bias property has methodological benefits: independent estimators can be generated in parallel, and CI can be constructed from the central limit theorem to quantify the approximation error. To design unbiased estimators, we combine a generic debiasing technique for Markov chains, with a Markov chain Monte Carlo algorithm for smoothing. The resulting procedure is widely applicable and we show in numerical experiments that the removal of the bias comes at a manageable increase in variance. We establish the validity of the proposed estimators under mild assumptions. Numerical experiments are provided on toy models, including a setting of highly informative observations, and for a realistic Lotka–Volterra model with an intractable transition density.},
-  pid = {J12},
-  doi     = {https://doi.org/10.1080/01621459.2018.1548856},
-  url = {https://arxiv.org/abs/1701.02002},
-}
-
-@Article{CalafatWLWF:2018,
-  author  = {Francisco M. Calafat and Thomas Wahl and Fredrik Lindsten and Joanne Williams and Eleanor Frajka-Williams},
-  title   = {Coherent modulation of the sea-level annual cycle in the {U}nited {S}tates by {A}tlantic {R}ossby waves},
-  journal = {Nature Communications},
-  year    = {2018},
-  volume  = {9},
-  number  = {2571},
-  doi = {10.1038/s41467-018-04898-y},
-  abstract = {Changes in the sea-level annual cycle (SLAC) can have profound impacts on coastal areas, including increased flooding risk and ecosystem alteration, yet little is known about the magnitude and drivers of such changes. Here we show, using novel Bayesian methods, that there are significant decadal fluctuations in the amplitude of the SLAC along the United States Gulf and Southeast coasts, including an extreme event in 2008–2009 that is likely (probability ≥68%) unprecedented in the tide-gauge record. Such fluctuations are coherent along the coast but decoupled from deep-ocean changes. Through the use of numerical and analytical ocean models, we show that the primary driver of these fluctuations involves incident Rossby waves that generate fast western-boundary waves. These Rossby waves project onto the basin-wide upper mid-ocean transport (top 1000 m) leading to a link with the SLAC, wherein larger SLAC amplitudes coincide with enhanced transport variability.},
-  pid = {J11},
-}
-
-@Article{SchonSML:2018,
-  author  = {Thomas B. Schön and Andreas Svensson and Lawrence Murray and Fredrik Lindsten},
-  title   = {Probabilistic learning of nonlinear dynamical systems using sequential {M}onte {C}arlo},
-  journal = {Mechanical Systems and Signal Processing},
-  year    = {2018},
-  volume  = {104},
-  pages   = {866--883},
-  abstract = {Probabilistic modeling provides the capability to represent and manipulate uncertainty in data, models, predictions and decisions. We are concerned with the problem of learning probabilistic models of dynamical systems from measured data. Specifically, we consider learning of probabilistic nonlinear state-space models. There is no closed-form solution available for this problem, implying that we are forced to use approximations. In this tutorial we will provide a self-contained introduction to one of the state-of-the-art methods---the particle Metropolis--Hastings algorithm---which has proven to offer a practical approximation. This is a Monte Carlo based method, where the particle filter is used to guide a Markov chain Monte Carlo method through the parameter space. One of the key merits of the particle Metropolis--Hastings algorithm is that it is guaranteed to converge to the "true solution" under mild assumptions, despite being based on a particle filter with only a finite number of particles. We will also provide a motivating numerical example illustrating the method using a modeling language tailored for sequential Monte Carlo methods. The intention of modeling languages of this kind is to open up the power of sophisticated Monte Carlo methods---including particle Metropolis--Hastings---to a large group of users without requiring them to know all the underlying mathematical details.},
-  url = {https://arxiv.org/abs/1703.02419},
-  pid = {J10},
-}
-
-@Article{SvenssonSL:2018,
-  author  = {Andreas Svensson and Thomas B. Schön and Fredrik Lindsten},
-  title   = {Learning of state-space models with highly informative observations: a tempered Sequential {M}onte {C}arlo solution},
-  journal = {Mechanical Systems and Signal Processing},
-  year    = {2018},
-  volume  = {104},
-  pages   = {915--928},
-  url = {https://arxiv.org/abs/1702.01618},
-  abstract = {Probabilistic (or Bayesian) modeling and learning offers interesting possibilities for systematic representation of uncertainty using probability theory. However, probabilistic learning often leads to computationally challenging problems. Some problems of this type that were previously intractable can now be solved on standard personal computers thanks to recent advances in Monte Carlo methods. In particular, for learning of unknown parameters in nonlinear state-space models, methods based on the particle filter (a Monte Carlo method) have proven very useful. A notoriously challenging problem, however, still occurs when the observations in the state-space model are highly informative, i.e. when there is very little or no measurement noise present, relative to the amount of process noise. The particle filter will then struggle in estimating one of the basic components for probabilistic learning, namely the likelihood p(data|parameters). To this end we suggest an algorithm which initially assumes that there is substantial amount of artificial measurement noise present. The variance of this noise is sequentially decreased in an adaptive fashion such that we, in the end, recover the original problem or possibly a very close approximation of it. The main component in our algorithm is a sequential Monte Carlo (SMC) sampler, which gives our proposed method a clear resemblance to the SMC^2 method. Another natural link is also made to the ideas underlying the approximate Bayesian computation (ABC). We illustrate it with numerical examples, and in particular show promising results for a challenging Wiener-Hammerstein benchmark problem.},
-  pid = {J9},
-}
-
-
-@Article{SinghLM:2017,
-  author  = {Singh, Sumeetpal S. and Lindsten, Fredrik and Moulines, Eric},
-  title   = {Blocking Strategies and Stability of Particle {G}ibbs Samplers},
-  journal = {Biometrika},
-  year    = {2017},
-  volume  = {104},
-  number  = {4},
-  pages   = {953--969},
-  url = {https://arxiv.org/abs/1509.08362},
-  doi = {10.1093/biomet/asx051},
-  abstract = {Sampling from the conditional (or posterior) probability distribution of the latent states of a Hidden Markov Model, given the realization of the observed process, is a non-trivial problem in the context of Markov Chain Monte Carlo. To do this Andrieu et al. (2010) constructed a Markov kernel which leaves this conditional distribution invariant using a Particle Filter. From a practitioner's point of view, this Markov kernel attempts to mimic the act of sampling all the latent state variables as one block from the posterior distribution but for models where exact simulation is not possible. There are some recent theoretical results that establish the uniform ergodicity of this Markov kernel and that the mixing rate does not diminish provided the number of particles grows at least linearly with the number of latent states in the posterior. This gives rise to a cost, per application of the kernel, that is quadratic in the number of latent states which could be prohibitive for long observation sequences. We seek to answer an obvious but important question: is there a different implementation with a cost per-iteration that grows linearly with the number of latent states, but which is still stable in the sense that its mixing rate does not deteriorate? We address this problem using blocking strategies, which are easily parallelizable, and prove stability of the resulting sampler.},
-  pid = {J8},
-}
-
-@Article{LindstenJNKSAB:2017,
-  author  = {Lindsten, Fredrik and Johansen, Adam and Naesseth, Christian A. and Kirkpatrick, Brent and Sch\"on, Thomas B. and Aston, John and Bouchard-C\^ot\'e, Alexandre},
-  title   = {Divide-and-Conquer with Sequential {M}onte {C}arlo},
-  journal = jour_jcgs,
-  year    = {2017},
-  volume  = {26},
-  number  = {2},
-  pages   = {445--458},
-  url = {https://arxiv.org/abs/1406.4993},
-  doi = {10.1080/10618600.2016.1237363},
-  abstract = {We propose a novel class of Sequential Monte Carlo (SMC) algorithms, appropriate for inference in probabilistic graphical models. This class of algorithms adopts a divide-and-conquer approach based upon an auxiliary tree-structured decomposition of the model of interest, turning the overall inferential task into a collection of recursively solved sub-problems. The proposed method is applicable to a broad class of probabilistic graphical models, including models with loops. Unlike a standard SMC sampler, the proposed Divide-and-Conquer SMC employs multiple independent populations of weighted particles, which are resampled, merged, and propagated as the method progresses. We illustrate empirically that this approach can outperform standard methods in terms of the accuracy of the posterior expectation and marginal likelihood approximations. Divide-and-Conquer SMC also opens up novel parallel implementation options and the possibility of concentrating the computational effort on the most challenging sub-problems. We demonstrate its performance on a Markov random field and on a hierarchical logistic regression problem.},
-  pid = {J7},
-}
-
-@Article{LindstenBSSG:2016,
-  author  = {Fredrik Lindsten and Pete Bunch and S. Särkkä and Thomas B. Schön and Simon J. Godsill},
-  title   = {Rao-{B}lackwellized particle smoothers for conditionally linear {G}aussian models},
-  journal = {IEEE Journal of Selected Topics in Signal Processing},
-  year    = {2016},
-  volume  = {10},
-  number  = {2},
-  pages   = {353--365},
-  url = {https://arxiv.org/abs/1505.06357},
-  abstract = {Sequential Monte Carlo (SMC) methods, such as the particle filter, are by now one of the standard computational techniques for addressing the filtering problem in general state-space models. However, many applications require post-processing of data offline. In such scenarios the smoothing problem--in which all the available data is used to compute state estimates--is of central interest. We consider the smoothing problem for a class of conditionally linear Gaussian models. We present a forward-backward-type Rao-Blackwellized particle smoother (RBPS) that is able to exploit the tractable substructure present in these models. Akin to the well known Rao-Blackwellized particle filter, the proposed RBPS marginalizes out a conditionally tractable subset of state variables, effectively making use of SMC only for the "intractable part" of the model. Compared to existing RBPS, two key features of the proposed method are: (i) it does not require structural approximations of the model, and (ii) the aforementioned marginalization is done both in the forward direction and in the backward direction.},
-  pid = {J6},
-}
-
-@Article{LindstenDM:2015,
-  author    = {Lindsten, Fredrik and Douc, Randal and Moulines, Eric},
-  title     = {Uniform ergodicity of the Particle {G}ibbs sampler},
-  journal   = jour_sjos,
-  year      = {2015},
-  volume    = {42},
-  number    = {3},
-  pages     = {775--797},
-  pid   = {J5},
-  doi       = {10.1111/sjos.12136},
-  url = {https://arxiv.org/abs/1401.0683},
-  abstract = {The particle Gibbs (PG) sampler is a systematic way of using a particle filter within Markov chain Monte Carlo (MCMC). This results in an off-the-shelf Markov kernel on the space of state trajectories, which can be used to simulate from the full joint smoothing distribution for a state space model in an MCMC scheme. We show that the PG Markov kernel is uniformly ergodic under rather general assumptions, that we will carefully review and discuss. In particular, we provide an explicit rate of convergence which reveals that: (i) for fixed number of data points, the convergence rate can be made arbitrarily good by increasing the number of particles, and (ii) under general mixing assumptions, the convergence rate can be kept constant by increasing the number of particles superlinearly with the number of observations. We illustrate the applicability of our result by studying in detail two common state space models with non-compact state spaces.},
-}
-
-@Article{OezkanLFG:2015,
-  author  = {{\"O}zkan, Emre and Lindsten, Fredrik and Fritsche, Carsten and Gustafsson, Fredrik},
-  title   = {Recursive maximum likelihood identification of jump {M}arkov nonlinear systems},
-  journal = jour_tsp,
-  year    = {2015},
-  volume  = {63},
-  number  = {3},
-  pages   = {754--765},
-  url  = {https://arxiv.org/abs/1312.0781},
-  abstract = {In this contribution, we present an online method for joint state and parameter estimation in jump Markov non-linear systems (JMNLS). State inference is enabled via the use of particle filters which makes the method applicable to a wide range of non-linear models. To exploit the inherent structure of JMNLS, we design a Rao-Blackwellized particle filter (RBPF) where the discrete mode is marginalized out analytically. This results in an efficient implementation of the algorithm and reduces the estimation error variance. The proposed RBPF is then used to compute, recursively in time, smoothed estimates of complete data sufficient statistics. Together with the online expectation maximization algorithm, this enables recursive identification of unknown model parameters. The performance of the method is illustrated in simulations and on a localization problem in wireless networks using real data.},
-  pid = {J4},
-}
-
-@Article{DahlinLS:2015,
-  author  = {Dahlin, Johan and Lindsten, Fredrik and Sch\"on, Thomas B.},
-  title   = {Particle {M}etropolis-{H}astings using gradient and {H}essian information},
-  journal = jour_statcomp,
-  year    = {2015},
-  volume  = {25},
-  number  = {1},
-  pages   = {81--92},
-  url = {https://arxiv.org/abs/1311.0686},
-  abstract = {Particle Metropolis-Hastings (PMH) allows for Bayesian parameter inference in nonlinear state space models by combining Markov chain Monte Carlo (MCMC) and particle filtering. The latter is used to estimate the intractable likelihood. In its original formulation, PMH makes use of a marginal MCMC proposal for the parameters, typically a Gaussian random walk. However, this can lead to a poor exploration of the parameter space and an inefficient use of the generated particles. We propose a number of alternative versions of PMH that incorporate gradient and Hessian information about the posterior into the proposal. This information is more or less obtained as a byproduct of the likelihood estimation. Indeed, we show how to estimate the required information using a fixed-lag particle smoother, with a computational cost growing linearly in the number of particles. We conclude that the proposed methods can: (i) decrease the length of the burn-in phase, (ii) increase the mixing of the Markov chain at the stationary phase, and (iii) make the proposal distribution scale invariant which simplifies tuning.},
-  pid = {J3},
-}
-
-@Article{LindstenJS:2014,
-  author    = {Lindsten, Fredrik and Jordan, Michael I. and Sch\"on, Thomas B.},
-  title     = {Particle {G}ibbs with Ancestor Sampling},
-  journal   = jour_jmlr,
-  year      = {2014},
-  volume    = {15},
-  pages     = {2145--2184},
-  url = {http://jmlr.org/papers/v15/lindsten14a.html},
-  abstract = {Particle Markov chain Monte Carlo (PMCMC) is a systematic way of combining the two main tools used for Monte Carlo statistical inference: sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC). We present a novel PMCMC algorithm that we refer to as particle Gibbs with ancestor sampling (PGAS). PGAS provides the data analyst with an off-the-shelf class of Markov kernels that can be used to simulate the typically high-dimensional and highly autocorrelated state trajectory in a state-space model. The ancestor sampling procedure enables fast mixing of the PGAS kernel even when using seemingly few particles in the underlying SMC sampler. This is important as it can significantly reduce the computational burden that is typically associated with using SMC. PGAS is conceptually similar to the existing PG with backward simulation (PGBS) procedure. Instead of using separate forward and backward sweeps as in PGBS, however, we achieve the same effect in a single forward sweep. This makes PGAS well suited for addressing inference problems not only in state-space models, but also in models with more complex dependencies, such as non-Markovian, Bayesian nonparametric, and general probabilistic graphical models.},
-  pid   = {J2},
-}
-
-
-
-@Article{LindstenSJ:2013,
-  author    = {Lindsten, Fredrik and Sch\"on, Thomas B. and Jordan, Michael I.},
-  title     = {Bayesian semiparametric {W}iener system identification},
-  journal   = jour_automatica,
-  year      = {2013},
-  volume    = {49},
-  number    = {7},
-  pages     = {2053--2063},
-  doi = {10.1016/j.automatica.2013.03.021},
-  abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
-  pid   = {J1},
-}
-
-
 
 
 
@@ -472,9 +176,9 @@
   booktitle = PROC #{ 42nd } # conf_icml,
   year      = {2025},
   abstract  = {Crystalline materials often exhibit a high level of symmetry. However, most generative models do not account for symmetry, but rather model each atom without any constraints on its position or element. We propose a generative model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based descriptions of crystals. This is enabled by considering a crystal structure representation that encodes all symmetry, and we design a novel neural network architecture which enables using this representation inside a discrete generative model framework. In addition to respecting symmetry by construction, the discrete nature of our model enables fast generation. We additionally present a new metric, Fréchet Wrenformer Distance, which captures the symmetry aspects of the materials generated, and we benchmark WyckoffDiff against recently proposed generative models for crystal generation.},
-  arxiv = {https://arxiv.org/abs/2502.06485},
+  url = {https://arxiv.org/abs/2502.06485},
   note = {Forthcoming},
-  pid   = {C66},
+  pid   = {C67},
 }
 
 @InProceedings{KelviniusZL:2025,
@@ -483,7 +187,18 @@
   booktitle = PROC #{ 42nd } # conf_icml,
   year      = {2025},
   abstract  = {A recent line of research has exploited pre-trained generative diffusion models as priors for solving Bayesian inverse problems. We contribute to this research direction by designing a sequential Monte Carlo method for linear-Gaussian inverse problems which builds on ``decoupled diffusion", where the generative process is designed such that larger updates to the sample are possible. The method is asymptotically exact and we demonstrate the effectiveness of our Decoupled Diffusion Sequential Monte Carlo (DDSMC) algorithm on both synthetic data and image reconstruction tasks. Further, we demonstrate how the approach can be extended to discrete data.},
-  arxiv = {https://arxiv.org/abs/2502.06379},
+  url = {https://arxiv.org/abs/2502.06379},
+  note = {Forthcoming},
+  pid   = {C66},
+}
+
+@InProceedings{DingAAULE:2025,
+  author    = {Yifan Ding, Arturas Aleksandrauskas, Amirhossein Ahmadian, Jonas Unger, Fredrik Lindsten, Gabriel Eilertsen},
+  title     = {Revisiting Likelihood-Based Out-of-Distribution Detection by Modeling Representations},
+  booktitle = PROC # {Scandinavian Conference on Image Analysis},
+  year      = {2025},
+  abstract  = {Out-of-distribution (OOD) detection is critical for ensuring the reliability of deep learning systems, particularly in safety-critical applications. Likelihood-based deep generative models have historically faced criticism for their unsatisfactory performance in OOD detection, often assigning higher likelihood to OOD data than in-distribution samples when applied to image data. In this work, we demonstrate that likelihood is not inherently flawed. Rather, several properties in the images space prohibit likelihood as a valid detection score. Given a sufficiently good likelihood estimator, specifically using the probability flow formulation of a diffusion model, we show that likelihood-based methods can still perform on par with state-of-the-art methods when applied in the representation space of pre-trained encoders.},
+  url = {https://arxiv.org/abs/2504.07793},
   note = {Forthcoming},
   pid   = {C65},
 }
@@ -1247,4 +962,300 @@
 }
 
 
-@Comment{jabref-meta: databaseType:bibtex;}
+
+
+@Book{LindholmWLS:2020,
+  author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
+  title    = {Machine Learning: A First Course for Engineers and Scientists},
+  doi      = {10.1017/9781108919371},
+  publisher= {Cambridge University Press},
+  year     = {2022},
+  place    = {Cambridge},
+  url      = {http://smlbook.org/},
+  pid      = {B1},
+}
+
+
+
+
+
+
+@Article{NaessethLS:2019a,
+  author   = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Sch\"on},
+  title    = {Elements of Sequential {M}onte {C}arlo},
+  journal  = jour_fntml,
+  year     = {2019},
+  volume   = {12},
+  number   = {3},
+  pages    = {307--392},
+  abstract = {A core problem in statistics and probabilistic machine learning is to compute probability distributions and expectations. This is the fundamental problem of Bayesian statistics and machine learning, which frames all inference as expectations with respect to the posterior distribution. The key challenge is to approximate these intractable expectations. In this tutorial, we review sequential Monte Carlo (SMC), a random-sampling-based class of methods for approximate inference. First, we explain the basics of SMC, discuss practical issues, and review theoretical results. We then examine two of the main user design choices: the proposal distributions and the so called intermediate target distributions. We review recent results on how variational inference and amortization can be used to learn efficient proposals and target distributions. Next, we discuss the SMC estimate of the normalizing constant, how this can be used for pseudo-marginal inference and inference evaluation. Throughout the tutorial we illustrate the use of SMC on various models commonly used in machine learning, such as stochastic recurrent neural networks, probabilistic graphical models, and probabilistic programs.},
+  pid  = {M2},
+  doi      = {10.1561/2200000074},
+  url      = {https://arxiv.org/abs/1903.04797},
+}
+
+@Article{LindstenS:2013,
+  author    = {Lindsten, Fredrik and Sch\"on, Thomas B.},
+  title     = {Backward simulation methods for {M}onte {C}arlo statistical inference},
+  journal   = jour_fntml,
+  year      = {2013},
+  volume    = {6},
+  number    = {1},
+  pages     = {1--143},
+  doi = {10.1561/2200000045},
+  abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
+  pid   = {M1},
+}
+
+
+@Article{KonoldEtAl:2024,
+  author   = {Patrick Konold and Leonardo Monrroy and Alfredo Bellisario and Diogo Filipe and Patrick Adams and Roberto Alvarez and Richard Bean and Johan Bielecki and Szabolcs Bódizs and Gabriel Ducroq and Helmut Grubmueller and Richard Kirian and Marco Kloos and Jayanath Koliyadu and Faisal Koua and Taru Larkiala and Romain Letrun and Fredrik Lindsten and Michael Maihöfer and Andrew Martin and Petra Mészáros and Jennifer Mutisya and Amke Nimmrich and Kenta Okamoto and Adam Round and Tokushi Sato and Joana Valerio and Daniel Westphal and August Wolter and Tej Yenupuri and Tong You and Filipe Maia and Sebastian Westenhoff},
+  title    = {Microsecond time-resolved {X}-ray scattering by utilizing {MHz} repetition rate at second-generation {XFELs}},
+  journal  = {Nature Methods},
+  year = {2024},
+  note = {Forthcoming},  
+  pid  = {J19},
+}
+
+@Article{ZimmermannLMN:2023,
+  author   = {Heiko Zimmermann and Fredrik Lindsten and Jan-Willem van de Meent and Christian A Naesseth},
+  title    = {A Variational Perspective on Generative Flow Networks},
+  journal  = {Transactions on Machine Learning Research (TMLR)},
+  year = {2023},
+  month = {Apr},
+  url = {https://openreview.net/forum?id=AZ4GobeSLq},
+  pid  = {J18},
+}
+
+
+@Article{EkstromAL:2022,
+  author   = {Filip {Ekstr\"om Kelvinius} and Fredrik Lindsten and Rickard Armiento},
+  title    = {Graph-based machine learning beyond stable materials and relaxed crystal structures},
+  journal  = {Physical Review Materials},
+  volume = {6},
+  issue = {3},
+  pages = {033801},
+  numpages = {10},
+  year = {2022},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevMaterials.6.033801},
+  url = {https://arxiv.org/abs/2107.00493},
+  pid  = {J17},
+}
+
+
+@Article{WigrenWLWS:2022,
+  author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
+  title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
+  journal  = {{IEEE} Control Systems Magazine},
+  year     = {2022},
+  volume = {42},
+  number = {1},
+  pages = {75--102},
+  doi = {https://doi.org/10.1109/MCS.2021.3122269},
+  pid  = {J16},
+}
+
+
+
+@Misc{AlenlovDL:2021,
+  author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
+  title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
+  journal      = jour_jmlr,  
+  url = {https://www.jmlr.org/papers/v22/19-486.html},
+  year         = {2021},
+  volume = {22},
+  number = {141},
+  pages = {1--45},
+  abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
+  pid      = {J15},
+}
+
+
+
+@Article{NaessethLS:2019,
+  author  = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Schön},
+  title   = {High-dimensional Filtering using Nested Sequential {M}onte {C}arlo},
+  journal = jour_tsp,
+  year    = {2019},
+  volume  = {67},
+  number  = {16},
+  pages   = {4177--4188},
+  doi     = {10.1109/TSP.2019.2926035},
+  url     = {https://arxiv.org/abs/1612.09162},
+  abstract = {Sequential Monte Carlo (SMC) methods comprise one of the most successful approaches to approximate Bayesian filtering. However, SMC without good proposal distributions struggle in high dimensions. We propose nested sequential Monte Carlo (NSMC), a methodology that generalises the SMC framework by requiring only approximate, properly weighted, samples from the SMC proposal distribution, while still resulting in a correct SMC algorithm. This way we can exactly approximate the locally optimal proposal, and extend the class of models for which we can perform efficient inference using SMC. We show improved accuracy over other state-of-the-art methods on several spatio-temporal state space models.},
+  pid = {J14},
+}
+
+@Article{RisuleoLH:2019,
+  author  = {Riccardo S. Risuleo and Fredrik Lindsten and Håkan Hjalmarsson},
+  title   = {Bayesian nonparametric identification of {W}iener systems},
+  journal = {Automatica},
+  year    = {2019},
+  volume  = {108},
+  note    = {Brief paper},
+  doi = {10.1016/j.automatica.2019.06.032},
+  abstract = {We propose a nonparametric approach for the identification of Wiener systems. We model the impulse response of the linear block and the static nonlinearity using Gaussian processes. The hyperparameters of the Gaussian processes are estimated using an iterative algorithm based on stochastic approximation expectation–maximization. In the iterations, we use elliptical slice sampling to approximate the posterior distribution of the impulse response and update the hyperparameter estimates. The same sampling is finally used to sample the posterior distribution and to compute point estimates. We compare the proposed approach with a parametric approach and a semi-parametric approach. In particular, we show that the proposed method has an advantage when a parametric model for the system is not readily available.},
+  pid = {J13},
+}
+
+@Article{JacobLS:2019,
+  author  = {Pierre E. Jacob and Fredrik Lindsten and Thomas B. Schön},
+  title   = {Smoothing with Couplings of Conditional Particle Filters},
+  journal = jour_jasa,
+  year    = {2019},
+  pages   = {721--729},
+  volume  = {115},
+  number  = {530},
+  abstract = {In state–space models, smoothing refers to the task of estimating a latent stochastic process given noisy measurements related to the process. We propose an unbiased estimator of smoothing expectations. The lack-of-bias property has methodological benefits: independent estimators can be generated in parallel, and CI can be constructed from the central limit theorem to quantify the approximation error. To design unbiased estimators, we combine a generic debiasing technique for Markov chains, with a Markov chain Monte Carlo algorithm for smoothing. The resulting procedure is widely applicable and we show in numerical experiments that the removal of the bias comes at a manageable increase in variance. We establish the validity of the proposed estimators under mild assumptions. Numerical experiments are provided on toy models, including a setting of highly informative observations, and for a realistic Lotka–Volterra model with an intractable transition density.},
+  pid = {J12},
+  doi     = {https://doi.org/10.1080/01621459.2018.1548856},
+  url = {https://arxiv.org/abs/1701.02002},
+}
+
+@Article{CalafatWLWF:2018,
+  author  = {Francisco M. Calafat and Thomas Wahl and Fredrik Lindsten and Joanne Williams and Eleanor Frajka-Williams},
+  title   = {Coherent modulation of the sea-level annual cycle in the {U}nited {S}tates by {A}tlantic {R}ossby waves},
+  journal = {Nature Communications},
+  year    = {2018},
+  volume  = {9},
+  number  = {2571},
+  doi = {10.1038/s41467-018-04898-y},
+  abstract = {Changes in the sea-level annual cycle (SLAC) can have profound impacts on coastal areas, including increased flooding risk and ecosystem alteration, yet little is known about the magnitude and drivers of such changes. Here we show, using novel Bayesian methods, that there are significant decadal fluctuations in the amplitude of the SLAC along the United States Gulf and Southeast coasts, including an extreme event in 2008–2009 that is likely (probability ≥68%) unprecedented in the tide-gauge record. Such fluctuations are coherent along the coast but decoupled from deep-ocean changes. Through the use of numerical and analytical ocean models, we show that the primary driver of these fluctuations involves incident Rossby waves that generate fast western-boundary waves. These Rossby waves project onto the basin-wide upper mid-ocean transport (top 1000 m) leading to a link with the SLAC, wherein larger SLAC amplitudes coincide with enhanced transport variability.},
+  pid = {J11},
+}
+
+@Article{SchonSML:2018,
+  author  = {Thomas B. Schön and Andreas Svensson and Lawrence Murray and Fredrik Lindsten},
+  title   = {Probabilistic learning of nonlinear dynamical systems using sequential {M}onte {C}arlo},
+  journal = {Mechanical Systems and Signal Processing},
+  year    = {2018},
+  volume  = {104},
+  pages   = {866--883},
+  abstract = {Probabilistic modeling provides the capability to represent and manipulate uncertainty in data, models, predictions and decisions. We are concerned with the problem of learning probabilistic models of dynamical systems from measured data. Specifically, we consider learning of probabilistic nonlinear state-space models. There is no closed-form solution available for this problem, implying that we are forced to use approximations. In this tutorial we will provide a self-contained introduction to one of the state-of-the-art methods---the particle Metropolis--Hastings algorithm---which has proven to offer a practical approximation. This is a Monte Carlo based method, where the particle filter is used to guide a Markov chain Monte Carlo method through the parameter space. One of the key merits of the particle Metropolis--Hastings algorithm is that it is guaranteed to converge to the "true solution" under mild assumptions, despite being based on a particle filter with only a finite number of particles. We will also provide a motivating numerical example illustrating the method using a modeling language tailored for sequential Monte Carlo methods. The intention of modeling languages of this kind is to open up the power of sophisticated Monte Carlo methods---including particle Metropolis--Hastings---to a large group of users without requiring them to know all the underlying mathematical details.},
+  url = {https://arxiv.org/abs/1703.02419},
+  pid = {J10},
+}
+
+@Article{SvenssonSL:2018,
+  author  = {Andreas Svensson and Thomas B. Schön and Fredrik Lindsten},
+  title   = {Learning of state-space models with highly informative observations: a tempered Sequential {M}onte {C}arlo solution},
+  journal = {Mechanical Systems and Signal Processing},
+  year    = {2018},
+  volume  = {104},
+  pages   = {915--928},
+  url = {https://arxiv.org/abs/1702.01618},
+  abstract = {Probabilistic (or Bayesian) modeling and learning offers interesting possibilities for systematic representation of uncertainty using probability theory. However, probabilistic learning often leads to computationally challenging problems. Some problems of this type that were previously intractable can now be solved on standard personal computers thanks to recent advances in Monte Carlo methods. In particular, for learning of unknown parameters in nonlinear state-space models, methods based on the particle filter (a Monte Carlo method) have proven very useful. A notoriously challenging problem, however, still occurs when the observations in the state-space model are highly informative, i.e. when there is very little or no measurement noise present, relative to the amount of process noise. The particle filter will then struggle in estimating one of the basic components for probabilistic learning, namely the likelihood p(data|parameters). To this end we suggest an algorithm which initially assumes that there is substantial amount of artificial measurement noise present. The variance of this noise is sequentially decreased in an adaptive fashion such that we, in the end, recover the original problem or possibly a very close approximation of it. The main component in our algorithm is a sequential Monte Carlo (SMC) sampler, which gives our proposed method a clear resemblance to the SMC^2 method. Another natural link is also made to the ideas underlying the approximate Bayesian computation (ABC). We illustrate it with numerical examples, and in particular show promising results for a challenging Wiener-Hammerstein benchmark problem.},
+  pid = {J9},
+}
+
+
+@Article{SinghLM:2017,
+  author  = {Singh, Sumeetpal S. and Lindsten, Fredrik and Moulines, Eric},
+  title   = {Blocking Strategies and Stability of Particle {G}ibbs Samplers},
+  journal = {Biometrika},
+  year    = {2017},
+  volume  = {104},
+  number  = {4},
+  pages   = {953--969},
+  url = {https://arxiv.org/abs/1509.08362},
+  doi = {10.1093/biomet/asx051},
+  abstract = {Sampling from the conditional (or posterior) probability distribution of the latent states of a Hidden Markov Model, given the realization of the observed process, is a non-trivial problem in the context of Markov Chain Monte Carlo. To do this Andrieu et al. (2010) constructed a Markov kernel which leaves this conditional distribution invariant using a Particle Filter. From a practitioner's point of view, this Markov kernel attempts to mimic the act of sampling all the latent state variables as one block from the posterior distribution but for models where exact simulation is not possible. There are some recent theoretical results that establish the uniform ergodicity of this Markov kernel and that the mixing rate does not diminish provided the number of particles grows at least linearly with the number of latent states in the posterior. This gives rise to a cost, per application of the kernel, that is quadratic in the number of latent states which could be prohibitive for long observation sequences. We seek to answer an obvious but important question: is there a different implementation with a cost per-iteration that grows linearly with the number of latent states, but which is still stable in the sense that its mixing rate does not deteriorate? We address this problem using blocking strategies, which are easily parallelizable, and prove stability of the resulting sampler.},
+  pid = {J8},
+}
+
+@Article{LindstenJNKSAB:2017,
+  author  = {Lindsten, Fredrik and Johansen, Adam and Naesseth, Christian A. and Kirkpatrick, Brent and Sch\"on, Thomas B. and Aston, John and Bouchard-C\^ot\'e, Alexandre},
+  title   = {Divide-and-Conquer with Sequential {M}onte {C}arlo},
+  journal = jour_jcgs,
+  year    = {2017},
+  volume  = {26},
+  number  = {2},
+  pages   = {445--458},
+  url = {https://arxiv.org/abs/1406.4993},
+  doi = {10.1080/10618600.2016.1237363},
+  abstract = {We propose a novel class of Sequential Monte Carlo (SMC) algorithms, appropriate for inference in probabilistic graphical models. This class of algorithms adopts a divide-and-conquer approach based upon an auxiliary tree-structured decomposition of the model of interest, turning the overall inferential task into a collection of recursively solved sub-problems. The proposed method is applicable to a broad class of probabilistic graphical models, including models with loops. Unlike a standard SMC sampler, the proposed Divide-and-Conquer SMC employs multiple independent populations of weighted particles, which are resampled, merged, and propagated as the method progresses. We illustrate empirically that this approach can outperform standard methods in terms of the accuracy of the posterior expectation and marginal likelihood approximations. Divide-and-Conquer SMC also opens up novel parallel implementation options and the possibility of concentrating the computational effort on the most challenging sub-problems. We demonstrate its performance on a Markov random field and on a hierarchical logistic regression problem.},
+  pid = {J7},
+}
+
+@Article{LindstenBSSG:2016,
+  author  = {Fredrik Lindsten and Pete Bunch and S. Särkkä and Thomas B. Schön and Simon J. Godsill},
+  title   = {Rao-{B}lackwellized particle smoothers for conditionally linear {G}aussian models},
+  journal = {IEEE Journal of Selected Topics in Signal Processing},
+  year    = {2016},
+  volume  = {10},
+  number  = {2},
+  pages   = {353--365},
+  url = {https://arxiv.org/abs/1505.06357},
+  abstract = {Sequential Monte Carlo (SMC) methods, such as the particle filter, are by now one of the standard computational techniques for addressing the filtering problem in general state-space models. However, many applications require post-processing of data offline. In such scenarios the smoothing problem--in which all the available data is used to compute state estimates--is of central interest. We consider the smoothing problem for a class of conditionally linear Gaussian models. We present a forward-backward-type Rao-Blackwellized particle smoother (RBPS) that is able to exploit the tractable substructure present in these models. Akin to the well known Rao-Blackwellized particle filter, the proposed RBPS marginalizes out a conditionally tractable subset of state variables, effectively making use of SMC only for the "intractable part" of the model. Compared to existing RBPS, two key features of the proposed method are: (i) it does not require structural approximations of the model, and (ii) the aforementioned marginalization is done both in the forward direction and in the backward direction.},
+  pid = {J6},
+}
+
+@Article{LindstenDM:2015,
+  author    = {Lindsten, Fredrik and Douc, Randal and Moulines, Eric},
+  title     = {Uniform ergodicity of the Particle {G}ibbs sampler},
+  journal   = jour_sjos,
+  year      = {2015},
+  volume    = {42},
+  number    = {3},
+  pages     = {775--797},
+  pid   = {J5},
+  doi       = {10.1111/sjos.12136},
+  url = {https://arxiv.org/abs/1401.0683},
+  abstract = {The particle Gibbs (PG) sampler is a systematic way of using a particle filter within Markov chain Monte Carlo (MCMC). This results in an off-the-shelf Markov kernel on the space of state trajectories, which can be used to simulate from the full joint smoothing distribution for a state space model in an MCMC scheme. We show that the PG Markov kernel is uniformly ergodic under rather general assumptions, that we will carefully review and discuss. In particular, we provide an explicit rate of convergence which reveals that: (i) for fixed number of data points, the convergence rate can be made arbitrarily good by increasing the number of particles, and (ii) under general mixing assumptions, the convergence rate can be kept constant by increasing the number of particles superlinearly with the number of observations. We illustrate the applicability of our result by studying in detail two common state space models with non-compact state spaces.},
+}
+
+@Article{OezkanLFG:2015,
+  author  = {{\"O}zkan, Emre and Lindsten, Fredrik and Fritsche, Carsten and Gustafsson, Fredrik},
+  title   = {Recursive maximum likelihood identification of jump {M}arkov nonlinear systems},
+  journal = jour_tsp,
+  year    = {2015},
+  volume  = {63},
+  number  = {3},
+  pages   = {754--765},
+  url  = {https://arxiv.org/abs/1312.0781},
+  abstract = {In this contribution, we present an online method for joint state and parameter estimation in jump Markov non-linear systems (JMNLS). State inference is enabled via the use of particle filters which makes the method applicable to a wide range of non-linear models. To exploit the inherent structure of JMNLS, we design a Rao-Blackwellized particle filter (RBPF) where the discrete mode is marginalized out analytically. This results in an efficient implementation of the algorithm and reduces the estimation error variance. The proposed RBPF is then used to compute, recursively in time, smoothed estimates of complete data sufficient statistics. Together with the online expectation maximization algorithm, this enables recursive identification of unknown model parameters. The performance of the method is illustrated in simulations and on a localization problem in wireless networks using real data.},
+  pid = {J4},
+}
+
+@Article{DahlinLS:2015,
+  author  = {Dahlin, Johan and Lindsten, Fredrik and Sch\"on, Thomas B.},
+  title   = {Particle {M}etropolis-{H}astings using gradient and {H}essian information},
+  journal = jour_statcomp,
+  year    = {2015},
+  volume  = {25},
+  number  = {1},
+  pages   = {81--92},
+  url = {https://arxiv.org/abs/1311.0686},
+  abstract = {Particle Metropolis-Hastings (PMH) allows for Bayesian parameter inference in nonlinear state space models by combining Markov chain Monte Carlo (MCMC) and particle filtering. The latter is used to estimate the intractable likelihood. In its original formulation, PMH makes use of a marginal MCMC proposal for the parameters, typically a Gaussian random walk. However, this can lead to a poor exploration of the parameter space and an inefficient use of the generated particles. We propose a number of alternative versions of PMH that incorporate gradient and Hessian information about the posterior into the proposal. This information is more or less obtained as a byproduct of the likelihood estimation. Indeed, we show how to estimate the required information using a fixed-lag particle smoother, with a computational cost growing linearly in the number of particles. We conclude that the proposed methods can: (i) decrease the length of the burn-in phase, (ii) increase the mixing of the Markov chain at the stationary phase, and (iii) make the proposal distribution scale invariant which simplifies tuning.},
+  pid = {J3},
+}
+
+@Article{LindstenJS:2014,
+  author    = {Lindsten, Fredrik and Jordan, Michael I. and Sch\"on, Thomas B.},
+  title     = {Particle {G}ibbs with Ancestor Sampling},
+  journal   = jour_jmlr,
+  year      = {2014},
+  volume    = {15},
+  pages     = {2145--2184},
+  url = {http://jmlr.org/papers/v15/lindsten14a.html},
+  abstract = {Particle Markov chain Monte Carlo (PMCMC) is a systematic way of combining the two main tools used for Monte Carlo statistical inference: sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC). We present a novel PMCMC algorithm that we refer to as particle Gibbs with ancestor sampling (PGAS). PGAS provides the data analyst with an off-the-shelf class of Markov kernels that can be used to simulate the typically high-dimensional and highly autocorrelated state trajectory in a state-space model. The ancestor sampling procedure enables fast mixing of the PGAS kernel even when using seemingly few particles in the underlying SMC sampler. This is important as it can significantly reduce the computational burden that is typically associated with using SMC. PGAS is conceptually similar to the existing PG with backward simulation (PGBS) procedure. Instead of using separate forward and backward sweeps as in PGBS, however, we achieve the same effect in a single forward sweep. This makes PGAS well suited for addressing inference problems not only in state-space models, but also in models with more complex dependencies, such as non-Markovian, Bayesian nonparametric, and general probabilistic graphical models.},
+  pid   = {J2},
+}
+
+
+
+@Article{LindstenSJ:2013,
+  author    = {Lindsten, Fredrik and Sch\"on, Thomas B. and Jordan, Michael I.},
+  title     = {Bayesian semiparametric {W}iener system identification},
+  journal   = jour_automatica,
+  year      = {2013},
+  volume    = {49},
+  number    = {7},
+  pages     = {2053--2063},
+  doi = {10.1016/j.automatica.2013.03.021},
+  abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
+  pid   = {J1},
+}
+
