@@ -466,24 +466,49 @@
 
 
 
+@InProceedings{KelviniusAPQAL:2025,
+  author    = {Filip {Ekström Kelvinius} and Oskar B. Andersson and Abhijith S. Parackal and Dong Qian and Rickard Armiento and Fredrik Lindsten},
+  title     = {WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry},
+  booktitle = PROC #{ 42nd } # conf_icml,
+  year      = {2025},
+  abstract  = {Crystalline materials often exhibit a high level of symmetry. However, most generative models do not account for symmetry, but rather model each atom without any constraints on its position or element. We propose a generative model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based descriptions of crystals. This is enabled by considering a crystal structure representation that encodes all symmetry, and we design a novel neural network architecture which enables using this representation inside a discrete generative model framework. In addition to respecting symmetry by construction, the discrete nature of our model enables fast generation. We additionally present a new metric, Fréchet Wrenformer Distance, which captures the symmetry aspects of the materials generated, and we benchmark WyckoffDiff against recently proposed generative models for crystal generation.},
+  arxiv = {https://arxiv.org/abs/2502.06485},
+  note = {Forthcoming},
+  pid   = {C66},
+}
 
-@InCollection{AndraeLOL:2024,
-  author    = {Andrae, Martin, and Landelius, Tomas and Oskarsson, Joel and Lindsten, Fredrik},
+@InProceedings{KelviniusZL:2025,
+  author    = {Ekström Kelvinius, Filip and Zhao, Zheng and Lindsten, Fredrik},
+  title     = {Solving Linear-Gaussian Bayesian Inverse Problems with Decoupled Diffusion Sequential Monte Carlo},
+  booktitle = PROC #{ 42nd } # conf_icml,
+  year      = {2025},
+  abstract  = {A recent line of research has exploited pre-trained generative diffusion models as priors for solving Bayesian inverse problems. We contribute to this research direction by designing a sequential Monte Carlo method for linear-Gaussian inverse problems which builds on ``decoupled diffusion", where the generative process is designed such that larger updates to the sample are possible. The method is asymptotically exact and we demonstrate the effectiveness of our Decoupled Diffusion Sequential Monte Carlo (DDSMC) algorithm on both synthetic data and image reconstruction tasks. Further, we demonstrate how the approach can be extended to discrete data.},
+  arxiv = {https://arxiv.org/abs/2502.06379},
+  note = {Forthcoming},
+  pid   = {C65},
+}
+
+@InProceedings{AndraeLOL:2024,
+  author    = {Andrae, Martin and Landelius, Tomas and Oskarsson, Joel and Lindsten, Fredrik},
   title     = {Continuous Ensemble Weather Forecasting with Diffusion models},
   booktitle = PROC #{ 13th } # conf_iclr,
   year      = {2025},
+  month     = apr,
+  address   = {Singapore},
   abstract  = {Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
-  note = {Forthcoming},
+  url       = {https://openreview.net/forum?id=ePEZvQNFDW},
   pid   = {C64},
 }
 
-@InCollection{DucrocqGWL:2025,
+@InProceedings{DucrocqGWL:2025,
   author    = {Ducrocq, Gabriel and Grunewald, Lukas and Westenhoff, Sebastian and Lindsten, Fredrik},
   title     = {cryoSPHERE: Single-Particle HEterogeneous REconstruction from cryo EM},
   booktitle = PROC #{ 13th } # conf_iclr,
   year      = {2025},
+  month     = apr,
+  address   = {Singapore},
   abstract  = {The three-dimensional structure of proteins plays a crucial role in determining their function. Protein structure prediction methods, like AlphaFold, offer rapid access to a protein’s structure. However, large protein complexes cannot be reliably predicted, and proteins are dynamic, making it important to resolve their full conformational distribution. Single-particle cryo-electron microscopy (cryo-EM) is a powerful tool for determining the structures of large protein complexes. Importantly, the numerous images of a given protein contain underutilized information about conformational heterogeneity. These images are very noisy projections of the protein, and traditional methods for cryo-EM reconstruction are limited to recovering only one or a few consensus conformations. In this paper, we introduce cryoSPHERE, which is a deep learning method that uses a nominal protein structure (e.g., from AlphaFold) as input, learns how to divide it into segments, and moves these segments as approximately rigid bodies to fit the different conformations present in the cryo-EM dataset. This approach provides enough constraints to enable meaningful reconstructions of single protein structural ensembles. We demonstrate this with two synthetic datasets featuring varying levels of noise, as well as one real dataset. We show that cryoSPHERE is very resilient to the high levels of noise typically encountered in experiments, where we see consistent improvements over the current state-of-the-art for heterogeneous reconstruction.},
-  note = {Forthcoming},
+  url       = {https://openreview.net/forum?id=n8O0trhost},
   pid   = {C63},
 }
 
@@ -492,6 +517,8 @@
   title     = {Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
   booktitle = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
   year      = {2024},
+  month     = dec,
+  address   = {Vancouver, Canada},
   abstract  = {In recent years, machine learning has established itself as a powerful tool for high-resolution weather forecasting. While most current machine learning models focus on deterministic forecasts, accurately capturing the uncertainty in the chaotic weather system calls for probabilistic modeling. We propose a probabilistic weather forecasting model called Graph-EFM, combining a flexible latent-variable formulation with the successful graph-based forecasting framework. The use of a hierarchical graph construction allows for efficient sampling of spatially coherent forecasts. Requiring only a single forward pass per time step, Graph-EFM allows for fast generation of arbitrarily large ensembles. We experiment with the model on both global and limited area forecasting. Ensemble forecasts from Graph-EFM achieve equivalent or lower errors than comparable deterministic models, with the added benefit of accurately capturing forecast uncertainty.},
   url = {https://openreview.net/forum?id=wTIzpqX121},
   comment = {NeurIPS Spotlight},
