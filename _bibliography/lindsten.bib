@@ -152,15 +152,6 @@
 
 
 
-@Misc{LindholmL:2019,
-  author       = {Andreas Lindholm and Fredrik Lindsten},
-  title        = {Learning dynamical systems with particle stochastic approximation {EM}},
-  howpublished = {arXiv.org, arXiv:1806.09548},
-  url = {https://arxiv.org/abs/1806.09548},
-  year         = {2019},
-  abstract = {We present the particle stochastic approximation EM (PSAEM) algorithm for learning of dynamical systems. The method builds on the EM algorithm, an iterative procedure for maximum likelihood inference in latent variable models. By combining stochastic approximation EM and particle Gibbs with ancestor sampling (PGAS), PSAEM obtains superior computational performance and convergence properties compared to plain particle-smoothing-based approximations of the EM algorithm. PSAEM can be used for plain maximum likelihood inference as well as for empirical Bayes learning of hyperparameters. Specifically, the latter point means that existing PGAS implementations easily can be extended with PSAEM to estimate hyperparameters at almost no extra computational cost. We discuss the convergence properties of the algorithm, and demonstrate it on several signal processing applications.},
-  pid      = {WP2},
-}
 
 
 
@@ -1016,6 +1007,29 @@
 }
 
 
+
+
+@Article{LindholmL:2025,
+  author       = {Andreas Lindholm and Fredrik Lindsten},
+  title        = {Learning dynamical systems with particle stochastic approximation {EM}},
+  journal = {Foundations of Data Science},
+  arxiv = {https://arxiv.org/abs/1806.09548},
+  url = {https://www.aimsciences.org/article/doi/10.3934/fods.2025015},
+  year         = {2025},
+  abstract = {Particle stochastic approximation EM (PSAEM) is an algorithm for learning of dynamical systems, combining stochastic approximation EM and particle Gibbs with ancestor sampling (PGAS). We provide a detailed derivation of the PSAEM algorithm, a theoretical analysis of its convergence properties, and show that PSAEM can be used for plain maximum likelihood inference as well as for empirical Bayes learning of hyperparameters. Specifically, the latter point means that existing PGAS implementations easily can be extended with PSAEM to estimate hyperparameters at almost no extra computational cost. We demonstrate that PSAEM obtains superior empirical performance compared to plain particle-smoothing-based approximations of the EM algorithm.},
+  pid      = {J21},
+}
+
+@article{AthanasiadisLF:2025,
+  author = {Ioannis Athanasiadis and Fredrik Lindsten and Michael Felsberg},
+  title    = {Prior Learning in Introspective VAEs},
+  journal  = {Transactions on Machine Learning Research (TMLR)},
+  year = {2025},
+  month = {Jun},
+  url = {https://openreview.net/forum?id=u4YDVFodYX},
+  pid  = {J20},
+}
+
 @Article{KonoldEtAl:2024,
   author   = {Patrick Konold and Leonardo Monrroy and Alfredo Bellisario and Diogo Filipe and Patrick Adams and Roberto Alvarez and Richard Bean and Johan Bielecki and Szabolcs Bódizs and Gabriel Ducroq and Helmut Grubmueller and Richard Kirian and Marco Kloos and Jayanath Koliyadu and Faisal Koua and Taru Larkiala and Romain Letrun and Fredrik Lindsten and Michael Maihöfer and Andrew Martin and Petra Mészáros and Jennifer Mutisya and Amke Nimmrich and Kenta Okamoto and Adam Round and Tokushi Sato and Joana Valerio and Daniel Westphal and August Wolter and Tej Yenupuri and Tong You and Filipe Maia and Sebastian Westenhoff},
   title    = {Microsecond time-resolved {X}-ray scattering by utilizing {MHz} repetition rate at second-generation {XFELs}},
@@ -1266,4 +1280,5 @@
   abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
   pid   = {J1},
 }
+
 
