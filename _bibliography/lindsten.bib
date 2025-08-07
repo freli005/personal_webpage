@@ -163,10 +163,11 @@
   title     = {Discriminative Ordering Through Ensemble Consensus},
   booktitle = PROC #{ 41st } # conf_uai,
   year      = {2025},
+  month     = jul,
   abstract  = {Evaluating the performance of clustering models is a challenging task where the outcome depends on the definition of what constitutes a cluster. Due to this design, current existing metrics rarely handle multiple clustering models with diverse cluster definitions, nor do they comply with the integration of constraints when available. In this work, we take inspiration from consensus clustering and assume that a set of clustering models is able to uncover hidden structures in the data. We propose to construct a discriminative ordering through ensemble clustering based on the distance between the connectivity of a clustering model and the consensus matrix. We first validate the proposed method with synthetic scenarios, highlighting that the proposed score ranks the models that best match the consensus first. We then show that this simple ranking score significantly outperforms other scoring methods when comparing sets of different clustering algorithms that are not restricted to a fixed number of clusters and is compatible with clustering constraints.},
-  url = {https://arxiv.org/abs/2505.04464},
-  note = {Forthcoming},
-  pid   = {C68},
+  arxivv = {https://arxiv.org/abs/2505.04464},
+  url = {https://openreview.net/forum?id=xjN1WArpff},
+  pid   = {C69},
 }
 
 @InProceedings{KelviniusAPQAL:2025,
@@ -174,10 +175,11 @@
   title     = {WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry},
   booktitle = PROC #{ 42nd } # conf_icml,
   year      = {2025},
+  month     = jul,
   abstract  = {Crystalline materials often exhibit a high level of symmetry. However, most generative models do not account for symmetry, but rather model each atom without any constraints on its position or element. We propose a generative model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based descriptions of crystals. This is enabled by considering a crystal structure representation that encodes all symmetry, and we design a novel neural network architecture which enables using this representation inside a discrete generative model framework. In addition to respecting symmetry by construction, the discrete nature of our model enables fast generation. We additionally present a new metric, Fréchet Wrenformer Distance, which captures the symmetry aspects of the materials generated, and we benchmark WyckoffDiff against recently proposed generative models for crystal generation.},
-  url = {https://arxiv.org/abs/2502.06485},
-  note = {Forthcoming},
-  pid   = {C67},
+  url = {https://openreview.net/forum?id=OHPBPveXdg},
+  arxiv = {https://arxiv.org/abs/2502.06485},
+  pid   = {C68},
 }
 
 @InProceedings{KelviniusZL:2025,
@@ -185,10 +187,11 @@
   title     = {Solving Linear-Gaussian Bayesian Inverse Problems with Decoupled Diffusion Sequential Monte Carlo},
   booktitle = PROC #{ 42nd } # conf_icml,
   year      = {2025},
+  month     = jul,
   abstract  = {A recent line of research has exploited pre-trained generative diffusion models as priors for solving Bayesian inverse problems. We contribute to this research direction by designing a sequential Monte Carlo method for linear-Gaussian inverse problems which builds on ``decoupled diffusion", where the generative process is designed such that larger updates to the sample are possible. The method is asymptotically exact and we demonstrate the effectiveness of our Decoupled Diffusion Sequential Monte Carlo (DDSMC) algorithm on both synthetic data and image reconstruction tasks. Further, we demonstrate how the approach can be extended to discrete data.},
-  url = {https://arxiv.org/abs/2502.06379},
-  note = {Forthcoming},
-  pid   = {C66},
+  url = {https://openreview.net/forum?id=QRNpmG8XGd},
+  arxiv = {https://arxiv.org/abs/2502.06379},
+  pid   = {C67},
 }
 
 @InProceedings{DingAAULE:2025,
@@ -196,10 +199,10 @@
   title     = {Revisiting Likelihood-Based Out-of-Distribution Detection by Modeling Representations},
   booktitle = PROC # {Scandinavian Conference on Image Analysis},
   year      = {2025},
+  month     = may,
   abstract  = {Out-of-distribution (OOD) detection is critical for ensuring the reliability of deep learning systems, particularly in safety-critical applications. Likelihood-based deep generative models have historically faced criticism for their unsatisfactory performance in OOD detection, often assigning higher likelihood to OOD data than in-distribution samples when applied to image data. In this work, we demonstrate that likelihood is not inherently flawed. Rather, several properties in the images space prohibit likelihood as a valid detection score. Given a sufficiently good likelihood estimator, specifically using the probability flow formulation of a diffusion model, we show that likelihood-based methods can still perform on par with state-of-the-art methods when applied in the representation space of pre-trained encoders.},
   url = {https://arxiv.org/abs/2504.07793},
-  note = {Forthcoming},
-  pid   = {C65},
+  pid   = {C66},
 }
 
 @InProceedings{AndraeLOL:2024,
@@ -211,6 +214,18 @@
   address   = {Singapore},
   abstract  = {Weather forecasting has seen a shift in methods from numerical simulations to data-driven systems. While initial research in the area focused on deterministic forecasting, recent works have used diffusion models to produce skillful ensemble forecasts. These models are trained on a single forecasting step and rolled out autoregressively. However, they are computationally expensive and accumulate errors for high temporal resolution due to the many rollout steps. We address these limitations with Continuous Ensemble Forecasting, a novel and flexible method for sampling ensemble forecasts in diffusion models. The method can generate temporally consistent ensemble trajectories completely in parallel, with no autoregressive steps. Continuous Ensemble Forecasting can also be combined with autoregressive rollouts to yield forecasts at an arbitrary fine temporal resolution without sacrificing accuracy. We demonstrate that the method achieves competitive results for global weather forecasting with good probabilistic properties.},
   url       = {https://openreview.net/forum?id=ePEZvQNFDW},
+  pid   = {C65},
+}
+
+@InProceedings{LarssonOLL:2024,
+  author    = {Erik Larsson and Joel Oskarsson and Tomas Landelius and Fredrik Lindsten},
+  title     = {Diffusion-LAM: Probabilistic Limited Area Weather Forecasting with Diffusion},
+  booktitle = {ICLR 2025 Workshop on Tackling Climate Change with Machine Learning},
+  year      = {2025},
+  month     = apr,
+  address   = {Singapore},
+  abstract  = {Machine learning methods have been shown to be effective for weather forecasting, based on the speed and accuracy compared to traditional numerical models. While early efforts primarily concentrated on deterministic predictions, the field has increasingly shifted toward probabilistic forecasting to better capture the forecast uncertainty. Most machine learning-based models have been designed for global-scale predictions, with only limited work targeting regional or limited area forecasting, which allows more specialized and flexible modeling for specific locations. This work introduces Diffusion-LAM, a probabilistic limited area weather model leveraging conditional diffusion. By conditioning on boundary data from surrounding regions, our approach generates forecasts within a defined area. Experimental results on the MEPS limited area dataset demonstrate the potential of Diffusion-LAM to deliver accurate probabilistic forecasts, highlighting its promise for limited-area weather prediction.},
+  arxiv       = {https://arxiv.org/abs/2502.07532},
   pid   = {C64},
 }
 
@@ -1290,6 +1305,7 @@
   abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
   pid   = {J1},
 }
+
 
 
 
