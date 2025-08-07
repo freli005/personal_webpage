@@ -1017,6 +1017,16 @@
   url = {https://www.aimsciences.org/article/doi/10.3934/fods.2025015},
   year         = {2025},
   abstract = {Particle stochastic approximation EM (PSAEM) is an algorithm for learning of dynamical systems, combining stochastic approximation EM and particle Gibbs with ancestor sampling (PGAS). We provide a detailed derivation of the PSAEM algorithm, a theoretical analysis of its convergence properties, and show that PSAEM can be used for plain maximum likelihood inference as well as for empirical Bayes learning of hyperparameters. Specifically, the latter point means that existing PGAS implementations easily can be extended with PSAEM to estimate hyperparameters at almost no extra computational cost. We demonstrate that PSAEM obtains superior empirical performance compared to plain particle-smoothing-based approximations of the EM algorithm.},
+  pid      = {J22},
+}
+
+@Article{AhmadianL:2025,
+  author       = {Amirhossein Ahmadian and Fredrik Lindsten},
+  title        = {Improved Contrastive Predictive Coding for Time Series Out-Of-Distribution Detection Applied to Human Activity Data},
+  journal = {Pattern Recognition Letters},
+  url = {https://doi.org/10.1016/j.patrec.2025.07.011 },
+  year         = {2025},
+  abstract = {Contrastive Predictive Coding (CPC) is a well-established self-supervised learning method that naturally fits time series data. This method has been recently leveraged to detect anomalous inputs, viewed as the task of classifying positive pairs of context-feature representations versus negative ones in order to employ classifier uncertainty measures. In this paper, by taking a different perspective, we propose a CPC-based Out-Of-Distribution (OOD) detection method for time series data that does not require any negative samples at test time and is theoretically related to a probabilistic type of uncertainty estimation in the latent representation space. Our method extends the standard CPC by using a radial (distance-based) score function both in the training loss and as the OOD measure, in addition to quantizing the context (replacing it by cluster prototypes) during inference. The proposed method is applied to detecting OOD human activities with smartphone sensors data and shows promising performance on two primary datasets without using activity labels in training.},
   pid      = {J21},
 }
 
@@ -1280,5 +1290,6 @@
   abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
   pid   = {J1},
 }
+
 
 
