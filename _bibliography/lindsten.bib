@@ -156,7 +156,17 @@
 
 
 
-
+@InProceedings{GovindarajanSRL:2026,
+  author    = {Hariprasath Govindarajan and Per Sidén and Jacob Roll and Fredrik Lindsten},
+  title     = {QUEST: A robust attention formulation using query-modulated spherical attention},
+  booktitle = PROC #{ 14th } # conf_iclr,
+  year      = {2026},
+  month     = apr,
+  address   = {Rio de Janeiro, Brazil},
+  abstract  = {The Transformer model architecture has become one of the most widely used in deep learning and the attention mechanism is at its core. The standard attention formulation uses a softmax operation applied to a scaled dot product between query and key vectors. We explore the role played by norms of the queries and keys, which can cause training instabilities when they arbitrarily increase. We demonstrate how this can happen even in simple Transformer models, in the presence of easy-to-learn spurious patterns in the data. We propose a new attention formulation, QUEry-modulated Spherical aTtention (QUEST), that constrains the keys to a hyperspherical latent space, while still allowing individual tokens to flexibly control the sharpness of the attention distribution. QUEST can be easily used as a drop-in replacement for standard attention. We focus on vision applications while also exploring other domains to highlight the method's generality. We show that (1) QUEST trains without instabilities and (2) produces models with improved performance (3) that are robust to data corruptions and adversarial attacks.},
+  url       = {https://openreview.net/forum?id=HkztQWZfl2},
+  pid   = {C70},
+}
 
 @InProceedings{OhlL:2025,
   author    = {Louis Ohl and Fredrik Lindsten},
@@ -205,7 +215,7 @@
   pid   = {C66},
 }
 
-@InProceedings{AndraeLOL:2024,
+@InProceedings{AndraeLOL:2025,
   author    = {Andrae, Martin and Landelius, Tomas and Oskarsson, Joel and Lindsten, Fredrik},
   title     = {Continuous Ensemble Weather Forecasting with Diffusion models},
   booktitle = PROC #{ 13th } # conf_iclr,
@@ -1060,7 +1070,9 @@
   title    = {Microsecond time-resolved {X}-ray scattering by utilizing {MHz} repetition rate at second-generation {XFELs}},
   journal  = {Nature Methods},
   year = {2024},
-  note = {Forthcoming},  
+  doi = {10.1038/s41592-024-02344-0},
+  number = {21}, 
+  pages = {1608--1611},
   pid  = {J19},
 }
 
@@ -1305,6 +1317,7 @@
   abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
   pid   = {J1},
 }
+
 
 
 
