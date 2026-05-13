@@ -151,8 +151,29 @@
 @STRING{uai = {Conference on Uncertainty in Artificial Intelligence ({UAI})}}
 
 
+@InProceedings{AndraeLTLL:2026,
+  author    = {Andrae, Martin and Larsson, Erik and Takao, So and Landelius, Tomas and Lindsten, Fredrik},
+  title     = {DAISI: Data Assimilation with Inverse Sampling using Stochastic Interpolants},
+  booktitle = PROC #{ 43nd } # conf_icml,
+  year      = {2026},
+  month     = jul,
+  abstract  = {Data assimilation (DA) is a cornerstone of scientific and engineering applications, combining model forecasts with sparse and noisy observations to estimate latent system states. Classical high-dimensional DA methods, such as the ensemble Kalman filter, rely on Gaussian approximations that are violated for complex dynamics or observation operators. To address this limitation, we introduce DAISI, a scalable filtering algorithm built on flow-based generative models that enables flexible probabilistic inference using data-driven priors. The core idea is to use a stationary, pre-trained generative prior that first incorporates forecast information through a novel inverse-sampling step, before assimilating observations via guidance-based conditional sampling. This allows us to leverage any forecasting model as part of the DA pipeline without having to retrain or fine-tune the generative prior at each assimilation step. Experiments on challenging nonlinear systems show that DAISI achieves accurate filtering results in regimes with sparse, noisy, and nonlinear observations where traditional methods struggle.},
+  url = {https://openreview.net/forum?id=OWz1n5HgcC},
+  arxiv = {https://arxiv.org/abs/2512.00252},
+  pid   = {C73},
+}
 
-
+@InProceedings{MillardLZ:2026,
+  author    = {Millard, Andrew and Lindsten, Fredrik  and Zhao, Zheng},
+  title     = {Particle-Guided Diffusion Models for Partial Differential Equations},
+  booktitle = PROC #{ 43nd } # conf_icml,
+  year      = {2026},
+  month     = jul,
+  abstract  = {We introduce a guided stochastic sampling method that augments sampling from diffusion models with physics-based guidance derived from partial differential equation (PDE) residuals and observational constraints, ensuring generated samples remain physically admissible. We embed this sampling procedure within a new Sequential Monte Carlo (SMC) framework, yielding a scalable generative PDE solver. Across multiple benchmark PDE systems as well as multiphysics and interacting PDE systems, our method produces solution fields with lower numerical error than existing state-of-the-art generative methods.},
+  url = {https://openreview.net/forum?id=tX1k4GQtLC},
+  arxiv = {https://arxiv.org/abs/2601.23262},
+  pid   = {C72},
+}
 
 
 
@@ -187,7 +208,7 @@
   year      = {2025},
   month     = jul,
   abstract  = {Evaluating the performance of clustering models is a challenging task where the outcome depends on the definition of what constitutes a cluster. Due to this design, current existing metrics rarely handle multiple clustering models with diverse cluster definitions, nor do they comply with the integration of constraints when available. In this work, we take inspiration from consensus clustering and assume that a set of clustering models is able to uncover hidden structures in the data. We propose to construct a discriminative ordering through ensemble clustering based on the distance between the connectivity of a clustering model and the consensus matrix. We first validate the proposed method with synthetic scenarios, highlighting that the proposed score ranks the models that best match the consensus first. We then show that this simple ranking score significantly outperforms other scoring methods when comparing sets of different clustering algorithms that are not restricted to a fixed number of clusters and is compatible with clustering constraints.},
-  arxivv = {https://arxiv.org/abs/2505.04464},
+  arxiv = {https://arxiv.org/abs/2505.04464},
   url = {https://openreview.net/forum?id=xjN1WArpff},
   pid   = {C69},
 }
