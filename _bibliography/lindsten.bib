@@ -154,7 +154,7 @@
 @InProceedings{AndraeLTLL:2026,
   author    = {Andrae, Martin and Larsson, Erik and Takao, So and Landelius, Tomas and Lindsten, Fredrik},
   title     = {DAISI: Data Assimilation with Inverse Sampling using Stochastic Interpolants},
-  booktitle = PROC #{ 43nd } # conf_icml,
+  booktitle = PROC #{ 43rd } # conf_icml,
   year      = {2026},
   month     = jul,
   abstract  = {Data assimilation (DA) is a cornerstone of scientific and engineering applications, combining model forecasts with sparse and noisy observations to estimate latent system states. Classical high-dimensional DA methods, such as the ensemble Kalman filter, rely on Gaussian approximations that are violated for complex dynamics or observation operators. To address this limitation, we introduce DAISI, a scalable filtering algorithm built on flow-based generative models that enables flexible probabilistic inference using data-driven priors. The core idea is to use a stationary, pre-trained generative prior that first incorporates forecast information through a novel inverse-sampling step, before assimilating observations via guidance-based conditional sampling. This allows us to leverage any forecasting model as part of the DA pipeline without having to retrain or fine-tune the generative prior at each assimilation step. Experiments on challenging nonlinear systems show that DAISI achieves accurate filtering results in regimes with sparse, noisy, and nonlinear observations where traditional methods struggle.},
@@ -166,7 +166,7 @@
 @InProceedings{MillardLZ:2026,
   author    = {Millard, Andrew and Lindsten, Fredrik  and Zhao, Zheng},
   title     = {Particle-Guided Diffusion Models for Partial Differential Equations},
-  booktitle = PROC #{ 43nd } # conf_icml,
+  booktitle = PROC #{ 43rd } # conf_icml,
   year      = {2026},
   month     = jul,
   abstract  = {We introduce a guided stochastic sampling method that augments sampling from diffusion models with physics-based guidance derived from partial differential equation (PDE) residuals and observational constraints, ensuring generated samples remain physically admissible. We embed this sampling procedure within a new Sequential Monte Carlo (SMC) framework, yielding a scalable generative PDE solver. Across multiple benchmark PDE systems as well as multiphysics and interacting PDE systems, our method produces solution fields with lower numerical error than existing state-of-the-art generative methods.},
@@ -279,13 +279,13 @@
   year      = {2025},
   month     = apr,
   address   = {Singapore},
-  abstract  = {The three-dimensional structure of proteins plays a crucial role in determining their function. Protein structure prediction methods, like AlphaFold, offer rapid access to a protein’s structure. However, large protein complexes cannot be reliably predicted, and proteins are dynamic, making it important to resolve their full conformational distribution. Single-particle cryo-electron microscopy (cryo-EM) is a powerful tool for determining the structures of large protein complexes. Importantly, the numerous images of a given protein contain underutilized information about conformational heterogeneity. These images are very noisy projections of the protein, and traditional methods for cryo-EM reconstruction are limited to recovering only one or a few consensus conformations. In this paper, we introduce cryoSPHERE, which is a deep learning method that uses a nominal protein structure (e.g., from AlphaFold) as input, learns how to divide it into segments, and moves these segments as approximately rigid bodies to fit the different conformations present in the cryo-EM dataset. This approach provides enough constraints to enable meaningful reconstructions of single protein structural ensembles. We demonstrate this with two synthetic datasets featuring varying levels of noise, as well as one real dataset. We show that cryoSPHERE is very resilient to the high levels of noise typically encountered in experiments, where we see consistent improvements over the current state-of-the-art for heterogeneous reconstruction.},
+  abstract  = {The three-dimensional structure of proteins plays a crucial role in determining their function. Protein structure prediction methods, like AlphaFold, offer rapid access to a protein's structure. However, large protein complexes cannot be reliably predicted, and proteins are dynamic, making it important to resolve their full conformational distribution. Single-particle cryo-electron microscopy (cryo-EM) is a powerful tool for determining the structures of large protein complexes. Importantly, the numerous images of a given protein contain underutilized information about conformational heterogeneity. These images are very noisy projections of the protein, and traditional methods for cryo-EM reconstruction are limited to recovering only one or a few consensus conformations. In this paper, we introduce cryoSPHERE, which is a deep learning method that uses a nominal protein structure (e.g., from AlphaFold) as input, learns how to divide it into segments, and moves these segments as approximately rigid bodies to fit the different conformations present in the cryo-EM dataset. This approach provides enough constraints to enable meaningful reconstructions of single protein structural ensembles. We demonstrate this with two synthetic datasets featuring varying levels of noise, as well as one real dataset. We show that cryoSPHERE is very resilient to the high levels of noise typically encountered in experiments, where we see consistent improvements over the current state-of-the-art for heterogeneous reconstruction.},
   url       = {https://openreview.net/forum?id=n8O0trhost},
   pid   = {C63},
 }
 
 @InCollection{OskarssonLDL:2024,
-  author    = {Oskarsson, Joel and Landelius, Tomas, and Deisenroth, Marc Peter and Lindsten, Fredrik},
+  author    = {Oskarsson, Joel and Landelius, Tomas and Deisenroth, Marc Peter and Lindsten, Fredrik},
   title     = {Probabilistic Weather Forecasting with Hierarchical Graph Neural Networks},
   booktitle = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
   year      = {2024},
@@ -300,10 +300,10 @@
 @InProceedings{GovindarajanSRL:2024,
   author       = {Hariprasath Govindarajan and Per Sidén and Jacob Roll and Fredrik Lindsten},
   title        = {On Partial Prototype Collapse in the DINO Family of Self-Supervised Methods},
-  booktitle = PROC #{ 35th } # conf_bmvc, 
+  booktitle = PROC #{ 35th } # conf_bmvc,
   year         = {2024},
   address   = {Glasgow, UK},
-  month     = nov,  
+  month     = nov,
   abstract = {A prominent self-supervised learning paradigm is to model the representations as clusters, or more generally as a mixture model. Learning to map the data samples to compact representations and fitting the mixture model simultaneously leads to the representation collapse problem. Regularizing the distribution of data points over the clusters is the prevalent strategy to avoid this issue. While this is sufficient to prevent full representation collapse, we show that a partial prototype collapse problem still exists in the DINO family of methods, that leads to significant redundancies in the prototypes. Such prototype redundancies serve as shortcuts for the method to achieve a marginal latent class distribution that matches the prescribed prior. We show that by encouraging the model to use diverse prototypes, the partial prototype collapse can be mitigated. We study the downstream impact of effective utilization of the prototypes during pre-training. We show that it enables the methods to learn more fine-grained clusters, encouraging more informative representations. We demonstrate that this is especially beneficial when pre-training on a long-tailed fine-grained dataset.},
   pid      = {C61},
 }
@@ -311,10 +311,10 @@
 @InProceedings{KelviniusL:2024,
   author       = {Filip {Ekström Kelvinius} and Fredrik Lindsten},
   title        = {Discriminator Guidance for Autoregressive Diffusion Models},
-  booktitle = PROC #{ 27th } # conf_aistats, 
+  booktitle = PROC #{ 27th } # conf_aistats,
   year         = {2024},
   address   = {Valencia, Spain},
-  month     = may,  
+  month     = may,
   abstract = {We introduce discriminator guidance in the setting of Autoregressive Diffusion Models. The use of a discriminator to guide a diffusion process has previously been used for continuous diffusion models, and in this work we derive ways of using a discriminator together with a pretrained generative model in the discrete case. First, we show that using an optimal discriminator will correct the pretrained model and enable exact sampling from the underlying data distribution. Second, to account for the realistic scenario of using a sub-optimal discriminator, we derive a sequential Monte Carlo algorithm which iteratively takes the predictions from the discrimiator into account during the generation process. We test these approaches on the task of generating molecular graphs and show how the discriminator improves the generative performance over using only the pretrained model.},
   pid      = {C60},
 }
@@ -322,10 +322,10 @@
 @InProceedings{OlminLSL:2024,
   author       = {Amanda Olmin and Jakob Lindqvist and Lennart Svensson and Fredrik Lindsten},
   title        = {On the connection between Noise-Contrastive Estimation and Contrastive Divergence},
-  booktitle = PROC #{ 27th } # conf_aistats, 
+  booktitle = PROC #{ 27th } # conf_aistats,
   year         = {2024},
   address   = {Valencia, Spain},
-  month     = may,  
+  month     = may,
   abstract = {Noise-contrastive estimation (NCE) is a popular method for estimating unnormalised probabilistic models, such as energy-based models, which are effective for modelling complex data distributions. Unlike classical maximum likelihood (ML) estimation that relies on importance sampling (resulting in ML-IS) or MCMC resulting in contrastive divergence, CD), NCE uses a proxy criterion to avoid the need for evaluating an often intractable normalisation constant. Despite apparent conceptual differences, we show that two NCE criteria, ranking NCE (RNCE) and conditional NCE (CNCE), can be viewed as ML estimation methods. Specifically, RNCE is equivalent to ML estimation combined with conditional importance sampling, and both RNCE and CNCE are special cases of CD. These findings bridge the gap between the two method classes and allow us to apply techniques from the ML-IS and CD literature to NCE, offering several advantageous extensions.},
   url      = {https://arxiv.org/abs/2402.16688},
   pid      = {C59},
@@ -334,10 +334,10 @@
 @InProceedings{AhmadianDEL:2024,
   author       = {Amirhossein Ahmadian and Yifan Ding and Gabriel Eilertsen and Fredrik Lindsten},
   title        = {Unsupervised Novelty Detection in Pretrained Representation Space with Locally Adapted Likelihood Ratio},
-  booktitle = PROC #{ 27th } # conf_aistats, 
+  booktitle = PROC #{ 27th } # conf_aistats,
   year         = {2024},
   address   = {Valencia, Spain},
-  month     = may,  
+  month     = may,
   abstract = {Detecting novelties given unlabeled examples of normal data is a challenging task in machine learning, particularly when the novel and normal categories are semantically close. Large deep models pretrained on massive datasets can provide a rich representation space in which the simple k-nearest neighbor distance works as a novelty measure. However, as we show in this paper, the basic k-NN method might fail in this setup due to ignoring the `local geometry' of the distribution over representations as well as the impact of irrelevant 'background features'. To address this, we propose a fully unsupervised novelty detection approach that integrates the flexibility of k-NN with a locally adapted scaling of dimensions based on the 'neighbors of nearest neighbor' and the idea of 'likelihood ratio' in pretrained (self-supervised) representation spaces. Our experiments with image data show the advantage of this method when off-the-shelf vision transformers (e.g., pretrained by DINO) are used as the feature extractor without any fine-tuning.},
   pid      = {C58},
 }
@@ -355,10 +355,10 @@
 @InProceedings{LindqvistOSL:2023,
   author       = {Jakob Lindqvist and Amanda Olmin and Lennart Svensson and Fredrik Lindsten},
   title        = {Generalised Active Learning with Annotation Quality Selection},
-  booktitle = PROC #{ 33rd } # conf_mlsp, 
+  booktitle = PROC #{ 33rd } # conf_mlsp,
   year         = {2023},
   address   = {Rome, Italy},
-  month     = sep,  
+  month     = sep,
   abstract = {In this paper we promote a general formulation of active learning (AL), wherein the typically binary decision to annotate a point or not is extended to selecting the qualities with which the points should be annotated. By linking the annotation quality to the cost of acquiring the label, we can trade a lower quality for a larger set of training samples, which may improve learning for the same annotation cost. To investigate this AL formulation, we introduce a concrete criterion, based on the mutual information (MI) between model parameters and noisy labels, for selecting annotation qualities for the entire dataset, before any labels are acquired. We illustrate the usefulness of our formulation with examples for both classification and regression and find that MI is a good candidate for a criterion, but its complexity limits its usefulness.},
   pid      = {C56},
 }
@@ -366,23 +366,23 @@
 @InProceedings{VargaKRRLR:2023,
   author       = {Johannes Varga and Emil Karlsson and Günther Raidl and Elina Rönnberg and Fredrik Lindsten and Tobias Rodemann},
   title        = {Speeding up Logic-Based Benders Decomposition by Strengthening Cuts with Graph Neural Networks},
-  booktitle = PROC #{the 9th International Conference on Machine Learning, Optimization and Data science (LOD)}, 
+  booktitle = PROC #{the 9th International Conference on Machine Learning, Optimization and Data science (LOD)},
   year         = {2023},
   address   = {Grasmere, UK},
-  month     = sep,  
+  month     = sep,
   pid      = {C55},
 }
 
 @InProceedings{GlaserWLG:2023,
   author       = {Pierre Glaser and David Widmann and Fredrik Lindsten and Arthur Gretton},
   title        = {Fast and Scalable Score-Based Kernel Calibration Tests},
-  booktitle = PROC #{ 39th } # uai, 
+  booktitle = PROC #{ 39th } # conf_uai,
   year         = {2023},
   address   = {Pittsburgh, USA},
   month     = aug,
-  abstract  = {We introduce the Kernel Calibration Conditional Stein Discrepancy test (KCCSD test), a nonparametric, kernel-based test for assessing the calibration of probabilistic models with well-defined scores. In contrast to previous methods, our test avoids the need for possibly expensive expectation approximations while providing control over its type-I error. We achieve these improvements by using a new family of kernels for score-based probabilities that can be estimated without probability density samples, and by using a Conditional Goodness of Fit criterion for the KCCSD test’s U-statistic. We demonstrate the properties of our test on various synthetic settings.},
+  abstract  = {We introduce the Kernel Calibration Conditional Stein Discrepancy test (KCCSD test), a nonparametric, kernel-based test for assessing the calibration of probabilistic models with well-defined scores. In contrast to previous methods, our test avoids the need for possibly expensive expectation approximations while providing control over its type-I error. We achieve these improvements by using a new family of kernels for score-based probabilities that can be estimated without probability density samples, and by using a Conditional Goodness of Fit criterion for the KCCSD test's U-statistic. We demonstrate the properties of our test on various synthetic settings.},
   url       = {https://proceedings.mlr.press/v216/glaser23a.html},
-  pid       = {C54},  
+  pid       = {C54},
   comment   = {Spotlight},
 }
 
@@ -397,7 +397,7 @@
   pid   = {C53},
 }
 
-@InProceedings{GovindarajanSRL:2022,
+@InProceedings{GovindarajanSRL:2023,
   author       = {Hariprasath Govindarajan and Per Sidén and Jacob Roll and Fredrik Lindsten},
   title        = {{DINO} as a von {M}ises-{F}isher mixture model},
   booktitle = PROC #{ 11th } # conf_iclr,
@@ -411,7 +411,7 @@
 @InProceedings{OskarssonSL:2023,
   author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
   title        = {Temporal Graph Neural Networks for Irregular Data},
-  booktitle = PROC #{ 26th } # conf_aistats, 
+  booktitle = PROC #{ 26th } # conf_aistats,
   year         = {2023},
   abstract = {This paper proposes a temporal graph neural network model for forecasting of graph-structured irregularly observed time series. Our TGNN4I model is designed to handle both irregular time steps and partial observations of the graph. This is achieved by introducing a time-continuous latent state in each node, following a linear Ordinary Differential Equation (ODE) defined by the output of a Gated Recurrent Unit (GRU). The ODE has an explicit solution as a combination of exponential decay and periodic dynamics. Observations in the graph neighborhood are taken into account by integrating graph neural network layers in both the GRU state update and predictive model. The time-continuous dynamics additionally enable the model to make predictions at arbitrary time steps. We propose a loss function that leverages this and allows for training the model for forecasting over different time horizons. Experiments on simulated data and real-world data from traffic and climate modeling validate the usefulness of both the graph structure and time-continuous dynamics in settings with irregular observations.},
   url      = {https://arxiv.org/abs/2302.08415},
@@ -421,7 +421,7 @@
 @InProceedings{OlminLSL:2022,
   author       = {Amanda Olmin and Jakob Lindqvist and Lennart Svensson and Fredrik Lindsten},
   title        = {Active Learning with Weak Supervision for Gaussian Processes},
-  booktitle = PROC #{ 29th International Conference on Neural Information Processing (ICONIP)}, 
+  booktitle = PROC #{ 29th International Conference on Neural Information Processing (ICONIP)},
   year         = {2022},
   abstract = {Annotating data for supervised learning can be costly. When the annotation budget is limited, active learning can be used to select and annotate those observations that are likely to give the most gain in model performance. We propose an active learning algorithm that, in addition to selecting which observation to annotate, selects the precision of the annotation that is acquired. Assuming that annotations with low precision are cheaper to obtain, this allows the model to explore a larger part of the input space, with the same annotation costs. We build our acquisition function on the previously proposed BALD objective for Gaussian Processes, and empirically demonstrate the gains of being able to adjust the annotation precision in the active learning loop.},
   url      = {https://arxiv.org/abs/2204.08335},
@@ -432,7 +432,7 @@
 @InProceedings{OskarssonSL:2022,
   author       = {Joel Oskarsson and Per Sidén and Fredrik Lindsten},
   title        = {Scalable Deep {G}aussian {M}arkov Random Fields for General Graphs},
-  booktitle = PROC #{ 39th } # conf_icml, 
+  booktitle = PROC #{ 39th } # conf_icml,
   year         = {2022},
   abstract = {Machine learning methods on graphs have proven useful in many applications due to their ability to handle generally structured data. The framework of Gaussian Markov Random Fields (GMRFs) provides a principled way to define Gaussian models on graphs by utilizing their sparsity structure. We propose a flexible GMRF model for general graphs built on the multi-layer structure of Deep GMRFs, originally proposed for lattice graphs only. By designing a new type of layer we enable the model to scale to large graphs. The layer is constructed to allow for efficient training using variational inference and existing software frameworks for Graph Neural Networks. For a Gaussian likelihood, close to exact Bayesian inference is available for the latent field. This allows for making predictions with accompanying uncertainty estimates. The usefulness of the proposed model is verified by experiments on a number of synthetic and real world datasets, where it compares favorably to other both Bayesian and deep learning methods.},
   url      = {https://proceedings.mlr.press/v162/oskarsson22a.html},
@@ -492,7 +492,7 @@
 @InCollection{NaessethLB:2020,
   author       = {Christian A. Naesseth and Fredrik Lindsten and David M. Blei},
   title        = {Markovian Score Climbing: Variational Inference with KL(p||q)},
-  abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the “exclusive Kullback-Leibler (KL)” KL(q||p), often for computational convenience. Recent research, however, has also focused on the “inclusive KL” KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
+  abstract     = {Modern variational inference (VI) uses stochastic gradients to avoid intractable expectations, enabling large-scale probabilistic inference in complex models. VI posits a family of approximating distributions q and then finds the member of that family that is closest to the exact posterior p. Traditionally, VI algorithms minimize the "exclusive Kullback-Leibler (KL)" KL(q||p), often for computational convenience. Recent research, however, has also focused on the "inclusive KL" KL(p||q), which has good statistical properties that makes it more appropriate for certain inference problems. This paper develops a simple algorithm for reliably minimizing the inclusive KL. Consider a valid Markov chain Monte Carlo (MCMC) method, a Markov chain whose stationary distribution is p. The algorithm we develop iteratively samples the chain, and then uses those samples to follow the score function of the variational approximation with a Robbins-Monro stepsize schedule. This method, which we call Markovian score climbing (MSC), converges to a local optimum of the inclusive KL. It does not suffer from the systematic errors inherent in existing methods, such as Reweighted Wake-Sleep and Neural Adaptive Sequential Monte Carlo, which lead to bias in their final estimates. In a variant that ties the variational approximation directly to the Markov chain, MSC further provides a new algorithm that melds VI and MCMC. We illustrate convergence on a toy model and demonstrate the utility of MSC on Bayesian probit regression for classification as well as a stochastic volatility model for financial data.},
   booktitle = {Advances in Neural Information Processing Systems 33},
   url = {https://proceedings.neurips.cc/paper/2020/hash/b20706935de35bbe643733f856d9e5d6-Abstract.html},  
   year         = {2020},   
@@ -503,11 +503,11 @@
 @InProceedings{LindqvistOLS:2020,
   author       = {Jakob Lindqvist and Amanda Olmin and Fredrik Lindsten and Lennart Svensson},
   title        = {A general framework for ensemble distribution distillation},
-  booktitle = PROC #{ 30th } # conf_mlsp, 
+  booktitle = PROC #{ 30th } # conf_mlsp,
   url = {https://arxiv.org/abs/2002.11531},
   year         = {2020},
   address   = {Virtual Conference},
-  month     = sep,  
+  month     = sep,
   abstract = {Ensembles of neural networks have been shown to give better performance than single networks, both in terms of predictions and uncertainty estimation. Additionally, ensembles allow the uncertainty to be decomposed into aleatoric (data) and epistemic (model) components, giving a more complete picture of the predictive uncertainty. Ensemble distillation is the process of compressing an ensemble into a single model, often resulting in a leaner model that still outperforms the individual ensemble members. Unfortunately, standard distillation erases the natural uncertainty decomposition of the ensemble. We present a general framework for distilling both regression and classification ensembles in a way that preserves the decomposition. We demonstrate the desired behaviour of our framework and show that its predictive performance is on par with standard distillation.},
   pid      = {C43},
 }
@@ -515,11 +515,11 @@
 @InProceedings{SidenL:2020,
   author       = {Per Sidén and Fredrik Lindsten},
   title        = {Deep {G}aussian {M}arkov random fields},
-  booktitle = PROC #{ 37th } # conf_icml, 
+  booktitle = PROC #{ 37th } # conf_icml,
   url = {https://proceedings.mlr.press/v119/siden20a.html},
   year         = {2020},
   address   = {Virtual Conference},
-  month     = jul,  
+  month     = jul,
   abstract = {Gaussian Markov random fields (GMRFs) are probabilistic graphical models widely used in spatial statistics and related fields to model dependencies over spatial structures. We establish a formal connection between GMRFs and convolutional neural networks (CNNs). Common GMRFs are special cases of a generative model where the inverse mapping from data to latent variables is given by a 1-layer linear CNN. This connection allows us to generalize GMRFs to multi-layer CNN architectures, effectively increasing the order of the corresponding GMRF in a way which has favorable computational scaling. We describe how well-established tools, such as autodiff and variational inference, can be used for simple and efficient inference and learning of the deep GMRF. We demonstrate the flexibility of the proposed model and show that it outperforms the state-of-the-art on a dataset of satellite temperatures, in terms of prediction and predictive uncertainty.},
   pid      = {C42},
 }
@@ -530,7 +530,7 @@
   booktitle = PROC #{ 45th } # conf_icassp,
   address   = {Barcelona, Spain},
   year      = {2020},
-  month 	= dec,
+  month 	= may,
   url 		= {https://arxiv.org/abs/1910.09527},
   abstract  = {We consider the combined use of resampling and partial rejection control in sequential Monte Carlo methods, also known as particle filters. While the variance reducing properties of rejection control are known, there has not been (to the best of our knowledge) any work on unbiased estimation of the marginal likelihood (also known as the model evidence or the normalizing constant) in this type of particle filters. Being able to estimate the marginal likelihood without bias is highly relevant for model comparison, computation of interpretable and reliable confidence intervals, and in exact approximation methods, such as particle Markov chain Monte Carlo. In the paper we present a particle filter with rejection control that enables unbiased estimation of the marginal likelihood.},
   pid   = {C41},
@@ -682,7 +682,7 @@
   pid   = {C28},
 }
 
-@InProceedings{SchonLDWNSD:2105,
+@InProceedings{SchonLDWNSD:2015,
   author    = {Thomas B. Schön and Fredrik Lindsten and Johan Dahlin and Johan Wågberg and Christian A. Naesseth and Andreas Svensson and Liang Dai},
   title     = {Sequential {M}onte {C}arlo Methods for System Identification},
   booktitle = PROC #{ 17th } # conf_sysid,
@@ -695,7 +695,7 @@
 @InProceedings{NaessethLS:2015,
   author       = {Naesseth, Christian A. and Lindsten, Fredrik and Sch\"on, Thomas B.},
   title        = {Nested Sequential {M}onte {C}arlo Methods},
-  booktitle    = PROC #{ 32nd International Conference on Machine Learning (ICML)},
+  booktitle    = PROC #{ 32nd } # conf_icml,
   year         = {2015},
   address      = {Lille, France},
   month        = jul,
@@ -1019,8 +1019,8 @@
 }
 
 
-
-
+ 
+ 
 @Book{LindholmWLS:2020,
   author   = {Andreas Lindholm and Niklas Wahlström and Fredrik Lindsten and Thomas B. Schön},
   title    = {Machine Learning: A First Course for Engineers and Scientists},
@@ -1031,12 +1031,12 @@
   url      = {http://smlbook.org/},
   pid      = {B1},
 }
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
 @Article{NaessethLS:2019a,
   author   = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Sch\"on},
   title    = {Elements of Sequential {M}onte {C}arlo},
@@ -1050,7 +1050,7 @@
   doi      = {10.1561/2200000074},
   url      = {https://arxiv.org/abs/1903.04797},
 }
-
+ 
 @Article{LindstenS:2013,
   author    = {Lindsten, Fredrik and Sch\"on, Thomas B.},
   title     = {Backward simulation methods for {M}onte {C}arlo statistical inference},
@@ -1063,10 +1063,10 @@
   abstract = {Monte Carlo methods, in particular those based on Markov chains and on interacting particle systems, are by now tools that are routinely used in machine learning. These methods have had a profound impact on statistical inference in a wide range of application areas where probabilistic models are used. Moreover, there are many algorithms in machine learning which are based on the idea of processing the data sequentially, first in the forward direction and then in the backward direction. In this tutorial, we will review a branch of Monte Carlo methods based on the forward–backward idea, referred to as backward simulators. These methods are useful for learning and inference in probabilistic models containing latent stochastic processes. The theory and practice of backward simulation algorithms have undergone a significant development in recent years and the algorithms keep finding new applications. The foundation for these methods is sequential Monte Carlo (SMC). SMC-based backward simulators are capable of addressing smoothing problems in sequential latent variable models, such as general, nonlinear/non-Gaussian state-space models (SSMs). However, we will also clearly show that the underlying backward simulation idea is by no means restricted to SSMs. Furthermore, backward simulation plays an important role in recent developments of Markov chain Monte Carlo (MCMC) methods. Particle MCMC is a systematic way of using SMC within MCMC. In this framework, backward simulation gives us a way to significantly improve the performance of the samplers. We review and discuss several related backward-simulation-based methods for state inference as well as learning of static parameters, both using a frequentistic and a Bayesian approach.},
   pid   = {M1},
 }
-
-
-
-
+ 
+ 
+ 
+ 
 @Article{LindholmL:2025,
   author       = {Andreas Lindholm and Fredrik Lindsten},
   title        = {Learning dynamical systems with particle stochastic approximation {EM}},
@@ -1077,7 +1077,7 @@
   abstract = {Particle stochastic approximation EM (PSAEM) is an algorithm for learning of dynamical systems, combining stochastic approximation EM and particle Gibbs with ancestor sampling (PGAS). We provide a detailed derivation of the PSAEM algorithm, a theoretical analysis of its convergence properties, and show that PSAEM can be used for plain maximum likelihood inference as well as for empirical Bayes learning of hyperparameters. Specifically, the latter point means that existing PGAS implementations easily can be extended with PSAEM to estimate hyperparameters at almost no extra computational cost. We demonstrate that PSAEM obtains superior empirical performance compared to plain particle-smoothing-based approximations of the EM algorithm.},
   pid      = {J22},
 }
-
+ 
 @Article{AhmadianL:2025,
   author       = {Amirhossein Ahmadian and Fredrik Lindsten},
   title        = {Improved Contrastive Predictive Coding for Time Series Out-Of-Distribution Detection Applied to Human Activity Data},
@@ -1087,7 +1087,7 @@
   abstract = {Contrastive Predictive Coding (CPC) is a well-established self-supervised learning method that naturally fits time series data. This method has been recently leveraged to detect anomalous inputs, viewed as the task of classifying positive pairs of context-feature representations versus negative ones in order to employ classifier uncertainty measures. In this paper, by taking a different perspective, we propose a CPC-based Out-Of-Distribution (OOD) detection method for time series data that does not require any negative samples at test time and is theoretically related to a probabilistic type of uncertainty estimation in the latent representation space. Our method extends the standard CPC by using a radial (distance-based) score function both in the training loss and as the OOD measure, in addition to quantizing the context (replacing it by cluster prototypes) during inference. The proposed method is applied to detecting OOD human activities with smartphone sensors data and shows promising performance on two primary datasets without using activity labels in training.},
   pid      = {J21},
 }
-
+ 
 @article{AthanasiadisLF:2025,
   author = {Ioannis Athanasiadis and Fredrik Lindsten and Michael Felsberg},
   title    = {Prior Learning in Introspective VAEs},
@@ -1097,7 +1097,7 @@
   url = {https://openreview.net/forum?id=u4YDVFodYX},
   pid  = {J20},
 }
-
+ 
 @Article{KonoldEtAl:2024,
   author   = {Patrick Konold and Leonardo Monrroy and Alfredo Bellisario and Diogo Filipe and Patrick Adams and Roberto Alvarez and Richard Bean and Johan Bielecki and Szabolcs Bódizs and Gabriel Ducroq and Helmut Grubmueller and Richard Kirian and Marco Kloos and Jayanath Koliyadu and Faisal Koua and Taru Larkiala and Romain Letrun and Fredrik Lindsten and Michael Maihöfer and Andrew Martin and Petra Mészáros and Jennifer Mutisya and Amke Nimmrich and Kenta Okamoto and Adam Round and Tokushi Sato and Joana Valerio and Daniel Westphal and August Wolter and Tej Yenupuri and Tong You and Filipe Maia and Sebastian Westenhoff},
   title    = {Microsecond time-resolved {X}-ray scattering by utilizing {MHz} repetition rate at second-generation {XFELs}},
@@ -1108,7 +1108,7 @@
   pages = {1608--1611},
   pid  = {J19},
 }
-
+ 
 @Article{ZimmermannLMN:2023,
   author   = {Heiko Zimmermann and Fredrik Lindsten and Jan-Willem van de Meent and Christian A Naesseth},
   title    = {A Variational Perspective on Generative Flow Networks},
@@ -1118,8 +1118,8 @@
   url = {https://openreview.net/forum?id=AZ4GobeSLq},
   pid  = {J18},
 }
-
-
+ 
+ 
 @Article{EkstromAL:2022,
   author   = {Filip {Ekstr\"om Kelvinius} and Fredrik Lindsten and Rickard Armiento},
   title    = {Graph-based machine learning beyond stable materials and relaxed crystal structures},
@@ -1135,8 +1135,8 @@
   url = {https://arxiv.org/abs/2107.00493},
   pid  = {J17},
 }
-
-
+ 
+ 
 @Article{WigrenWLWS:2022,
   author   = {Anna Wigren and Johan Wågberg and Fredrik Lindsten and Adrian Wills and Thomas B. Schön},
   title    = {Nonlinear System Identification - Learning while respecting physical models using Sequential {M}onte {C}arlo},
@@ -1148,10 +1148,10 @@
   doi = {https://doi.org/10.1109/MCS.2021.3122269},
   pid  = {J16},
 }
+ 
+ 
 
-
-
-@Misc{AlenlovDL:2021,
+@Article{AlenlovDL:2021,
   author       = {Johan Alenlöv and Arnaud Doucet and Fredrik Lindsten},
   title        = {Pseudo-Marginal {H}amiltonian {M}onte {C}arlo},
   journal      = jour_jmlr,  
@@ -1163,9 +1163,9 @@
   abstract     = {Bayesian inference in the presence of an intractable likelihood function is computationally challenging. When following a Markov chain Monte Carlo (MCMC) approach to approximate the posterior distribution in this context, one typically either uses MCMC schemes which target the joint posterior of the parameters and some auxiliary latent variables, or pseudo-marginal Metropolis–Hastings (MH) schemes. The latter mimic a MH algorithm targeting the marginal posterior of the parameters by approximating unbiasedly the intractable likelihood. However, in scenarios where the parameters and auxiliary variables are strongly correlated under the posterior and/or this posterior is multimodal, Gibbs sampling or Hamiltonian Monte Carlo (HMC) will perform poorly and the pseudo-marginal MH algorithm, as any other MH scheme, will be inefficient for high-dimensional parameters. We propose here an original MCMC algorithm, termed pseudo-marginal HMC, which combines the advantages of both HMC and pseudo-marginal schemes. Specifically, the PM-HMC method is controlled by a precision parameter N, controlling the approximation of the likelihood and, for any N, it samples the marginal posterior of the parameters. Additionally, as N tends to infinity, its sample trajectories and acceptance probability converge to those of an ideal, but intractable, HMC algorithm which would have access to the intractable likelihood and its gradient. We demonstrate through experiments that PM-HMC can outperform significantly both standard HMC and pseudo-marginal MH schemes.},
   pid      = {J15},
 }
-
-
-
+ 
+ 
+ 
 @Article{NaessethLS:2019,
   author  = {Christian A. Naesseth and Fredrik Lindsten and Thomas B. Schön},
   title   = {High-dimensional Filtering using Nested Sequential {M}onte {C}arlo},
@@ -1179,7 +1179,7 @@
   abstract = {Sequential Monte Carlo (SMC) methods comprise one of the most successful approaches to approximate Bayesian filtering. However, SMC without good proposal distributions struggle in high dimensions. We propose nested sequential Monte Carlo (NSMC), a methodology that generalises the SMC framework by requiring only approximate, properly weighted, samples from the SMC proposal distribution, while still resulting in a correct SMC algorithm. This way we can exactly approximate the locally optimal proposal, and extend the class of models for which we can perform efficient inference using SMC. We show improved accuracy over other state-of-the-art methods on several spatio-temporal state space models.},
   pid = {J14},
 }
-
+ 
 @Article{RisuleoLH:2019,
   author  = {Riccardo S. Risuleo and Fredrik Lindsten and Håkan Hjalmarsson},
   title   = {Bayesian nonparametric identification of {W}iener systems},
@@ -1191,7 +1191,7 @@
   abstract = {We propose a nonparametric approach for the identification of Wiener systems. We model the impulse response of the linear block and the static nonlinearity using Gaussian processes. The hyperparameters of the Gaussian processes are estimated using an iterative algorithm based on stochastic approximation expectation–maximization. In the iterations, we use elliptical slice sampling to approximate the posterior distribution of the impulse response and update the hyperparameter estimates. The same sampling is finally used to sample the posterior distribution and to compute point estimates. We compare the proposed approach with a parametric approach and a semi-parametric approach. In particular, we show that the proposed method has an advantage when a parametric model for the system is not readily available.},
   pid = {J13},
 }
-
+ 
 @Article{JacobLS:2019,
   author  = {Pierre E. Jacob and Fredrik Lindsten and Thomas B. Schön},
   title   = {Smoothing with Couplings of Conditional Particle Filters},
@@ -1205,7 +1205,7 @@
   doi     = {https://doi.org/10.1080/01621459.2018.1548856},
   url = {https://arxiv.org/abs/1701.02002},
 }
-
+ 
 @Article{CalafatWLWF:2018,
   author  = {Francisco M. Calafat and Thomas Wahl and Fredrik Lindsten and Joanne Williams and Eleanor Frajka-Williams},
   title   = {Coherent modulation of the sea-level annual cycle in the {U}nited {S}tates by {A}tlantic {R}ossby waves},
@@ -1214,10 +1214,10 @@
   volume  = {9},
   number  = {2571},
   doi = {10.1038/s41467-018-04898-y},
-  abstract = {Changes in the sea-level annual cycle (SLAC) can have profound impacts on coastal areas, including increased flooding risk and ecosystem alteration, yet little is known about the magnitude and drivers of such changes. Here we show, using novel Bayesian methods, that there are significant decadal fluctuations in the amplitude of the SLAC along the United States Gulf and Southeast coasts, including an extreme event in 2008–2009 that is likely (probability ≥68%) unprecedented in the tide-gauge record. Such fluctuations are coherent along the coast but decoupled from deep-ocean changes. Through the use of numerical and analytical ocean models, we show that the primary driver of these fluctuations involves incident Rossby waves that generate fast western-boundary waves. These Rossby waves project onto the basin-wide upper mid-ocean transport (top 1000 m) leading to a link with the SLAC, wherein larger SLAC amplitudes coincide with enhanced transport variability.},
+  abstract = {Changes in the sea-level annual cycle (SLAC) can have profound impacts on coastal areas, including increased flooding risk and ecosystem alteration, yet little is known about the magnitude and drivers of such changes. Here we show, using novel Bayesian methods, that there are significant decadal fluctuations in the amplitude of the SLAC along the United States Gulf and Southeast coasts, including an extreme event in 2008–2009 that is likely (probability ≥68%) unprecedented in the tide-gauge record. Such fluctuations are coherent along the coast but decoupled from deep-ocean changes. Through the use of numerical and analytical ocean models, we show that the primary driver of these fluctuations involves incident Rossby waves that generate fast western-boundary waves. These Rossby waves project onto the basin-wide upper mid-ocean transport (top 1000 m) leading to a link with the SLAC, wherein larger SLAC amplitudes coincide with enhanced transport variability.},
   pid = {J11},
 }
-
+ 
 @Article{SchonSML:2018,
   author  = {Thomas B. Schön and Andreas Svensson and Lawrence Murray and Fredrik Lindsten},
   title   = {Probabilistic learning of nonlinear dynamical systems using sequential {M}onte {C}arlo},
@@ -1229,7 +1229,7 @@
   url = {https://arxiv.org/abs/1703.02419},
   pid = {J10},
 }
-
+ 
 @Article{SvenssonSL:2018,
   author  = {Andreas Svensson and Thomas B. Schön and Fredrik Lindsten},
   title   = {Learning of state-space models with highly informative observations: a tempered Sequential {M}onte {C}arlo solution},
@@ -1241,8 +1241,8 @@
   abstract = {Probabilistic (or Bayesian) modeling and learning offers interesting possibilities for systematic representation of uncertainty using probability theory. However, probabilistic learning often leads to computationally challenging problems. Some problems of this type that were previously intractable can now be solved on standard personal computers thanks to recent advances in Monte Carlo methods. In particular, for learning of unknown parameters in nonlinear state-space models, methods based on the particle filter (a Monte Carlo method) have proven very useful. A notoriously challenging problem, however, still occurs when the observations in the state-space model are highly informative, i.e. when there is very little or no measurement noise present, relative to the amount of process noise. The particle filter will then struggle in estimating one of the basic components for probabilistic learning, namely the likelihood p(data|parameters). To this end we suggest an algorithm which initially assumes that there is substantial amount of artificial measurement noise present. The variance of this noise is sequentially decreased in an adaptive fashion such that we, in the end, recover the original problem or possibly a very close approximation of it. The main component in our algorithm is a sequential Monte Carlo (SMC) sampler, which gives our proposed method a clear resemblance to the SMC^2 method. Another natural link is also made to the ideas underlying the approximate Bayesian computation (ABC). We illustrate it with numerical examples, and in particular show promising results for a challenging Wiener-Hammerstein benchmark problem.},
   pid = {J9},
 }
-
-
+ 
+ 
 @Article{SinghLM:2017,
   author  = {Singh, Sumeetpal S. and Lindsten, Fredrik and Moulines, Eric},
   title   = {Blocking Strategies and Stability of Particle {G}ibbs Samplers},
@@ -1256,7 +1256,7 @@
   abstract = {Sampling from the conditional (or posterior) probability distribution of the latent states of a Hidden Markov Model, given the realization of the observed process, is a non-trivial problem in the context of Markov Chain Monte Carlo. To do this Andrieu et al. (2010) constructed a Markov kernel which leaves this conditional distribution invariant using a Particle Filter. From a practitioner's point of view, this Markov kernel attempts to mimic the act of sampling all the latent state variables as one block from the posterior distribution but for models where exact simulation is not possible. There are some recent theoretical results that establish the uniform ergodicity of this Markov kernel and that the mixing rate does not diminish provided the number of particles grows at least linearly with the number of latent states in the posterior. This gives rise to a cost, per application of the kernel, that is quadratic in the number of latent states which could be prohibitive for long observation sequences. We seek to answer an obvious but important question: is there a different implementation with a cost per-iteration that grows linearly with the number of latent states, but which is still stable in the sense that its mixing rate does not deteriorate? We address this problem using blocking strategies, which are easily parallelizable, and prove stability of the resulting sampler.},
   pid = {J8},
 }
-
+ 
 @Article{LindstenJNKSAB:2017,
   author  = {Lindsten, Fredrik and Johansen, Adam and Naesseth, Christian A. and Kirkpatrick, Brent and Sch\"on, Thomas B. and Aston, John and Bouchard-C\^ot\'e, Alexandre},
   title   = {Divide-and-Conquer with Sequential {M}onte {C}arlo},
@@ -1270,7 +1270,7 @@
   abstract = {We propose a novel class of Sequential Monte Carlo (SMC) algorithms, appropriate for inference in probabilistic graphical models. This class of algorithms adopts a divide-and-conquer approach based upon an auxiliary tree-structured decomposition of the model of interest, turning the overall inferential task into a collection of recursively solved sub-problems. The proposed method is applicable to a broad class of probabilistic graphical models, including models with loops. Unlike a standard SMC sampler, the proposed Divide-and-Conquer SMC employs multiple independent populations of weighted particles, which are resampled, merged, and propagated as the method progresses. We illustrate empirically that this approach can outperform standard methods in terms of the accuracy of the posterior expectation and marginal likelihood approximations. Divide-and-Conquer SMC also opens up novel parallel implementation options and the possibility of concentrating the computational effort on the most challenging sub-problems. We demonstrate its performance on a Markov random field and on a hierarchical logistic regression problem.},
   pid = {J7},
 }
-
+ 
 @Article{LindstenBSSG:2016,
   author  = {Fredrik Lindsten and Pete Bunch and S. Särkkä and Thomas B. Schön and Simon J. Godsill},
   title   = {Rao-{B}lackwellized particle smoothers for conditionally linear {G}aussian models},
@@ -1283,7 +1283,7 @@
   abstract = {Sequential Monte Carlo (SMC) methods, such as the particle filter, are by now one of the standard computational techniques for addressing the filtering problem in general state-space models. However, many applications require post-processing of data offline. In such scenarios the smoothing problem--in which all the available data is used to compute state estimates--is of central interest. We consider the smoothing problem for a class of conditionally linear Gaussian models. We present a forward-backward-type Rao-Blackwellized particle smoother (RBPS) that is able to exploit the tractable substructure present in these models. Akin to the well known Rao-Blackwellized particle filter, the proposed RBPS marginalizes out a conditionally tractable subset of state variables, effectively making use of SMC only for the "intractable part" of the model. Compared to existing RBPS, two key features of the proposed method are: (i) it does not require structural approximations of the model, and (ii) the aforementioned marginalization is done both in the forward direction and in the backward direction.},
   pid = {J6},
 }
-
+ 
 @Article{LindstenDM:2015,
   author    = {Lindsten, Fredrik and Douc, Randal and Moulines, Eric},
   title     = {Uniform ergodicity of the Particle {G}ibbs sampler},
@@ -1297,7 +1297,7 @@
   url = {https://arxiv.org/abs/1401.0683},
   abstract = {The particle Gibbs (PG) sampler is a systematic way of using a particle filter within Markov chain Monte Carlo (MCMC). This results in an off-the-shelf Markov kernel on the space of state trajectories, which can be used to simulate from the full joint smoothing distribution for a state space model in an MCMC scheme. We show that the PG Markov kernel is uniformly ergodic under rather general assumptions, that we will carefully review and discuss. In particular, we provide an explicit rate of convergence which reveals that: (i) for fixed number of data points, the convergence rate can be made arbitrarily good by increasing the number of particles, and (ii) under general mixing assumptions, the convergence rate can be kept constant by increasing the number of particles superlinearly with the number of observations. We illustrate the applicability of our result by studying in detail two common state space models with non-compact state spaces.},
 }
-
+ 
 @Article{OezkanLFG:2015,
   author  = {{\"O}zkan, Emre and Lindsten, Fredrik and Fritsche, Carsten and Gustafsson, Fredrik},
   title   = {Recursive maximum likelihood identification of jump {M}arkov nonlinear systems},
@@ -1310,7 +1310,7 @@
   abstract = {In this contribution, we present an online method for joint state and parameter estimation in jump Markov non-linear systems (JMNLS). State inference is enabled via the use of particle filters which makes the method applicable to a wide range of non-linear models. To exploit the inherent structure of JMNLS, we design a Rao-Blackwellized particle filter (RBPF) where the discrete mode is marginalized out analytically. This results in an efficient implementation of the algorithm and reduces the estimation error variance. The proposed RBPF is then used to compute, recursively in time, smoothed estimates of complete data sufficient statistics. Together with the online expectation maximization algorithm, this enables recursive identification of unknown model parameters. The performance of the method is illustrated in simulations and on a localization problem in wireless networks using real data.},
   pid = {J4},
 }
-
+ 
 @Article{DahlinLS:2015,
   author  = {Dahlin, Johan and Lindsten, Fredrik and Sch\"on, Thomas B.},
   title   = {Particle {M}etropolis-{H}astings using gradient and {H}essian information},
@@ -1323,7 +1323,7 @@
   abstract = {Particle Metropolis-Hastings (PMH) allows for Bayesian parameter inference in nonlinear state space models by combining Markov chain Monte Carlo (MCMC) and particle filtering. The latter is used to estimate the intractable likelihood. In its original formulation, PMH makes use of a marginal MCMC proposal for the parameters, typically a Gaussian random walk. However, this can lead to a poor exploration of the parameter space and an inefficient use of the generated particles. We propose a number of alternative versions of PMH that incorporate gradient and Hessian information about the posterior into the proposal. This information is more or less obtained as a byproduct of the likelihood estimation. Indeed, we show how to estimate the required information using a fixed-lag particle smoother, with a computational cost growing linearly in the number of particles. We conclude that the proposed methods can: (i) decrease the length of the burn-in phase, (ii) increase the mixing of the Markov chain at the stationary phase, and (iii) make the proposal distribution scale invariant which simplifies tuning.},
   pid = {J3},
 }
-
+ 
 @Article{LindstenJS:2014,
   author    = {Lindsten, Fredrik and Jordan, Michael I. and Sch\"on, Thomas B.},
   title     = {Particle {G}ibbs with Ancestor Sampling},
@@ -1335,9 +1335,9 @@
   abstract = {Particle Markov chain Monte Carlo (PMCMC) is a systematic way of combining the two main tools used for Monte Carlo statistical inference: sequential Monte Carlo (SMC) and Markov chain Monte Carlo (MCMC). We present a novel PMCMC algorithm that we refer to as particle Gibbs with ancestor sampling (PGAS). PGAS provides the data analyst with an off-the-shelf class of Markov kernels that can be used to simulate the typically high-dimensional and highly autocorrelated state trajectory in a state-space model. The ancestor sampling procedure enables fast mixing of the PGAS kernel even when using seemingly few particles in the underlying SMC sampler. This is important as it can significantly reduce the computational burden that is typically associated with using SMC. PGAS is conceptually similar to the existing PG with backward simulation (PGBS) procedure. Instead of using separate forward and backward sweeps as in PGBS, however, we achieve the same effect in a single forward sweep. This makes PGAS well suited for addressing inference problems not only in state-space models, but also in models with more complex dependencies, such as non-Markovian, Bayesian nonparametric, and general probabilistic graphical models.},
   pid   = {J2},
 }
-
-
-
+ 
+ 
+ 
 @Article{LindstenSJ:2013,
   author    = {Lindsten, Fredrik and Sch\"on, Thomas B. and Jordan, Michael I.},
   title     = {Bayesian semiparametric {W}iener system identification},
@@ -1350,12 +1350,3 @@
   abstract = {We present a novel method for Wiener system identification. The method relies on a semiparametric, i.e. a mixed parametric/nonparametric, model of a Wiener system. We use a state-space model for the linear dynamical system and a nonparametric Gaussian process model for the static nonlinearity. We avoid making strong assumptions, such as monotonicity, on the nonlinear mapping. Stochastic disturbances, entering both as measurement noise and as process noise, are handled in a systematic manner. The nonparametric nature of the Gaussian process allows us to handle a wide range of nonlinearities without making problem-specific parameterizations. We also consider sparsity-promoting priors, based on generalized hyperbolic distributions, to automatically infer the order of the underlying dynamical system. We derive an inference algorithm based on an efficient particle Markov chain Monte Carlo method, referred to as particle Gibbs with ancestor sampling. The method is profiled on two challenging identification problems with good results. Blind Wiener system identification is handled as a special case.},
   pid   = {J1},
 }
-
-
-
-
-
-
-
-
-
