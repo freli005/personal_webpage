@@ -151,6 +151,47 @@
 @STRING{uai = {Conference on Uncertainty in Artificial Intelligence ({UAI})}}
 
 
+@InCollection{KalaivananZSL:2026,
+  author    = {Kalaivanan, Adhithyan and Zhao, Zheng and Sj{\"o}lund, Jens and Lindsten, Fredrik},
+  title     = {{ESS-Flow}: Training-free Guidance of Flow-based Models as Inference in Source Space},
+  booktitle = {Advances in Neural Information Processing Systems 39 (NeurIPS 2026)},
+  year      = {2026},
+  month     = dec,
+  address   = {},
+  abstract  = {Guiding pretrained flow-based generative models for conditional generation or to produce samples with desired target properties enables solving diverse tasks without retraining on paired data. We present ESS-Flow, a gradient-free method that leverages the typically Gaussian prior of the source distribution in flow-based models to perform Bayesian inference directly in the source space using Elliptical Slice Sampling. ESS-Flow only requires forward passes through the generative model and observation process, no gradient or Jacobian computations, and is applicable even when gradients are unreliable or unavailable, such as with simulation-based observations or quantization in the generation or observation process. We demonstrate its effectiveness on designing materials with desired target properties and predicting protein structures from sparse inter-residue distance measurements.},
+  arxiv     = {https://arxiv.org/abs/2510.05849},
+  note      = {Forthcoming},
+  pid       = {C76},
+}
+
+@InCollection{HolmbergOWLR:2026,
+  author    = {Holmberg, Daniel and Oskarsson, Joel and Wikingsson, Erik and Lindsten, Fredrik and Roos, Teemu},
+  title     = {Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting},
+  booktitle = {Advances in Neural Information Processing Systems 39 (NeurIPS 2026)},
+  year      = {2026},
+  month     = dec,
+  address   = {},
+  abstract  = {Ocean dynamics are inherently chaotic, yet existing machine learning ocean models produce only deterministic forecasts. We introduce Njord, a probabilistic data-driven model for ocean forecasting, applicable to both global and regional domains. Njord combines a deep latent variable framework with a graph neural network architecture, enabling sampling each forecast step in a single forward pass. We apply Njord globally at 0.25° resolution and regionally to the Baltic Sea at 2 km resolution. To scale to these large ocean grids we introduce K-means cluster meshes that adapt to irregular sea surface geometry. Experiments demonstrate strong performance on both domains compared to deterministic machine learning baselines, while also providing uncertainty estimates from the sampled ensemble forecasts. On the global OceanBench benchmark, Njord achieves the lowest errors on average across upper-ocean variables when evaluated against real-world observations, with the largest improvements in surface temperature prediction.},
+  arxiv     = {https://arxiv.org/abs/2605.15470},
+  note      = {Forthcoming},
+  pid       = {C75},
+}
+
+@inproceedings{MarchenkoALN:2026,
+  title     = {{SDECast}: Probabilistic Weather Forecasting in Continuous Time with Neural {SDEs}},
+  author    = {Marchenko, Maria and Andrae, Martin and Lindsten, Fredrik and Naesseth, Christian A.},
+  abstract  = {Existing machine learning weather forecasting models typically generate forecasts through autoregressive rollouts at a fixed temporal resolution. While highly efficient for long-range prediction, this formulation can suffer from severe error accumulation when used with shorter time steps and does not explicitly encode the locality and temporal continuity of atmospheric dynamics. To address these limitations, we introduce **SDECast**, a Neural Stochastic Differential Equation (SDE) framework for continuous-time probabilistic weather forecasting. SDECast extends SDE Matching to learn stochastic dynamics directly in physical space, without requiring repeated SDE simulation during training. On a simulated geophysical flow, we show that SDECast recovers meaningful drift dynamics and faithfully reproduces the underlying continuous-time behavior. We then demonstrate its scalability to global weather forecasting at hourly resolution, where SDECast produces skillful probabilistic forecasts for lead times of up to five days.},
+  booktitle = {NeurIPS 2026 Workshops on AI for Stochastic Dynamics (STODY) and Sim2Science},
+  year      = {2026},
+  month     = dec,
+  arxiv     = {https://arxiv.org/abs/2610.03313},
+  comment   = {Presented at two NeurIPS 2026 workshops at different conference sites},
+  note      = {Forthcoming},
+  pid       = {C74}
+}
+
+
+
 @InProceedings{AndraeLTLL:2026,
   author    = {Andrae, Martin and Larsson, Erik and Takao, So and Landelius, Tomas and Lindsten, Fredrik},
   title     = {DAISI: Data Assimilation with Inverse Sampling using Stochastic Interpolants},
