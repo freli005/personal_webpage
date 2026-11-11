@@ -23,7 +23,6 @@ Gemfile.lock text eol=lf
 LICENCE text eol=lf
 
 # Docker specific files
-Dockerfile text eol=lf
 
 # VSCode files
 *.json text eol=lf

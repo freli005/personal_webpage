@@ -230,7 +230,7 @@
       </group>
     </layout>
   </citation>
-  <bibliography entry-spacing="0" second-field-align="flush">
+  <bibliography entry-spacing="0">
     <layout suffix=".">
       <text macro="author" suffix=", "/>
       <choose>
